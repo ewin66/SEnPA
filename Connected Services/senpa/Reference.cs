@@ -15,6 +15,2773 @@ namespace SEnPA.senpa {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="SiteVisitReport", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class SiteVisitReport : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CommentsField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool ConfirmedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CreatedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreatedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long DocumentLibraryIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_SiteVisitIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_StakeholderIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime LastModifiedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LastModifiedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime UploadDateField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool UploadStatusField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Comments {
+            get {
+                return this.CommentsField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CommentsField, value) != true)) {
+                    this.CommentsField = value;
+                    this.RaisePropertyChanged("Comments");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool Confirmed {
+            get {
+                return this.ConfirmedField;
+            }
+            set {
+                if ((this.ConfirmedField.Equals(value) != true)) {
+                    this.ConfirmedField = value;
+                    this.RaisePropertyChanged("Confirmed");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Created {
+            get {
+                return this.CreatedField;
+            }
+            set {
+                if ((this.CreatedField.Equals(value) != true)) {
+                    this.CreatedField = value;
+                    this.RaisePropertyChanged("Created");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreatedBy {
+            get {
+                return this.CreatedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreatedByField, value) != true)) {
+                    this.CreatedByField = value;
+                    this.RaisePropertyChanged("CreatedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long DocumentLibraryId {
+            get {
+                return this.DocumentLibraryIdField;
+            }
+            set {
+                if ((this.DocumentLibraryIdField.Equals(value) != true)) {
+                    this.DocumentLibraryIdField = value;
+                    this.RaisePropertyChanged("DocumentLibraryId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_SiteVisitId {
+            get {
+                return this.FK_SiteVisitIdField;
+            }
+            set {
+                if ((this.FK_SiteVisitIdField.Equals(value) != true)) {
+                    this.FK_SiteVisitIdField = value;
+                    this.RaisePropertyChanged("FK_SiteVisitId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_StakeholderId {
+            get {
+                return this.FK_StakeholderIdField;
+            }
+            set {
+                if ((this.FK_StakeholderIdField.Equals(value) != true)) {
+                    this.FK_StakeholderIdField = value;
+                    this.RaisePropertyChanged("FK_StakeholderId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime LastModified {
+            get {
+                return this.LastModifiedField;
+            }
+            set {
+                if ((this.LastModifiedField.Equals(value) != true)) {
+                    this.LastModifiedField = value;
+                    this.RaisePropertyChanged("LastModified");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LastModifiedBy {
+            get {
+                return this.LastModifiedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LastModifiedByField, value) != true)) {
+                    this.LastModifiedByField = value;
+                    this.RaisePropertyChanged("LastModifiedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime UploadDate {
+            get {
+                return this.UploadDateField;
+            }
+            set {
+                if ((this.UploadDateField.Equals(value) != true)) {
+                    this.UploadDateField = value;
+                    this.RaisePropertyChanged("UploadDate");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool UploadStatus {
+            get {
+                return this.UploadStatusField;
+            }
+            set {
+                if ((this.UploadStatusField.Equals(value) != true)) {
+                    this.UploadStatusField = value;
+                    this.RaisePropertyChanged("UploadStatus");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="SiteVisit", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class SiteVisit : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string BackgroundField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string BusinessDescriptionField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string ConclusionField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool ConfirmedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CreatedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreatedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool EmailField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string EquipmentField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_BDMField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_BDOField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_DocumentIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_DocumentWorkFlowIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_FinanceInstituteIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_HRField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_RecommendationIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_WorkFlowStageIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool HasLoanField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime LastModifiedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LastModifiedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private float LoanAmountField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LoanPurposeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string ManpowerField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string MarketingField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int OriginField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool PhoneField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string PremisesField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool SMSField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string TrainingField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string VisitAddressField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime VisitDateField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Background {
+            get {
+                return this.BackgroundField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.BackgroundField, value) != true)) {
+                    this.BackgroundField = value;
+                    this.RaisePropertyChanged("Background");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string BusinessDescription {
+            get {
+                return this.BusinessDescriptionField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.BusinessDescriptionField, value) != true)) {
+                    this.BusinessDescriptionField = value;
+                    this.RaisePropertyChanged("BusinessDescription");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Conclusion {
+            get {
+                return this.ConclusionField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ConclusionField, value) != true)) {
+                    this.ConclusionField = value;
+                    this.RaisePropertyChanged("Conclusion");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool Confirmed {
+            get {
+                return this.ConfirmedField;
+            }
+            set {
+                if ((this.ConfirmedField.Equals(value) != true)) {
+                    this.ConfirmedField = value;
+                    this.RaisePropertyChanged("Confirmed");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Created {
+            get {
+                return this.CreatedField;
+            }
+            set {
+                if ((this.CreatedField.Equals(value) != true)) {
+                    this.CreatedField = value;
+                    this.RaisePropertyChanged("Created");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreatedBy {
+            get {
+                return this.CreatedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreatedByField, value) != true)) {
+                    this.CreatedByField = value;
+                    this.RaisePropertyChanged("CreatedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool Email {
+            get {
+                return this.EmailField;
+            }
+            set {
+                if ((this.EmailField.Equals(value) != true)) {
+                    this.EmailField = value;
+                    this.RaisePropertyChanged("Email");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Equipment {
+            get {
+                return this.EquipmentField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.EquipmentField, value) != true)) {
+                    this.EquipmentField = value;
+                    this.RaisePropertyChanged("Equipment");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_BDM {
+            get {
+                return this.FK_BDMField;
+            }
+            set {
+                if ((this.FK_BDMField.Equals(value) != true)) {
+                    this.FK_BDMField = value;
+                    this.RaisePropertyChanged("FK_BDM");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_BDO {
+            get {
+                return this.FK_BDOField;
+            }
+            set {
+                if ((this.FK_BDOField.Equals(value) != true)) {
+                    this.FK_BDOField = value;
+                    this.RaisePropertyChanged("FK_BDO");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_DocumentId {
+            get {
+                return this.FK_DocumentIdField;
+            }
+            set {
+                if ((this.FK_DocumentIdField.Equals(value) != true)) {
+                    this.FK_DocumentIdField = value;
+                    this.RaisePropertyChanged("FK_DocumentId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_DocumentWorkFlowId {
+            get {
+                return this.FK_DocumentWorkFlowIdField;
+            }
+            set {
+                if ((this.FK_DocumentWorkFlowIdField.Equals(value) != true)) {
+                    this.FK_DocumentWorkFlowIdField = value;
+                    this.RaisePropertyChanged("FK_DocumentWorkFlowId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_FinanceInstituteId {
+            get {
+                return this.FK_FinanceInstituteIdField;
+            }
+            set {
+                if ((this.FK_FinanceInstituteIdField.Equals(value) != true)) {
+                    this.FK_FinanceInstituteIdField = value;
+                    this.RaisePropertyChanged("FK_FinanceInstituteId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_HR {
+            get {
+                return this.FK_HRField;
+            }
+            set {
+                if ((this.FK_HRField.Equals(value) != true)) {
+                    this.FK_HRField = value;
+                    this.RaisePropertyChanged("FK_HR");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_RecommendationId {
+            get {
+                return this.FK_RecommendationIdField;
+            }
+            set {
+                if ((this.FK_RecommendationIdField.Equals(value) != true)) {
+                    this.FK_RecommendationIdField = value;
+                    this.RaisePropertyChanged("FK_RecommendationId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_WorkFlowStageId {
+            get {
+                return this.FK_WorkFlowStageIdField;
+            }
+            set {
+                if ((this.FK_WorkFlowStageIdField.Equals(value) != true)) {
+                    this.FK_WorkFlowStageIdField = value;
+                    this.RaisePropertyChanged("FK_WorkFlowStageId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool HasLoan {
+            get {
+                return this.HasLoanField;
+            }
+            set {
+                if ((this.HasLoanField.Equals(value) != true)) {
+                    this.HasLoanField = value;
+                    this.RaisePropertyChanged("HasLoan");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime LastModified {
+            get {
+                return this.LastModifiedField;
+            }
+            set {
+                if ((this.LastModifiedField.Equals(value) != true)) {
+                    this.LastModifiedField = value;
+                    this.RaisePropertyChanged("LastModified");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LastModifiedBy {
+            get {
+                return this.LastModifiedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LastModifiedByField, value) != true)) {
+                    this.LastModifiedByField = value;
+                    this.RaisePropertyChanged("LastModifiedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public float LoanAmount {
+            get {
+                return this.LoanAmountField;
+            }
+            set {
+                if ((this.LoanAmountField.Equals(value) != true)) {
+                    this.LoanAmountField = value;
+                    this.RaisePropertyChanged("LoanAmount");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LoanPurpose {
+            get {
+                return this.LoanPurposeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LoanPurposeField, value) != true)) {
+                    this.LoanPurposeField = value;
+                    this.RaisePropertyChanged("LoanPurpose");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Manpower {
+            get {
+                return this.ManpowerField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ManpowerField, value) != true)) {
+                    this.ManpowerField = value;
+                    this.RaisePropertyChanged("Manpower");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Marketing {
+            get {
+                return this.MarketingField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.MarketingField, value) != true)) {
+                    this.MarketingField = value;
+                    this.RaisePropertyChanged("Marketing");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int Origin {
+            get {
+                return this.OriginField;
+            }
+            set {
+                if ((this.OriginField.Equals(value) != true)) {
+                    this.OriginField = value;
+                    this.RaisePropertyChanged("Origin");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool Phone {
+            get {
+                return this.PhoneField;
+            }
+            set {
+                if ((this.PhoneField.Equals(value) != true)) {
+                    this.PhoneField = value;
+                    this.RaisePropertyChanged("Phone");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Premises {
+            get {
+                return this.PremisesField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.PremisesField, value) != true)) {
+                    this.PremisesField = value;
+                    this.RaisePropertyChanged("Premises");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool SMS {
+            get {
+                return this.SMSField;
+            }
+            set {
+                if ((this.SMSField.Equals(value) != true)) {
+                    this.SMSField = value;
+                    this.RaisePropertyChanged("SMS");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Training {
+            get {
+                return this.TrainingField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.TrainingField, value) != true)) {
+                    this.TrainingField = value;
+                    this.RaisePropertyChanged("Training");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string VisitAddress {
+            get {
+                return this.VisitAddressField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.VisitAddressField, value) != true)) {
+                    this.VisitAddressField = value;
+                    this.RaisePropertyChanged("VisitAddress");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime VisitDate {
+            get {
+                return this.VisitDateField;
+            }
+            set {
+                if ((this.VisitDateField.Equals(value) != true)) {
+                    this.VisitDateField = value;
+                    this.RaisePropertyChanged("VisitDate");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Invoice", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class Invoice : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool AllowPartPaymentField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private float AmountField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private float AmountDiscountField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private float AmountPaidField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private float AmountSurchargeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private float AmountTotalField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CommentsField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CreatedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreatedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CurrencyField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CurrencyPaidField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DocumentTypeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_DocumentIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_DocumentWorkFlowIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string FK_InvoicedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_PayBranchIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_PaymentMethodIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string FK_ReceiptedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string FK_ReferenceNumberField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_WorkFlowStageIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime InvoiceDateField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime LastModifiedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LastModifiedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime PaymentDateField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string ReceiptNumberField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool AllowPartPayment {
+            get {
+                return this.AllowPartPaymentField;
+            }
+            set {
+                if ((this.AllowPartPaymentField.Equals(value) != true)) {
+                    this.AllowPartPaymentField = value;
+                    this.RaisePropertyChanged("AllowPartPayment");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public float Amount {
+            get {
+                return this.AmountField;
+            }
+            set {
+                if ((this.AmountField.Equals(value) != true)) {
+                    this.AmountField = value;
+                    this.RaisePropertyChanged("Amount");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public float AmountDiscount {
+            get {
+                return this.AmountDiscountField;
+            }
+            set {
+                if ((this.AmountDiscountField.Equals(value) != true)) {
+                    this.AmountDiscountField = value;
+                    this.RaisePropertyChanged("AmountDiscount");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public float AmountPaid {
+            get {
+                return this.AmountPaidField;
+            }
+            set {
+                if ((this.AmountPaidField.Equals(value) != true)) {
+                    this.AmountPaidField = value;
+                    this.RaisePropertyChanged("AmountPaid");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public float AmountSurcharge {
+            get {
+                return this.AmountSurchargeField;
+            }
+            set {
+                if ((this.AmountSurchargeField.Equals(value) != true)) {
+                    this.AmountSurchargeField = value;
+                    this.RaisePropertyChanged("AmountSurcharge");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public float AmountTotal {
+            get {
+                return this.AmountTotalField;
+            }
+            set {
+                if ((this.AmountTotalField.Equals(value) != true)) {
+                    this.AmountTotalField = value;
+                    this.RaisePropertyChanged("AmountTotal");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Comments {
+            get {
+                return this.CommentsField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CommentsField, value) != true)) {
+                    this.CommentsField = value;
+                    this.RaisePropertyChanged("Comments");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Created {
+            get {
+                return this.CreatedField;
+            }
+            set {
+                if ((this.CreatedField.Equals(value) != true)) {
+                    this.CreatedField = value;
+                    this.RaisePropertyChanged("Created");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreatedBy {
+            get {
+                return this.CreatedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreatedByField, value) != true)) {
+                    this.CreatedByField = value;
+                    this.RaisePropertyChanged("CreatedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Currency {
+            get {
+                return this.CurrencyField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CurrencyField, value) != true)) {
+                    this.CurrencyField = value;
+                    this.RaisePropertyChanged("Currency");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CurrencyPaid {
+            get {
+                return this.CurrencyPaidField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CurrencyPaidField, value) != true)) {
+                    this.CurrencyPaidField = value;
+                    this.RaisePropertyChanged("CurrencyPaid");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string DocumentType {
+            get {
+                return this.DocumentTypeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DocumentTypeField, value) != true)) {
+                    this.DocumentTypeField = value;
+                    this.RaisePropertyChanged("DocumentType");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_DocumentId {
+            get {
+                return this.FK_DocumentIdField;
+            }
+            set {
+                if ((this.FK_DocumentIdField.Equals(value) != true)) {
+                    this.FK_DocumentIdField = value;
+                    this.RaisePropertyChanged("FK_DocumentId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_DocumentWorkFlowId {
+            get {
+                return this.FK_DocumentWorkFlowIdField;
+            }
+            set {
+                if ((this.FK_DocumentWorkFlowIdField.Equals(value) != true)) {
+                    this.FK_DocumentWorkFlowIdField = value;
+                    this.RaisePropertyChanged("FK_DocumentWorkFlowId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string FK_InvoicedBy {
+            get {
+                return this.FK_InvoicedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.FK_InvoicedByField, value) != true)) {
+                    this.FK_InvoicedByField = value;
+                    this.RaisePropertyChanged("FK_InvoicedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_PayBranchId {
+            get {
+                return this.FK_PayBranchIdField;
+            }
+            set {
+                if ((this.FK_PayBranchIdField.Equals(value) != true)) {
+                    this.FK_PayBranchIdField = value;
+                    this.RaisePropertyChanged("FK_PayBranchId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_PaymentMethodId {
+            get {
+                return this.FK_PaymentMethodIdField;
+            }
+            set {
+                if ((this.FK_PaymentMethodIdField.Equals(value) != true)) {
+                    this.FK_PaymentMethodIdField = value;
+                    this.RaisePropertyChanged("FK_PaymentMethodId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string FK_ReceiptedBy {
+            get {
+                return this.FK_ReceiptedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.FK_ReceiptedByField, value) != true)) {
+                    this.FK_ReceiptedByField = value;
+                    this.RaisePropertyChanged("FK_ReceiptedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string FK_ReferenceNumber {
+            get {
+                return this.FK_ReferenceNumberField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.FK_ReferenceNumberField, value) != true)) {
+                    this.FK_ReferenceNumberField = value;
+                    this.RaisePropertyChanged("FK_ReferenceNumber");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_WorkFlowStageId {
+            get {
+                return this.FK_WorkFlowStageIdField;
+            }
+            set {
+                if ((this.FK_WorkFlowStageIdField.Equals(value) != true)) {
+                    this.FK_WorkFlowStageIdField = value;
+                    this.RaisePropertyChanged("FK_WorkFlowStageId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime InvoiceDate {
+            get {
+                return this.InvoiceDateField;
+            }
+            set {
+                if ((this.InvoiceDateField.Equals(value) != true)) {
+                    this.InvoiceDateField = value;
+                    this.RaisePropertyChanged("InvoiceDate");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime LastModified {
+            get {
+                return this.LastModifiedField;
+            }
+            set {
+                if ((this.LastModifiedField.Equals(value) != true)) {
+                    this.LastModifiedField = value;
+                    this.RaisePropertyChanged("LastModified");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LastModifiedBy {
+            get {
+                return this.LastModifiedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LastModifiedByField, value) != true)) {
+                    this.LastModifiedByField = value;
+                    this.RaisePropertyChanged("LastModifiedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime PaymentDate {
+            get {
+                return this.PaymentDateField;
+            }
+            set {
+                if ((this.PaymentDateField.Equals(value) != true)) {
+                    this.PaymentDateField = value;
+                    this.RaisePropertyChanged("PaymentDate");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string ReceiptNumber {
+            get {
+                return this.ReceiptNumberField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ReceiptNumberField, value) != true)) {
+                    this.ReceiptNumberField = value;
+                    this.RaisePropertyChanged("ReceiptNumber");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="InvoiceItem", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class InvoiceItem : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private float AmountField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CreatedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreatedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CurrencyField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DescriptionField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_InvoiceIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long IdField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public float Amount {
+            get {
+                return this.AmountField;
+            }
+            set {
+                if ((this.AmountField.Equals(value) != true)) {
+                    this.AmountField = value;
+                    this.RaisePropertyChanged("Amount");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Created {
+            get {
+                return this.CreatedField;
+            }
+            set {
+                if ((this.CreatedField.Equals(value) != true)) {
+                    this.CreatedField = value;
+                    this.RaisePropertyChanged("Created");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreatedBy {
+            get {
+                return this.CreatedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreatedByField, value) != true)) {
+                    this.CreatedByField = value;
+                    this.RaisePropertyChanged("CreatedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Currency {
+            get {
+                return this.CurrencyField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CurrencyField, value) != true)) {
+                    this.CurrencyField = value;
+                    this.RaisePropertyChanged("Currency");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Description {
+            get {
+                return this.DescriptionField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DescriptionField, value) != true)) {
+                    this.DescriptionField = value;
+                    this.RaisePropertyChanged("Description");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_InvoiceId {
+            get {
+                return this.FK_InvoiceIdField;
+            }
+            set {
+                if ((this.FK_InvoiceIdField.Equals(value) != true)) {
+                    this.FK_InvoiceIdField = value;
+                    this.RaisePropertyChanged("FK_InvoiceId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="RecommendedAction", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class RecommendedAction : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool ActiveField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CreatedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreatedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DetailsField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_ActionIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_RecommendationIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_StakeholderIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime LastModifiedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LastModifiedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool ReminderField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string StatusField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string StatusReasonField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool Active {
+            get {
+                return this.ActiveField;
+            }
+            set {
+                if ((this.ActiveField.Equals(value) != true)) {
+                    this.ActiveField = value;
+                    this.RaisePropertyChanged("Active");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Created {
+            get {
+                return this.CreatedField;
+            }
+            set {
+                if ((this.CreatedField.Equals(value) != true)) {
+                    this.CreatedField = value;
+                    this.RaisePropertyChanged("Created");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreatedBy {
+            get {
+                return this.CreatedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreatedByField, value) != true)) {
+                    this.CreatedByField = value;
+                    this.RaisePropertyChanged("CreatedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Details {
+            get {
+                return this.DetailsField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DetailsField, value) != true)) {
+                    this.DetailsField = value;
+                    this.RaisePropertyChanged("Details");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_ActionId {
+            get {
+                return this.FK_ActionIdField;
+            }
+            set {
+                if ((this.FK_ActionIdField.Equals(value) != true)) {
+                    this.FK_ActionIdField = value;
+                    this.RaisePropertyChanged("FK_ActionId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_RecommendationId {
+            get {
+                return this.FK_RecommendationIdField;
+            }
+            set {
+                if ((this.FK_RecommendationIdField.Equals(value) != true)) {
+                    this.FK_RecommendationIdField = value;
+                    this.RaisePropertyChanged("FK_RecommendationId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_StakeholderId {
+            get {
+                return this.FK_StakeholderIdField;
+            }
+            set {
+                if ((this.FK_StakeholderIdField.Equals(value) != true)) {
+                    this.FK_StakeholderIdField = value;
+                    this.RaisePropertyChanged("FK_StakeholderId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime LastModified {
+            get {
+                return this.LastModifiedField;
+            }
+            set {
+                if ((this.LastModifiedField.Equals(value) != true)) {
+                    this.LastModifiedField = value;
+                    this.RaisePropertyChanged("LastModified");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LastModifiedBy {
+            get {
+                return this.LastModifiedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LastModifiedByField, value) != true)) {
+                    this.LastModifiedByField = value;
+                    this.RaisePropertyChanged("LastModifiedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool Reminder {
+            get {
+                return this.ReminderField;
+            }
+            set {
+                if ((this.ReminderField.Equals(value) != true)) {
+                    this.ReminderField = value;
+                    this.RaisePropertyChanged("Reminder");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Status {
+            get {
+                return this.StatusField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.StatusField, value) != true)) {
+                    this.StatusField = value;
+                    this.RaisePropertyChanged("Status");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string StatusReason {
+            get {
+                return this.StatusReasonField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.StatusReasonField, value) != true)) {
+                    this.StatusReasonField = value;
+                    this.RaisePropertyChanged("StatusReason");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Recommendations", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class Recommendations : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CommentsField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CreatedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreatedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime DeadlineDateField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_BusinessDevelopmentOfficerField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_DocumentIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_DocumentWorkFlowIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_WorkFlowStageIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime LastModifiedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LastModifiedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string StatusField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string StatusReasonField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Comments {
+            get {
+                return this.CommentsField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CommentsField, value) != true)) {
+                    this.CommentsField = value;
+                    this.RaisePropertyChanged("Comments");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Created {
+            get {
+                return this.CreatedField;
+            }
+            set {
+                if ((this.CreatedField.Equals(value) != true)) {
+                    this.CreatedField = value;
+                    this.RaisePropertyChanged("Created");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreatedBy {
+            get {
+                return this.CreatedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreatedByField, value) != true)) {
+                    this.CreatedByField = value;
+                    this.RaisePropertyChanged("CreatedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime DeadlineDate {
+            get {
+                return this.DeadlineDateField;
+            }
+            set {
+                if ((this.DeadlineDateField.Equals(value) != true)) {
+                    this.DeadlineDateField = value;
+                    this.RaisePropertyChanged("DeadlineDate");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_BusinessDevelopmentOfficer {
+            get {
+                return this.FK_BusinessDevelopmentOfficerField;
+            }
+            set {
+                if ((this.FK_BusinessDevelopmentOfficerField.Equals(value) != true)) {
+                    this.FK_BusinessDevelopmentOfficerField = value;
+                    this.RaisePropertyChanged("FK_BusinessDevelopmentOfficer");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_DocumentId {
+            get {
+                return this.FK_DocumentIdField;
+            }
+            set {
+                if ((this.FK_DocumentIdField.Equals(value) != true)) {
+                    this.FK_DocumentIdField = value;
+                    this.RaisePropertyChanged("FK_DocumentId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_DocumentWorkFlowId {
+            get {
+                return this.FK_DocumentWorkFlowIdField;
+            }
+            set {
+                if ((this.FK_DocumentWorkFlowIdField.Equals(value) != true)) {
+                    this.FK_DocumentWorkFlowIdField = value;
+                    this.RaisePropertyChanged("FK_DocumentWorkFlowId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_WorkFlowStageId {
+            get {
+                return this.FK_WorkFlowStageIdField;
+            }
+            set {
+                if ((this.FK_WorkFlowStageIdField.Equals(value) != true)) {
+                    this.FK_WorkFlowStageIdField = value;
+                    this.RaisePropertyChanged("FK_WorkFlowStageId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime LastModified {
+            get {
+                return this.LastModifiedField;
+            }
+            set {
+                if ((this.LastModifiedField.Equals(value) != true)) {
+                    this.LastModifiedField = value;
+                    this.RaisePropertyChanged("LastModified");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LastModifiedBy {
+            get {
+                return this.LastModifiedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LastModifiedByField, value) != true)) {
+                    this.LastModifiedByField = value;
+                    this.RaisePropertyChanged("LastModifiedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Status {
+            get {
+                return this.StatusField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.StatusField, value) != true)) {
+                    this.StatusField = value;
+                    this.RaisePropertyChanged("Status");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string StatusReason {
+            get {
+                return this.StatusReasonField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.StatusReasonField, value) != true)) {
+                    this.StatusReasonField = value;
+                    this.RaisePropertyChanged("StatusReason");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Resident", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class Resident : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime DateOfBirthField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string FirstNameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string MaidenSurnameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string NINField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string NationalityField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string StatusField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string SurnameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string TypeField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime DateOfBirth {
+            get {
+                return this.DateOfBirthField;
+            }
+            set {
+                if ((this.DateOfBirthField.Equals(value) != true)) {
+                    this.DateOfBirthField = value;
+                    this.RaisePropertyChanged("DateOfBirth");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string FirstName {
+            get {
+                return this.FirstNameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.FirstNameField, value) != true)) {
+                    this.FirstNameField = value;
+                    this.RaisePropertyChanged("FirstName");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string MaidenSurname {
+            get {
+                return this.MaidenSurnameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.MaidenSurnameField, value) != true)) {
+                    this.MaidenSurnameField = value;
+                    this.RaisePropertyChanged("MaidenSurname");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string NIN {
+            get {
+                return this.NINField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NINField, value) != true)) {
+                    this.NINField = value;
+                    this.RaisePropertyChanged("NIN");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Nationality {
+            get {
+                return this.NationalityField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NationalityField, value) != true)) {
+                    this.NationalityField = value;
+                    this.RaisePropertyChanged("Nationality");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Status {
+            get {
+                return this.StatusField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.StatusField, value) != true)) {
+                    this.StatusField = value;
+                    this.RaisePropertyChanged("Status");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Surname {
+            get {
+                return this.SurnameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.SurnameField, value) != true)) {
+                    this.SurnameField = value;
+                    this.RaisePropertyChanged("Surname");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Type {
+            get {
+                return this.TypeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.TypeField, value) != true)) {
+                    this.TypeField = value;
+                    this.RaisePropertyChanged("Type");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Business", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class Business : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string AddressLine1Field;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string AddressLine2Field;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CommencementDateField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string NameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime RegistrationDateField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string RegistrationNumberField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int RegistrationStatusIdField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string AddressLine1 {
+            get {
+                return this.AddressLine1Field;
+            }
+            set {
+                if ((object.ReferenceEquals(this.AddressLine1Field, value) != true)) {
+                    this.AddressLine1Field = value;
+                    this.RaisePropertyChanged("AddressLine1");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string AddressLine2 {
+            get {
+                return this.AddressLine2Field;
+            }
+            set {
+                if ((object.ReferenceEquals(this.AddressLine2Field, value) != true)) {
+                    this.AddressLine2Field = value;
+                    this.RaisePropertyChanged("AddressLine2");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime CommencementDate {
+            get {
+                return this.CommencementDateField;
+            }
+            set {
+                if ((this.CommencementDateField.Equals(value) != true)) {
+                    this.CommencementDateField = value;
+                    this.RaisePropertyChanged("CommencementDate");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Name {
+            get {
+                return this.NameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NameField, value) != true)) {
+                    this.NameField = value;
+                    this.RaisePropertyChanged("Name");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime RegistrationDate {
+            get {
+                return this.RegistrationDateField;
+            }
+            set {
+                if ((this.RegistrationDateField.Equals(value) != true)) {
+                    this.RegistrationDateField = value;
+                    this.RaisePropertyChanged("RegistrationDate");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string RegistrationNumber {
+            get {
+                return this.RegistrationNumberField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.RegistrationNumberField, value) != true)) {
+                    this.RegistrationNumberField = value;
+                    this.RaisePropertyChanged("RegistrationNumber");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int RegistrationStatusId {
+            get {
+                return this.RegistrationStatusIdField;
+            }
+            set {
+                if ((this.RegistrationStatusIdField.Equals(value) != true)) {
+                    this.RegistrationStatusIdField = value;
+                    this.RaisePropertyChanged("RegistrationStatusId");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="TrainingSessionReport", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class TrainingSessionReport : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CreatedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreatedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime EndDateField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime LastModifiedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LastModifiedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LocationAddressField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime StartDateField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string StatusField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string StatusReasonField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string TrainingByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string TrainingCategoryField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string TrainingCourseField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string TrainingTypeField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Created {
+            get {
+                return this.CreatedField;
+            }
+            set {
+                if ((this.CreatedField.Equals(value) != true)) {
+                    this.CreatedField = value;
+                    this.RaisePropertyChanged("Created");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreatedBy {
+            get {
+                return this.CreatedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreatedByField, value) != true)) {
+                    this.CreatedByField = value;
+                    this.RaisePropertyChanged("CreatedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime EndDate {
+            get {
+                return this.EndDateField;
+            }
+            set {
+                if ((this.EndDateField.Equals(value) != true)) {
+                    this.EndDateField = value;
+                    this.RaisePropertyChanged("EndDate");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime LastModified {
+            get {
+                return this.LastModifiedField;
+            }
+            set {
+                if ((this.LastModifiedField.Equals(value) != true)) {
+                    this.LastModifiedField = value;
+                    this.RaisePropertyChanged("LastModified");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LastModifiedBy {
+            get {
+                return this.LastModifiedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LastModifiedByField, value) != true)) {
+                    this.LastModifiedByField = value;
+                    this.RaisePropertyChanged("LastModifiedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LocationAddress {
+            get {
+                return this.LocationAddressField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LocationAddressField, value) != true)) {
+                    this.LocationAddressField = value;
+                    this.RaisePropertyChanged("LocationAddress");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime StartDate {
+            get {
+                return this.StartDateField;
+            }
+            set {
+                if ((this.StartDateField.Equals(value) != true)) {
+                    this.StartDateField = value;
+                    this.RaisePropertyChanged("StartDate");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Status {
+            get {
+                return this.StatusField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.StatusField, value) != true)) {
+                    this.StatusField = value;
+                    this.RaisePropertyChanged("Status");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string StatusReason {
+            get {
+                return this.StatusReasonField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.StatusReasonField, value) != true)) {
+                    this.StatusReasonField = value;
+                    this.RaisePropertyChanged("StatusReason");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string TrainingBy {
+            get {
+                return this.TrainingByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.TrainingByField, value) != true)) {
+                    this.TrainingByField = value;
+                    this.RaisePropertyChanged("TrainingBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string TrainingCategory {
+            get {
+                return this.TrainingCategoryField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.TrainingCategoryField, value) != true)) {
+                    this.TrainingCategoryField = value;
+                    this.RaisePropertyChanged("TrainingCategory");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string TrainingCourse {
+            get {
+                return this.TrainingCourseField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.TrainingCourseField, value) != true)) {
+                    this.TrainingCourseField = value;
+                    this.RaisePropertyChanged("TrainingCourse");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string TrainingType {
+            get {
+                return this.TrainingTypeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.TrainingTypeField, value) != true)) {
+                    this.TrainingTypeField = value;
+                    this.RaisePropertyChanged("TrainingType");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="TrainingSession", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class TrainingSession : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CreatedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreatedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime EndDateField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_TrainingCategoryIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_TrainingCourseIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_TrainingTypeIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime LastModifiedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LastModifiedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LocationAddressField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime StartDateField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string StatusField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string StatusReasonField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string TrainingByField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Created {
+            get {
+                return this.CreatedField;
+            }
+            set {
+                if ((this.CreatedField.Equals(value) != true)) {
+                    this.CreatedField = value;
+                    this.RaisePropertyChanged("Created");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreatedBy {
+            get {
+                return this.CreatedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreatedByField, value) != true)) {
+                    this.CreatedByField = value;
+                    this.RaisePropertyChanged("CreatedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime EndDate {
+            get {
+                return this.EndDateField;
+            }
+            set {
+                if ((this.EndDateField.Equals(value) != true)) {
+                    this.EndDateField = value;
+                    this.RaisePropertyChanged("EndDate");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_TrainingCategoryId {
+            get {
+                return this.FK_TrainingCategoryIdField;
+            }
+            set {
+                if ((this.FK_TrainingCategoryIdField.Equals(value) != true)) {
+                    this.FK_TrainingCategoryIdField = value;
+                    this.RaisePropertyChanged("FK_TrainingCategoryId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_TrainingCourseId {
+            get {
+                return this.FK_TrainingCourseIdField;
+            }
+            set {
+                if ((this.FK_TrainingCourseIdField.Equals(value) != true)) {
+                    this.FK_TrainingCourseIdField = value;
+                    this.RaisePropertyChanged("FK_TrainingCourseId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_TrainingTypeId {
+            get {
+                return this.FK_TrainingTypeIdField;
+            }
+            set {
+                if ((this.FK_TrainingTypeIdField.Equals(value) != true)) {
+                    this.FK_TrainingTypeIdField = value;
+                    this.RaisePropertyChanged("FK_TrainingTypeId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime LastModified {
+            get {
+                return this.LastModifiedField;
+            }
+            set {
+                if ((this.LastModifiedField.Equals(value) != true)) {
+                    this.LastModifiedField = value;
+                    this.RaisePropertyChanged("LastModified");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LastModifiedBy {
+            get {
+                return this.LastModifiedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LastModifiedByField, value) != true)) {
+                    this.LastModifiedByField = value;
+                    this.RaisePropertyChanged("LastModifiedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LocationAddress {
+            get {
+                return this.LocationAddressField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LocationAddressField, value) != true)) {
+                    this.LocationAddressField = value;
+                    this.RaisePropertyChanged("LocationAddress");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime StartDate {
+            get {
+                return this.StartDateField;
+            }
+            set {
+                if ((this.StartDateField.Equals(value) != true)) {
+                    this.StartDateField = value;
+                    this.RaisePropertyChanged("StartDate");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Status {
+            get {
+                return this.StatusField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.StatusField, value) != true)) {
+                    this.StatusField = value;
+                    this.RaisePropertyChanged("Status");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string StatusReason {
+            get {
+                return this.StatusReasonField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.StatusReasonField, value) != true)) {
+                    this.StatusReasonField = value;
+                    this.RaisePropertyChanged("StatusReason");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string TrainingBy {
+            get {
+                return this.TrainingByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.TrainingByField, value) != true)) {
+                    this.TrainingByField = value;
+                    this.RaisePropertyChanged("TrainingBy");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="TrainingRegistrationReport", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class TrainingRegistrationReport : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string BusinessNameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long BusinessRegistrationIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string BusinessRegistrationTypeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string BusinessTypeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string FirstNamesField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string IslandField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LastNameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string NINField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string BusinessName {
+            get {
+                return this.BusinessNameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.BusinessNameField, value) != true)) {
+                    this.BusinessNameField = value;
+                    this.RaisePropertyChanged("BusinessName");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long BusinessRegistrationId {
+            get {
+                return this.BusinessRegistrationIdField;
+            }
+            set {
+                if ((this.BusinessRegistrationIdField.Equals(value) != true)) {
+                    this.BusinessRegistrationIdField = value;
+                    this.RaisePropertyChanged("BusinessRegistrationId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string BusinessRegistrationType {
+            get {
+                return this.BusinessRegistrationTypeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.BusinessRegistrationTypeField, value) != true)) {
+                    this.BusinessRegistrationTypeField = value;
+                    this.RaisePropertyChanged("BusinessRegistrationType");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string BusinessType {
+            get {
+                return this.BusinessTypeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.BusinessTypeField, value) != true)) {
+                    this.BusinessTypeField = value;
+                    this.RaisePropertyChanged("BusinessType");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string FirstNames {
+            get {
+                return this.FirstNamesField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.FirstNamesField, value) != true)) {
+                    this.FirstNamesField = value;
+                    this.RaisePropertyChanged("FirstNames");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Island {
+            get {
+                return this.IslandField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.IslandField, value) != true)) {
+                    this.IslandField = value;
+                    this.RaisePropertyChanged("Island");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LastName {
+            get {
+                return this.LastNameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LastNameField, value) != true)) {
+                    this.LastNameField = value;
+                    this.RaisePropertyChanged("LastName");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string NIN {
+            get {
+                return this.NINField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NINField, value) != true)) {
+                    this.NINField = value;
+                    this.RaisePropertyChanged("NIN");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
     [System.Runtime.Serialization.DataContractAttribute(Name="Email", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
     [System.SerializableAttribute()]
     public partial class Email : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
@@ -1198,13 +3965,22 @@ namespace SEnPA.senpa {
         private string CreatedByField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private long CurrentRoleGroupIdField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string DocumentIdField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string DocumentTypeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_CurrentRoleGroupIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string FK_DocumentIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_LastRoleGroupIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_NextRoleGroupIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_WorkFlowIdField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private long IdField;
@@ -1214,15 +3990,6 @@ namespace SEnPA.senpa {
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string LastModifiedByField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private long LastRoleGroupIdField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private long NextRoleGroupIdField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private long WorkFlowIdField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string WorkFlowStatusField;
@@ -1277,32 +4044,6 @@ namespace SEnPA.senpa {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public long CurrentRoleGroupId {
-            get {
-                return this.CurrentRoleGroupIdField;
-            }
-            set {
-                if ((this.CurrentRoleGroupIdField.Equals(value) != true)) {
-                    this.CurrentRoleGroupIdField = value;
-                    this.RaisePropertyChanged("CurrentRoleGroupId");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string DocumentId {
-            get {
-                return this.DocumentIdField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.DocumentIdField, value) != true)) {
-                    this.DocumentIdField = value;
-                    this.RaisePropertyChanged("DocumentId");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
         public string DocumentType {
             get {
                 return this.DocumentTypeField;
@@ -1311,6 +4052,71 @@ namespace SEnPA.senpa {
                 if ((object.ReferenceEquals(this.DocumentTypeField, value) != true)) {
                     this.DocumentTypeField = value;
                     this.RaisePropertyChanged("DocumentType");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_CurrentRoleGroupId {
+            get {
+                return this.FK_CurrentRoleGroupIdField;
+            }
+            set {
+                if ((this.FK_CurrentRoleGroupIdField.Equals(value) != true)) {
+                    this.FK_CurrentRoleGroupIdField = value;
+                    this.RaisePropertyChanged("FK_CurrentRoleGroupId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string FK_DocumentId {
+            get {
+                return this.FK_DocumentIdField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.FK_DocumentIdField, value) != true)) {
+                    this.FK_DocumentIdField = value;
+                    this.RaisePropertyChanged("FK_DocumentId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_LastRoleGroupId {
+            get {
+                return this.FK_LastRoleGroupIdField;
+            }
+            set {
+                if ((this.FK_LastRoleGroupIdField.Equals(value) != true)) {
+                    this.FK_LastRoleGroupIdField = value;
+                    this.RaisePropertyChanged("FK_LastRoleGroupId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_NextRoleGroupId {
+            get {
+                return this.FK_NextRoleGroupIdField;
+            }
+            set {
+                if ((this.FK_NextRoleGroupIdField.Equals(value) != true)) {
+                    this.FK_NextRoleGroupIdField = value;
+                    this.RaisePropertyChanged("FK_NextRoleGroupId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_WorkFlowId {
+            get {
+                return this.FK_WorkFlowIdField;
+            }
+            set {
+                if ((this.FK_WorkFlowIdField.Equals(value) != true)) {
+                    this.FK_WorkFlowIdField = value;
+                    this.RaisePropertyChanged("FK_WorkFlowId");
                 }
             }
         }
@@ -1350,45 +4156,6 @@ namespace SEnPA.senpa {
                 if ((object.ReferenceEquals(this.LastModifiedByField, value) != true)) {
                     this.LastModifiedByField = value;
                     this.RaisePropertyChanged("LastModifiedBy");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public long LastRoleGroupId {
-            get {
-                return this.LastRoleGroupIdField;
-            }
-            set {
-                if ((this.LastRoleGroupIdField.Equals(value) != true)) {
-                    this.LastRoleGroupIdField = value;
-                    this.RaisePropertyChanged("LastRoleGroupId");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public long NextRoleGroupId {
-            get {
-                return this.NextRoleGroupIdField;
-            }
-            set {
-                if ((this.NextRoleGroupIdField.Equals(value) != true)) {
-                    this.NextRoleGroupIdField = value;
-                    this.RaisePropertyChanged("NextRoleGroupId");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public long WorkFlowId {
-            get {
-                return this.WorkFlowIdField;
-            }
-            set {
-                if ((this.WorkFlowIdField.Equals(value) != true)) {
-                    this.WorkFlowIdField = value;
-                    this.RaisePropertyChanged("WorkFlowId");
                 }
             }
         }
@@ -1560,7 +4327,10 @@ namespace SEnPA.senpa {
         private bool DocumentRequiredField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int DocumentTypeIdField;
+        private int FK_DocumentTypeIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_StageIdField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private long IdField;
@@ -1570,9 +4340,6 @@ namespace SEnPA.senpa {
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string LastModifiedByField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private long StageIdField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -1624,14 +4391,27 @@ namespace SEnPA.senpa {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public int DocumentTypeId {
+        public int FK_DocumentTypeId {
             get {
-                return this.DocumentTypeIdField;
+                return this.FK_DocumentTypeIdField;
             }
             set {
-                if ((this.DocumentTypeIdField.Equals(value) != true)) {
-                    this.DocumentTypeIdField = value;
-                    this.RaisePropertyChanged("DocumentTypeId");
+                if ((this.FK_DocumentTypeIdField.Equals(value) != true)) {
+                    this.FK_DocumentTypeIdField = value;
+                    this.RaisePropertyChanged("FK_DocumentTypeId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_StageId {
+            get {
+                return this.FK_StageIdField;
+            }
+            set {
+                if ((this.FK_StageIdField.Equals(value) != true)) {
+                    this.FK_StageIdField = value;
+                    this.RaisePropertyChanged("FK_StageId");
                 }
             }
         }
@@ -1675,19 +4455,6 @@ namespace SEnPA.senpa {
             }
         }
         
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public long StageId {
-            get {
-                return this.StageIdField;
-            }
-            set {
-                if ((this.StageIdField.Equals(value) != true)) {
-                    this.StageIdField = value;
-                    this.RaisePropertyChanged("StageId");
-                }
-            }
-        }
-        
         public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
         
         protected void RaisePropertyChanged(string propertyName) {
@@ -1708,6 +4475,9 @@ namespace SEnPA.senpa {
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool BusinessAssesmentField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private System.DateTime CreatedField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
@@ -1720,19 +4490,22 @@ namespace SEnPA.senpa {
         private byte[] DocumentDataField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private long DocumentFolderIdField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private long DocumentIdField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string DocumentNameField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int DocumentTypeIdField;
+        private long FK_DocumentFolderIdField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private long DocumentWorkFlowIdField;
+        private long FK_DocumentIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_DocumentTypeIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_DocumentWorkFlowIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_WorkFlowStageIdField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private long IdField;
@@ -1743,9 +4516,6 @@ namespace SEnPA.senpa {
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string LastModifiedByField;
         
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private long WorkFlowStageIdField;
-        
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
             get {
@@ -1753,6 +4523,19 @@ namespace SEnPA.senpa {
             }
             set {
                 this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool BusinessAssesment {
+            get {
+                return this.BusinessAssesmentField;
+            }
+            set {
+                if ((this.BusinessAssesmentField.Equals(value) != true)) {
+                    this.BusinessAssesmentField = value;
+                    this.RaisePropertyChanged("BusinessAssesment");
+                }
             }
         }
         
@@ -1809,32 +4592,6 @@ namespace SEnPA.senpa {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public long DocumentFolderId {
-            get {
-                return this.DocumentFolderIdField;
-            }
-            set {
-                if ((this.DocumentFolderIdField.Equals(value) != true)) {
-                    this.DocumentFolderIdField = value;
-                    this.RaisePropertyChanged("DocumentFolderId");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public long DocumentId {
-            get {
-                return this.DocumentIdField;
-            }
-            set {
-                if ((this.DocumentIdField.Equals(value) != true)) {
-                    this.DocumentIdField = value;
-                    this.RaisePropertyChanged("DocumentId");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
         public string DocumentName {
             get {
                 return this.DocumentNameField;
@@ -1848,27 +4605,213 @@ namespace SEnPA.senpa {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public int DocumentTypeId {
+        public long FK_DocumentFolderId {
             get {
-                return this.DocumentTypeIdField;
+                return this.FK_DocumentFolderIdField;
             }
             set {
-                if ((this.DocumentTypeIdField.Equals(value) != true)) {
-                    this.DocumentTypeIdField = value;
-                    this.RaisePropertyChanged("DocumentTypeId");
+                if ((this.FK_DocumentFolderIdField.Equals(value) != true)) {
+                    this.FK_DocumentFolderIdField = value;
+                    this.RaisePropertyChanged("FK_DocumentFolderId");
                 }
             }
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public long DocumentWorkFlowId {
+        public long FK_DocumentId {
             get {
-                return this.DocumentWorkFlowIdField;
+                return this.FK_DocumentIdField;
             }
             set {
-                if ((this.DocumentWorkFlowIdField.Equals(value) != true)) {
-                    this.DocumentWorkFlowIdField = value;
-                    this.RaisePropertyChanged("DocumentWorkFlowId");
+                if ((this.FK_DocumentIdField.Equals(value) != true)) {
+                    this.FK_DocumentIdField = value;
+                    this.RaisePropertyChanged("FK_DocumentId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_DocumentTypeId {
+            get {
+                return this.FK_DocumentTypeIdField;
+            }
+            set {
+                if ((this.FK_DocumentTypeIdField.Equals(value) != true)) {
+                    this.FK_DocumentTypeIdField = value;
+                    this.RaisePropertyChanged("FK_DocumentTypeId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_DocumentWorkFlowId {
+            get {
+                return this.FK_DocumentWorkFlowIdField;
+            }
+            set {
+                if ((this.FK_DocumentWorkFlowIdField.Equals(value) != true)) {
+                    this.FK_DocumentWorkFlowIdField = value;
+                    this.RaisePropertyChanged("FK_DocumentWorkFlowId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_WorkFlowStageId {
+            get {
+                return this.FK_WorkFlowStageIdField;
+            }
+            set {
+                if ((this.FK_WorkFlowStageIdField.Equals(value) != true)) {
+                    this.FK_WorkFlowStageIdField = value;
+                    this.RaisePropertyChanged("FK_WorkFlowStageId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime LastModified {
+            get {
+                return this.LastModifiedField;
+            }
+            set {
+                if ((this.LastModifiedField.Equals(value) != true)) {
+                    this.LastModifiedField = value;
+                    this.RaisePropertyChanged("LastModified");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LastModifiedBy {
+            get {
+                return this.LastModifiedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LastModifiedByField, value) != true)) {
+                    this.LastModifiedByField = value;
+                    this.RaisePropertyChanged("LastModifiedBy");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="WorkFlows", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class WorkFlows : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CreatedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreatedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_EndRoleGroupIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_StartRoleGroupIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime LastModifiedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LastModifiedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string WorkFlowDescriptionField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string WorkFlowNameField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Created {
+            get {
+                return this.CreatedField;
+            }
+            set {
+                if ((this.CreatedField.Equals(value) != true)) {
+                    this.CreatedField = value;
+                    this.RaisePropertyChanged("Created");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreatedBy {
+            get {
+                return this.CreatedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreatedByField, value) != true)) {
+                    this.CreatedByField = value;
+                    this.RaisePropertyChanged("CreatedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_EndRoleGroupId {
+            get {
+                return this.FK_EndRoleGroupIdField;
+            }
+            set {
+                if ((this.FK_EndRoleGroupIdField.Equals(value) != true)) {
+                    this.FK_EndRoleGroupIdField = value;
+                    this.RaisePropertyChanged("FK_EndRoleGroupId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_StartRoleGroupId {
+            get {
+                return this.FK_StartRoleGroupIdField;
+            }
+            set {
+                if ((this.FK_StartRoleGroupIdField.Equals(value) != true)) {
+                    this.FK_StartRoleGroupIdField = value;
+                    this.RaisePropertyChanged("FK_StartRoleGroupId");
                 }
             }
         }
@@ -1913,14 +4856,1321 @@ namespace SEnPA.senpa {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public long WorkFlowStageId {
+        public string WorkFlowDescription {
             get {
-                return this.WorkFlowStageIdField;
+                return this.WorkFlowDescriptionField;
             }
             set {
-                if ((this.WorkFlowStageIdField.Equals(value) != true)) {
-                    this.WorkFlowStageIdField = value;
-                    this.RaisePropertyChanged("WorkFlowStageId");
+                if ((object.ReferenceEquals(this.WorkFlowDescriptionField, value) != true)) {
+                    this.WorkFlowDescriptionField = value;
+                    this.RaisePropertyChanged("WorkFlowDescription");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string WorkFlowName {
+            get {
+                return this.WorkFlowNameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.WorkFlowNameField, value) != true)) {
+                    this.WorkFlowNameField = value;
+                    this.RaisePropertyChanged("WorkFlowName");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="WorkFlowStages", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class WorkFlowStages : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CreatedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreatedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string FK_AutoDocumentNameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_RoleGroupIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_WorkFlowIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime LastModifiedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LastModifiedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool RequireDocumentsField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool RequirePaymentField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool RequireRecommendationsField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool RequireSiteVisitField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int SendEmailField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int SendSMSField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int StageAssignModeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string StageDescriptionField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string StageNameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool StageOptionalField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int StagePositionField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Created {
+            get {
+                return this.CreatedField;
+            }
+            set {
+                if ((this.CreatedField.Equals(value) != true)) {
+                    this.CreatedField = value;
+                    this.RaisePropertyChanged("Created");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreatedBy {
+            get {
+                return this.CreatedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreatedByField, value) != true)) {
+                    this.CreatedByField = value;
+                    this.RaisePropertyChanged("CreatedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string FK_AutoDocumentName {
+            get {
+                return this.FK_AutoDocumentNameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.FK_AutoDocumentNameField, value) != true)) {
+                    this.FK_AutoDocumentNameField = value;
+                    this.RaisePropertyChanged("FK_AutoDocumentName");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_RoleGroupId {
+            get {
+                return this.FK_RoleGroupIdField;
+            }
+            set {
+                if ((this.FK_RoleGroupIdField.Equals(value) != true)) {
+                    this.FK_RoleGroupIdField = value;
+                    this.RaisePropertyChanged("FK_RoleGroupId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_WorkFlowId {
+            get {
+                return this.FK_WorkFlowIdField;
+            }
+            set {
+                if ((this.FK_WorkFlowIdField.Equals(value) != true)) {
+                    this.FK_WorkFlowIdField = value;
+                    this.RaisePropertyChanged("FK_WorkFlowId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime LastModified {
+            get {
+                return this.LastModifiedField;
+            }
+            set {
+                if ((this.LastModifiedField.Equals(value) != true)) {
+                    this.LastModifiedField = value;
+                    this.RaisePropertyChanged("LastModified");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LastModifiedBy {
+            get {
+                return this.LastModifiedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LastModifiedByField, value) != true)) {
+                    this.LastModifiedByField = value;
+                    this.RaisePropertyChanged("LastModifiedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool RequireDocuments {
+            get {
+                return this.RequireDocumentsField;
+            }
+            set {
+                if ((this.RequireDocumentsField.Equals(value) != true)) {
+                    this.RequireDocumentsField = value;
+                    this.RaisePropertyChanged("RequireDocuments");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool RequirePayment {
+            get {
+                return this.RequirePaymentField;
+            }
+            set {
+                if ((this.RequirePaymentField.Equals(value) != true)) {
+                    this.RequirePaymentField = value;
+                    this.RaisePropertyChanged("RequirePayment");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool RequireRecommendations {
+            get {
+                return this.RequireRecommendationsField;
+            }
+            set {
+                if ((this.RequireRecommendationsField.Equals(value) != true)) {
+                    this.RequireRecommendationsField = value;
+                    this.RaisePropertyChanged("RequireRecommendations");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool RequireSiteVisit {
+            get {
+                return this.RequireSiteVisitField;
+            }
+            set {
+                if ((this.RequireSiteVisitField.Equals(value) != true)) {
+                    this.RequireSiteVisitField = value;
+                    this.RaisePropertyChanged("RequireSiteVisit");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int SendEmail {
+            get {
+                return this.SendEmailField;
+            }
+            set {
+                if ((this.SendEmailField.Equals(value) != true)) {
+                    this.SendEmailField = value;
+                    this.RaisePropertyChanged("SendEmail");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int SendSMS {
+            get {
+                return this.SendSMSField;
+            }
+            set {
+                if ((this.SendSMSField.Equals(value) != true)) {
+                    this.SendSMSField = value;
+                    this.RaisePropertyChanged("SendSMS");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int StageAssignMode {
+            get {
+                return this.StageAssignModeField;
+            }
+            set {
+                if ((this.StageAssignModeField.Equals(value) != true)) {
+                    this.StageAssignModeField = value;
+                    this.RaisePropertyChanged("StageAssignMode");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string StageDescription {
+            get {
+                return this.StageDescriptionField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.StageDescriptionField, value) != true)) {
+                    this.StageDescriptionField = value;
+                    this.RaisePropertyChanged("StageDescription");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string StageName {
+            get {
+                return this.StageNameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.StageNameField, value) != true)) {
+                    this.StageNameField = value;
+                    this.RaisePropertyChanged("StageName");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool StageOptional {
+            get {
+                return this.StageOptionalField;
+            }
+            set {
+                if ((this.StageOptionalField.Equals(value) != true)) {
+                    this.StageOptionalField = value;
+                    this.RaisePropertyChanged("StageOptional");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int StagePosition {
+            get {
+                return this.StagePositionField;
+            }
+            set {
+                if ((this.StagePositionField.Equals(value) != true)) {
+                    this.StagePositionField = value;
+                    this.RaisePropertyChanged("StagePosition");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="DocumentWorkFlowProgress", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class DocumentWorkFlowProgress : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CreatedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreatedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_DocumentWorkFlowIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string FK_StageNameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long IdField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Created {
+            get {
+                return this.CreatedField;
+            }
+            set {
+                if ((this.CreatedField.Equals(value) != true)) {
+                    this.CreatedField = value;
+                    this.RaisePropertyChanged("Created");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreatedBy {
+            get {
+                return this.CreatedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreatedByField, value) != true)) {
+                    this.CreatedByField = value;
+                    this.RaisePropertyChanged("CreatedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_DocumentWorkFlowId {
+            get {
+                return this.FK_DocumentWorkFlowIdField;
+            }
+            set {
+                if ((this.FK_DocumentWorkFlowIdField.Equals(value) != true)) {
+                    this.FK_DocumentWorkFlowIdField = value;
+                    this.RaisePropertyChanged("FK_DocumentWorkFlowId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string FK_StageName {
+            get {
+                return this.FK_StageNameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.FK_StageNameField, value) != true)) {
+                    this.FK_StageNameField = value;
+                    this.RaisePropertyChanged("FK_StageName");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="WorkFlowStageDocumentStatus", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class WorkFlowStageDocumentStatus : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool DocumentRequiredField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DocumentTypeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_DocumentTypeIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_StageIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool UploadedField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool DocumentRequired {
+            get {
+                return this.DocumentRequiredField;
+            }
+            set {
+                if ((this.DocumentRequiredField.Equals(value) != true)) {
+                    this.DocumentRequiredField = value;
+                    this.RaisePropertyChanged("DocumentRequired");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string DocumentType {
+            get {
+                return this.DocumentTypeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DocumentTypeField, value) != true)) {
+                    this.DocumentTypeField = value;
+                    this.RaisePropertyChanged("DocumentType");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_DocumentTypeId {
+            get {
+                return this.FK_DocumentTypeIdField;
+            }
+            set {
+                if ((this.FK_DocumentTypeIdField.Equals(value) != true)) {
+                    this.FK_DocumentTypeIdField = value;
+                    this.RaisePropertyChanged("FK_DocumentTypeId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_StageId {
+            get {
+                return this.FK_StageIdField;
+            }
+            set {
+                if ((this.FK_StageIdField.Equals(value) != true)) {
+                    this.FK_StageIdField = value;
+                    this.RaisePropertyChanged("FK_StageId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool Uploaded {
+            get {
+                return this.UploadedField;
+            }
+            set {
+                if ((this.UploadedField.Equals(value) != true)) {
+                    this.UploadedField = value;
+                    this.RaisePropertyChanged("Uploaded");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="WorkFlowFieldValidations", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class WorkFlowFieldValidations : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool ActiveField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CreatedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreatedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DocumentTypeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime LastModifiedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LastModifiedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string ParameterDataTypeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string ParameterEvaluationTypeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string ParameterFieldField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string ParameterFieldNameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string ParameterMaxValueField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string ParameterValueField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool Active {
+            get {
+                return this.ActiveField;
+            }
+            set {
+                if ((this.ActiveField.Equals(value) != true)) {
+                    this.ActiveField = value;
+                    this.RaisePropertyChanged("Active");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Created {
+            get {
+                return this.CreatedField;
+            }
+            set {
+                if ((this.CreatedField.Equals(value) != true)) {
+                    this.CreatedField = value;
+                    this.RaisePropertyChanged("Created");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreatedBy {
+            get {
+                return this.CreatedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreatedByField, value) != true)) {
+                    this.CreatedByField = value;
+                    this.RaisePropertyChanged("CreatedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string DocumentType {
+            get {
+                return this.DocumentTypeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DocumentTypeField, value) != true)) {
+                    this.DocumentTypeField = value;
+                    this.RaisePropertyChanged("DocumentType");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime LastModified {
+            get {
+                return this.LastModifiedField;
+            }
+            set {
+                if ((this.LastModifiedField.Equals(value) != true)) {
+                    this.LastModifiedField = value;
+                    this.RaisePropertyChanged("LastModified");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LastModifiedBy {
+            get {
+                return this.LastModifiedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LastModifiedByField, value) != true)) {
+                    this.LastModifiedByField = value;
+                    this.RaisePropertyChanged("LastModifiedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string ParameterDataType {
+            get {
+                return this.ParameterDataTypeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ParameterDataTypeField, value) != true)) {
+                    this.ParameterDataTypeField = value;
+                    this.RaisePropertyChanged("ParameterDataType");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string ParameterEvaluationType {
+            get {
+                return this.ParameterEvaluationTypeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ParameterEvaluationTypeField, value) != true)) {
+                    this.ParameterEvaluationTypeField = value;
+                    this.RaisePropertyChanged("ParameterEvaluationType");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string ParameterField {
+            get {
+                return this.ParameterFieldField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ParameterFieldField, value) != true)) {
+                    this.ParameterFieldField = value;
+                    this.RaisePropertyChanged("ParameterField");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string ParameterFieldName {
+            get {
+                return this.ParameterFieldNameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ParameterFieldNameField, value) != true)) {
+                    this.ParameterFieldNameField = value;
+                    this.RaisePropertyChanged("ParameterFieldName");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string ParameterMaxValue {
+            get {
+                return this.ParameterMaxValueField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ParameterMaxValueField, value) != true)) {
+                    this.ParameterMaxValueField = value;
+                    this.RaisePropertyChanged("ParameterMaxValue");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string ParameterValue {
+            get {
+                return this.ParameterValueField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ParameterValueField, value) != true)) {
+                    this.ParameterValueField = value;
+                    this.RaisePropertyChanged("ParameterValue");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="FeeRules", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class FeeRules : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool ActiveField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CreatedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreatedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_FeeIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime LastModifiedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LastModifiedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string RuleEvaluationDataTypeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string RuleEvaluationFieldField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string RuleEvaluationMaxValueField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string RuleEvaluationTypeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string RuleEvaluationValueField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string RuleExecutionTypeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string RuleExecutionValueField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string RuleFieldField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string RuleNameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string RuleTypeField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool Active {
+            get {
+                return this.ActiveField;
+            }
+            set {
+                if ((this.ActiveField.Equals(value) != true)) {
+                    this.ActiveField = value;
+                    this.RaisePropertyChanged("Active");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Created {
+            get {
+                return this.CreatedField;
+            }
+            set {
+                if ((this.CreatedField.Equals(value) != true)) {
+                    this.CreatedField = value;
+                    this.RaisePropertyChanged("Created");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreatedBy {
+            get {
+                return this.CreatedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreatedByField, value) != true)) {
+                    this.CreatedByField = value;
+                    this.RaisePropertyChanged("CreatedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_FeeId {
+            get {
+                return this.FK_FeeIdField;
+            }
+            set {
+                if ((this.FK_FeeIdField.Equals(value) != true)) {
+                    this.FK_FeeIdField = value;
+                    this.RaisePropertyChanged("FK_FeeId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime LastModified {
+            get {
+                return this.LastModifiedField;
+            }
+            set {
+                if ((this.LastModifiedField.Equals(value) != true)) {
+                    this.LastModifiedField = value;
+                    this.RaisePropertyChanged("LastModified");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LastModifiedBy {
+            get {
+                return this.LastModifiedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LastModifiedByField, value) != true)) {
+                    this.LastModifiedByField = value;
+                    this.RaisePropertyChanged("LastModifiedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string RuleEvaluationDataType {
+            get {
+                return this.RuleEvaluationDataTypeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.RuleEvaluationDataTypeField, value) != true)) {
+                    this.RuleEvaluationDataTypeField = value;
+                    this.RaisePropertyChanged("RuleEvaluationDataType");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string RuleEvaluationField {
+            get {
+                return this.RuleEvaluationFieldField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.RuleEvaluationFieldField, value) != true)) {
+                    this.RuleEvaluationFieldField = value;
+                    this.RaisePropertyChanged("RuleEvaluationField");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string RuleEvaluationMaxValue {
+            get {
+                return this.RuleEvaluationMaxValueField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.RuleEvaluationMaxValueField, value) != true)) {
+                    this.RuleEvaluationMaxValueField = value;
+                    this.RaisePropertyChanged("RuleEvaluationMaxValue");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string RuleEvaluationType {
+            get {
+                return this.RuleEvaluationTypeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.RuleEvaluationTypeField, value) != true)) {
+                    this.RuleEvaluationTypeField = value;
+                    this.RaisePropertyChanged("RuleEvaluationType");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string RuleEvaluationValue {
+            get {
+                return this.RuleEvaluationValueField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.RuleEvaluationValueField, value) != true)) {
+                    this.RuleEvaluationValueField = value;
+                    this.RaisePropertyChanged("RuleEvaluationValue");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string RuleExecutionType {
+            get {
+                return this.RuleExecutionTypeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.RuleExecutionTypeField, value) != true)) {
+                    this.RuleExecutionTypeField = value;
+                    this.RaisePropertyChanged("RuleExecutionType");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string RuleExecutionValue {
+            get {
+                return this.RuleExecutionValueField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.RuleExecutionValueField, value) != true)) {
+                    this.RuleExecutionValueField = value;
+                    this.RaisePropertyChanged("RuleExecutionValue");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string RuleField {
+            get {
+                return this.RuleFieldField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.RuleFieldField, value) != true)) {
+                    this.RuleFieldField = value;
+                    this.RaisePropertyChanged("RuleField");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string RuleName {
+            get {
+                return this.RuleNameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.RuleNameField, value) != true)) {
+                    this.RuleNameField = value;
+                    this.RaisePropertyChanged("RuleName");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string RuleType {
+            get {
+                return this.RuleTypeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.RuleTypeField, value) != true)) {
+                    this.RuleTypeField = value;
+                    this.RaisePropertyChanged("RuleType");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="WorkFlowStagesAutoDocuments", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class WorkFlowStagesAutoDocuments : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool ActiveField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CreatedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreatedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string FK_AutoDocumentNameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_WorkFlowStageIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime LastModifiedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LastModifiedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int SendEmailField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int SendSMSField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool Active {
+            get {
+                return this.ActiveField;
+            }
+            set {
+                if ((this.ActiveField.Equals(value) != true)) {
+                    this.ActiveField = value;
+                    this.RaisePropertyChanged("Active");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Created {
+            get {
+                return this.CreatedField;
+            }
+            set {
+                if ((this.CreatedField.Equals(value) != true)) {
+                    this.CreatedField = value;
+                    this.RaisePropertyChanged("Created");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreatedBy {
+            get {
+                return this.CreatedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreatedByField, value) != true)) {
+                    this.CreatedByField = value;
+                    this.RaisePropertyChanged("CreatedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string FK_AutoDocumentName {
+            get {
+                return this.FK_AutoDocumentNameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.FK_AutoDocumentNameField, value) != true)) {
+                    this.FK_AutoDocumentNameField = value;
+                    this.RaisePropertyChanged("FK_AutoDocumentName");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_WorkFlowStageId {
+            get {
+                return this.FK_WorkFlowStageIdField;
+            }
+            set {
+                if ((this.FK_WorkFlowStageIdField.Equals(value) != true)) {
+                    this.FK_WorkFlowStageIdField = value;
+                    this.RaisePropertyChanged("FK_WorkFlowStageId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime LastModified {
+            get {
+                return this.LastModifiedField;
+            }
+            set {
+                if ((this.LastModifiedField.Equals(value) != true)) {
+                    this.LastModifiedField = value;
+                    this.RaisePropertyChanged("LastModified");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LastModifiedBy {
+            get {
+                return this.LastModifiedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LastModifiedByField, value) != true)) {
+                    this.LastModifiedByField = value;
+                    this.RaisePropertyChanged("LastModifiedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int SendEmail {
+            get {
+                return this.SendEmailField;
+            }
+            set {
+                if ((this.SendEmailField.Equals(value) != true)) {
+                    this.SendEmailField = value;
+                    this.RaisePropertyChanged("SendEmail");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int SendSMS {
+            get {
+                return this.SendSMSField;
+            }
+            set {
+                if ((this.SendSMSField.Equals(value) != true)) {
+                    this.SendSMSField = value;
+                    this.RaisePropertyChanged("SendSMS");
                 }
             }
         }
@@ -2092,13 +6342,7 @@ namespace SEnPA.senpa {
         private string CreatedByField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string DocumentContentTypeField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string DocumentDescriptionField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string DocumentTypeField;
+        private string DescriptionField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private long IdField;
@@ -2108,6 +6352,9 @@ namespace SEnPA.senpa {
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string LastModifiedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string NameField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -2146,40 +6393,14 @@ namespace SEnPA.senpa {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public string DocumentContentType {
+        public string Description {
             get {
-                return this.DocumentContentTypeField;
+                return this.DescriptionField;
             }
             set {
-                if ((object.ReferenceEquals(this.DocumentContentTypeField, value) != true)) {
-                    this.DocumentContentTypeField = value;
-                    this.RaisePropertyChanged("DocumentContentType");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string DocumentDescription {
-            get {
-                return this.DocumentDescriptionField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.DocumentDescriptionField, value) != true)) {
-                    this.DocumentDescriptionField = value;
-                    this.RaisePropertyChanged("DocumentDescription");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string DocumentType {
-            get {
-                return this.DocumentTypeField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.DocumentTypeField, value) != true)) {
-                    this.DocumentTypeField = value;
-                    this.RaisePropertyChanged("DocumentType");
+                if ((object.ReferenceEquals(this.DescriptionField, value) != true)) {
+                    this.DescriptionField = value;
+                    this.RaisePropertyChanged("Description");
                 }
             }
         }
@@ -2223,6 +6444,19 @@ namespace SEnPA.senpa {
             }
         }
         
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Name {
+            get {
+                return this.NameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NameField, value) != true)) {
+                    this.NameField = value;
+                    this.RaisePropertyChanged("Name");
+                }
+            }
+        }
+        
         public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
         
         protected void RaisePropertyChanged(string propertyName) {
@@ -2241,12 +6475,6 @@ namespace SEnPA.senpa {
         
         [System.NonSerializedAttribute()]
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.DateTime BusinessAssessmentCompletionDateField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.DateTime BusinessAssessmentStartDateField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string BusinessNameField;
@@ -2300,13 +6528,7 @@ namespace SEnPA.senpa {
         private int FK_ResidenceIslandLocationIdField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.DateTime FeePaymentDateField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string FirstNamesField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.DateTime FollowUpVisitDateField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string GenderField;
@@ -2339,28 +6561,13 @@ namespace SEnPA.senpa {
         private bool RequireWorkFlowField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.DateTime ReviewCompletionDateField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string SalutationField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.DateTime SiteVisitDateField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.DateTime SiteVisitReportCompletionDateField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string StageField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string StatusField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string StatusReasonField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.DateTime SubmissionDateField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string SubmissionTypeField;
@@ -2384,32 +6591,6 @@ namespace SEnPA.senpa {
             }
             set {
                 this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.DateTime BusinessAssessmentCompletionDate {
-            get {
-                return this.BusinessAssessmentCompletionDateField;
-            }
-            set {
-                if ((this.BusinessAssessmentCompletionDateField.Equals(value) != true)) {
-                    this.BusinessAssessmentCompletionDateField = value;
-                    this.RaisePropertyChanged("BusinessAssessmentCompletionDate");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.DateTime BusinessAssessmentStartDate {
-            get {
-                return this.BusinessAssessmentStartDateField;
-            }
-            set {
-                if ((this.BusinessAssessmentStartDateField.Equals(value) != true)) {
-                    this.BusinessAssessmentStartDateField = value;
-                    this.RaisePropertyChanged("BusinessAssessmentStartDate");
-                }
             }
         }
         
@@ -2635,19 +6816,6 @@ namespace SEnPA.senpa {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.DateTime FeePaymentDate {
-            get {
-                return this.FeePaymentDateField;
-            }
-            set {
-                if ((this.FeePaymentDateField.Equals(value) != true)) {
-                    this.FeePaymentDateField = value;
-                    this.RaisePropertyChanged("FeePaymentDate");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
         public string FirstNames {
             get {
                 return this.FirstNamesField;
@@ -2656,19 +6824,6 @@ namespace SEnPA.senpa {
                 if ((object.ReferenceEquals(this.FirstNamesField, value) != true)) {
                     this.FirstNamesField = value;
                     this.RaisePropertyChanged("FirstNames");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.DateTime FollowUpVisitDate {
-            get {
-                return this.FollowUpVisitDateField;
-            }
-            set {
-                if ((this.FollowUpVisitDateField.Equals(value) != true)) {
-                    this.FollowUpVisitDateField = value;
-                    this.RaisePropertyChanged("FollowUpVisitDate");
                 }
             }
         }
@@ -2804,19 +6959,6 @@ namespace SEnPA.senpa {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.DateTime ReviewCompletionDate {
-            get {
-                return this.ReviewCompletionDateField;
-            }
-            set {
-                if ((this.ReviewCompletionDateField.Equals(value) != true)) {
-                    this.ReviewCompletionDateField = value;
-                    this.RaisePropertyChanged("ReviewCompletionDate");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
         public string Salutation {
             get {
                 return this.SalutationField;
@@ -2825,45 +6967,6 @@ namespace SEnPA.senpa {
                 if ((object.ReferenceEquals(this.SalutationField, value) != true)) {
                     this.SalutationField = value;
                     this.RaisePropertyChanged("Salutation");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.DateTime SiteVisitDate {
-            get {
-                return this.SiteVisitDateField;
-            }
-            set {
-                if ((this.SiteVisitDateField.Equals(value) != true)) {
-                    this.SiteVisitDateField = value;
-                    this.RaisePropertyChanged("SiteVisitDate");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.DateTime SiteVisitReportCompletionDate {
-            get {
-                return this.SiteVisitReportCompletionDateField;
-            }
-            set {
-                if ((this.SiteVisitReportCompletionDateField.Equals(value) != true)) {
-                    this.SiteVisitReportCompletionDateField = value;
-                    this.RaisePropertyChanged("SiteVisitReportCompletionDate");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Stage {
-            get {
-                return this.StageField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.StageField, value) != true)) {
-                    this.StageField = value;
-                    this.RaisePropertyChanged("Stage");
                 }
             }
         }
@@ -2890,19 +6993,6 @@ namespace SEnPA.senpa {
                 if ((object.ReferenceEquals(this.StatusReasonField, value) != true)) {
                     this.StatusReasonField = value;
                     this.RaisePropertyChanged("StatusReason");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.DateTime SubmissionDate {
-            get {
-                return this.SubmissionDateField;
-            }
-            set {
-                if ((this.SubmissionDateField.Equals(value) != true)) {
-                    this.SubmissionDateField = value;
-                    this.RaisePropertyChanged("SubmissionDate");
                 }
             }
         }
@@ -2984,6 +7074,1873 @@ namespace SEnPA.senpa {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="BusinessRegistration", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class BusinessRegistration : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string BusinessNameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string BusinessRegistrationNumberField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CertificateIssueDateField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CertificateNumberField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CitizenshipField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CreatedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreatedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime DOBField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string EmailField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_BusinessIslandDistrictIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_BusinessIslandLocationIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_BusinessRegistrationTypeIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_BusinessTypeIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_EducationLevelIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_RegistrationRequestIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_ResidenceDistrictLocationIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_ResidenceIslandLocationIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string FirstNamesField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string GenderField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string HomeTelephoneField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime LastModifiedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LastModifiedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LastNameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string MobileField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string NINField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string RegistrationNumberField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string SalutationField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string StatusField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string StatusReasonField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool TermsAndConditionsAcceptedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string WorkTelephoneField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string BusinessName {
+            get {
+                return this.BusinessNameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.BusinessNameField, value) != true)) {
+                    this.BusinessNameField = value;
+                    this.RaisePropertyChanged("BusinessName");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string BusinessRegistrationNumber {
+            get {
+                return this.BusinessRegistrationNumberField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.BusinessRegistrationNumberField, value) != true)) {
+                    this.BusinessRegistrationNumberField = value;
+                    this.RaisePropertyChanged("BusinessRegistrationNumber");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime CertificateIssueDate {
+            get {
+                return this.CertificateIssueDateField;
+            }
+            set {
+                if ((this.CertificateIssueDateField.Equals(value) != true)) {
+                    this.CertificateIssueDateField = value;
+                    this.RaisePropertyChanged("CertificateIssueDate");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CertificateNumber {
+            get {
+                return this.CertificateNumberField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CertificateNumberField, value) != true)) {
+                    this.CertificateNumberField = value;
+                    this.RaisePropertyChanged("CertificateNumber");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Citizenship {
+            get {
+                return this.CitizenshipField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CitizenshipField, value) != true)) {
+                    this.CitizenshipField = value;
+                    this.RaisePropertyChanged("Citizenship");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Created {
+            get {
+                return this.CreatedField;
+            }
+            set {
+                if ((this.CreatedField.Equals(value) != true)) {
+                    this.CreatedField = value;
+                    this.RaisePropertyChanged("Created");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreatedBy {
+            get {
+                return this.CreatedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreatedByField, value) != true)) {
+                    this.CreatedByField = value;
+                    this.RaisePropertyChanged("CreatedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime DOB {
+            get {
+                return this.DOBField;
+            }
+            set {
+                if ((this.DOBField.Equals(value) != true)) {
+                    this.DOBField = value;
+                    this.RaisePropertyChanged("DOB");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Email {
+            get {
+                return this.EmailField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.EmailField, value) != true)) {
+                    this.EmailField = value;
+                    this.RaisePropertyChanged("Email");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_BusinessIslandDistrictId {
+            get {
+                return this.FK_BusinessIslandDistrictIdField;
+            }
+            set {
+                if ((this.FK_BusinessIslandDistrictIdField.Equals(value) != true)) {
+                    this.FK_BusinessIslandDistrictIdField = value;
+                    this.RaisePropertyChanged("FK_BusinessIslandDistrictId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_BusinessIslandLocationId {
+            get {
+                return this.FK_BusinessIslandLocationIdField;
+            }
+            set {
+                if ((this.FK_BusinessIslandLocationIdField.Equals(value) != true)) {
+                    this.FK_BusinessIslandLocationIdField = value;
+                    this.RaisePropertyChanged("FK_BusinessIslandLocationId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_BusinessRegistrationTypeId {
+            get {
+                return this.FK_BusinessRegistrationTypeIdField;
+            }
+            set {
+                if ((this.FK_BusinessRegistrationTypeIdField.Equals(value) != true)) {
+                    this.FK_BusinessRegistrationTypeIdField = value;
+                    this.RaisePropertyChanged("FK_BusinessRegistrationTypeId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_BusinessTypeId {
+            get {
+                return this.FK_BusinessTypeIdField;
+            }
+            set {
+                if ((this.FK_BusinessTypeIdField.Equals(value) != true)) {
+                    this.FK_BusinessTypeIdField = value;
+                    this.RaisePropertyChanged("FK_BusinessTypeId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_EducationLevelId {
+            get {
+                return this.FK_EducationLevelIdField;
+            }
+            set {
+                if ((this.FK_EducationLevelIdField.Equals(value) != true)) {
+                    this.FK_EducationLevelIdField = value;
+                    this.RaisePropertyChanged("FK_EducationLevelId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_RegistrationRequestId {
+            get {
+                return this.FK_RegistrationRequestIdField;
+            }
+            set {
+                if ((this.FK_RegistrationRequestIdField.Equals(value) != true)) {
+                    this.FK_RegistrationRequestIdField = value;
+                    this.RaisePropertyChanged("FK_RegistrationRequestId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_ResidenceDistrictLocationId {
+            get {
+                return this.FK_ResidenceDistrictLocationIdField;
+            }
+            set {
+                if ((this.FK_ResidenceDistrictLocationIdField.Equals(value) != true)) {
+                    this.FK_ResidenceDistrictLocationIdField = value;
+                    this.RaisePropertyChanged("FK_ResidenceDistrictLocationId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_ResidenceIslandLocationId {
+            get {
+                return this.FK_ResidenceIslandLocationIdField;
+            }
+            set {
+                if ((this.FK_ResidenceIslandLocationIdField.Equals(value) != true)) {
+                    this.FK_ResidenceIslandLocationIdField = value;
+                    this.RaisePropertyChanged("FK_ResidenceIslandLocationId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string FirstNames {
+            get {
+                return this.FirstNamesField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.FirstNamesField, value) != true)) {
+                    this.FirstNamesField = value;
+                    this.RaisePropertyChanged("FirstNames");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Gender {
+            get {
+                return this.GenderField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.GenderField, value) != true)) {
+                    this.GenderField = value;
+                    this.RaisePropertyChanged("Gender");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string HomeTelephone {
+            get {
+                return this.HomeTelephoneField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.HomeTelephoneField, value) != true)) {
+                    this.HomeTelephoneField = value;
+                    this.RaisePropertyChanged("HomeTelephone");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime LastModified {
+            get {
+                return this.LastModifiedField;
+            }
+            set {
+                if ((this.LastModifiedField.Equals(value) != true)) {
+                    this.LastModifiedField = value;
+                    this.RaisePropertyChanged("LastModified");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LastModifiedBy {
+            get {
+                return this.LastModifiedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LastModifiedByField, value) != true)) {
+                    this.LastModifiedByField = value;
+                    this.RaisePropertyChanged("LastModifiedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LastName {
+            get {
+                return this.LastNameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LastNameField, value) != true)) {
+                    this.LastNameField = value;
+                    this.RaisePropertyChanged("LastName");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Mobile {
+            get {
+                return this.MobileField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.MobileField, value) != true)) {
+                    this.MobileField = value;
+                    this.RaisePropertyChanged("Mobile");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string NIN {
+            get {
+                return this.NINField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NINField, value) != true)) {
+                    this.NINField = value;
+                    this.RaisePropertyChanged("NIN");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string RegistrationNumber {
+            get {
+                return this.RegistrationNumberField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.RegistrationNumberField, value) != true)) {
+                    this.RegistrationNumberField = value;
+                    this.RaisePropertyChanged("RegistrationNumber");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Salutation {
+            get {
+                return this.SalutationField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.SalutationField, value) != true)) {
+                    this.SalutationField = value;
+                    this.RaisePropertyChanged("Salutation");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Status {
+            get {
+                return this.StatusField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.StatusField, value) != true)) {
+                    this.StatusField = value;
+                    this.RaisePropertyChanged("Status");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string StatusReason {
+            get {
+                return this.StatusReasonField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.StatusReasonField, value) != true)) {
+                    this.StatusReasonField = value;
+                    this.RaisePropertyChanged("StatusReason");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool TermsAndConditionsAccepted {
+            get {
+                return this.TermsAndConditionsAcceptedField;
+            }
+            set {
+                if ((this.TermsAndConditionsAcceptedField.Equals(value) != true)) {
+                    this.TermsAndConditionsAcceptedField = value;
+                    this.RaisePropertyChanged("TermsAndConditionsAccepted");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string WorkTelephone {
+            get {
+                return this.WorkTelephoneField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.WorkTelephoneField, value) != true)) {
+                    this.WorkTelephoneField = value;
+                    this.RaisePropertyChanged("WorkTelephone");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="RenewalRequest", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class RenewalRequest : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string BusinessAdvantagesField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string BusinessDescriptionField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string BusinessDisadvantagesField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CertificateRenewalDateField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CreatedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreatedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DocumentTypeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string EquipmentField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_BusinessDevelopmentOfficerIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_BusinessRegistrationIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string FundingField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string GoalsAndObjectivesField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime LastModifiedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LastModifiedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string MarketingPlanField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string OperationsForecastField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string RawMaterialsField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string ReferenceNumberField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool RequireWorkFlowField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string SalesTargetField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string StatusField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string StatusReasonField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string SubmissionTypeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long WorkFlowIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string WorkFlowStatusField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string WorkingPremisesField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string BusinessAdvantages {
+            get {
+                return this.BusinessAdvantagesField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.BusinessAdvantagesField, value) != true)) {
+                    this.BusinessAdvantagesField = value;
+                    this.RaisePropertyChanged("BusinessAdvantages");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string BusinessDescription {
+            get {
+                return this.BusinessDescriptionField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.BusinessDescriptionField, value) != true)) {
+                    this.BusinessDescriptionField = value;
+                    this.RaisePropertyChanged("BusinessDescription");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string BusinessDisadvantages {
+            get {
+                return this.BusinessDisadvantagesField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.BusinessDisadvantagesField, value) != true)) {
+                    this.BusinessDisadvantagesField = value;
+                    this.RaisePropertyChanged("BusinessDisadvantages");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime CertificateRenewalDate {
+            get {
+                return this.CertificateRenewalDateField;
+            }
+            set {
+                if ((this.CertificateRenewalDateField.Equals(value) != true)) {
+                    this.CertificateRenewalDateField = value;
+                    this.RaisePropertyChanged("CertificateRenewalDate");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Created {
+            get {
+                return this.CreatedField;
+            }
+            set {
+                if ((this.CreatedField.Equals(value) != true)) {
+                    this.CreatedField = value;
+                    this.RaisePropertyChanged("Created");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreatedBy {
+            get {
+                return this.CreatedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreatedByField, value) != true)) {
+                    this.CreatedByField = value;
+                    this.RaisePropertyChanged("CreatedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string DocumentType {
+            get {
+                return this.DocumentTypeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DocumentTypeField, value) != true)) {
+                    this.DocumentTypeField = value;
+                    this.RaisePropertyChanged("DocumentType");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Equipment {
+            get {
+                return this.EquipmentField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.EquipmentField, value) != true)) {
+                    this.EquipmentField = value;
+                    this.RaisePropertyChanged("Equipment");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_BusinessDevelopmentOfficerId {
+            get {
+                return this.FK_BusinessDevelopmentOfficerIdField;
+            }
+            set {
+                if ((this.FK_BusinessDevelopmentOfficerIdField.Equals(value) != true)) {
+                    this.FK_BusinessDevelopmentOfficerIdField = value;
+                    this.RaisePropertyChanged("FK_BusinessDevelopmentOfficerId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_BusinessRegistrationId {
+            get {
+                return this.FK_BusinessRegistrationIdField;
+            }
+            set {
+                if ((this.FK_BusinessRegistrationIdField.Equals(value) != true)) {
+                    this.FK_BusinessRegistrationIdField = value;
+                    this.RaisePropertyChanged("FK_BusinessRegistrationId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Funding {
+            get {
+                return this.FundingField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.FundingField, value) != true)) {
+                    this.FundingField = value;
+                    this.RaisePropertyChanged("Funding");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string GoalsAndObjectives {
+            get {
+                return this.GoalsAndObjectivesField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.GoalsAndObjectivesField, value) != true)) {
+                    this.GoalsAndObjectivesField = value;
+                    this.RaisePropertyChanged("GoalsAndObjectives");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime LastModified {
+            get {
+                return this.LastModifiedField;
+            }
+            set {
+                if ((this.LastModifiedField.Equals(value) != true)) {
+                    this.LastModifiedField = value;
+                    this.RaisePropertyChanged("LastModified");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LastModifiedBy {
+            get {
+                return this.LastModifiedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LastModifiedByField, value) != true)) {
+                    this.LastModifiedByField = value;
+                    this.RaisePropertyChanged("LastModifiedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string MarketingPlan {
+            get {
+                return this.MarketingPlanField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.MarketingPlanField, value) != true)) {
+                    this.MarketingPlanField = value;
+                    this.RaisePropertyChanged("MarketingPlan");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string OperationsForecast {
+            get {
+                return this.OperationsForecastField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.OperationsForecastField, value) != true)) {
+                    this.OperationsForecastField = value;
+                    this.RaisePropertyChanged("OperationsForecast");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string RawMaterials {
+            get {
+                return this.RawMaterialsField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.RawMaterialsField, value) != true)) {
+                    this.RawMaterialsField = value;
+                    this.RaisePropertyChanged("RawMaterials");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string ReferenceNumber {
+            get {
+                return this.ReferenceNumberField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ReferenceNumberField, value) != true)) {
+                    this.ReferenceNumberField = value;
+                    this.RaisePropertyChanged("ReferenceNumber");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool RequireWorkFlow {
+            get {
+                return this.RequireWorkFlowField;
+            }
+            set {
+                if ((this.RequireWorkFlowField.Equals(value) != true)) {
+                    this.RequireWorkFlowField = value;
+                    this.RaisePropertyChanged("RequireWorkFlow");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string SalesTarget {
+            get {
+                return this.SalesTargetField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.SalesTargetField, value) != true)) {
+                    this.SalesTargetField = value;
+                    this.RaisePropertyChanged("SalesTarget");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Status {
+            get {
+                return this.StatusField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.StatusField, value) != true)) {
+                    this.StatusField = value;
+                    this.RaisePropertyChanged("Status");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string StatusReason {
+            get {
+                return this.StatusReasonField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.StatusReasonField, value) != true)) {
+                    this.StatusReasonField = value;
+                    this.RaisePropertyChanged("StatusReason");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string SubmissionType {
+            get {
+                return this.SubmissionTypeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.SubmissionTypeField, value) != true)) {
+                    this.SubmissionTypeField = value;
+                    this.RaisePropertyChanged("SubmissionType");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long WorkFlowId {
+            get {
+                return this.WorkFlowIdField;
+            }
+            set {
+                if ((this.WorkFlowIdField.Equals(value) != true)) {
+                    this.WorkFlowIdField = value;
+                    this.RaisePropertyChanged("WorkFlowId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string WorkFlowStatus {
+            get {
+                return this.WorkFlowStatusField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.WorkFlowStatusField, value) != true)) {
+                    this.WorkFlowStatusField = value;
+                    this.RaisePropertyChanged("WorkFlowStatus");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string WorkingPremises {
+            get {
+                return this.WorkingPremisesField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.WorkingPremisesField, value) != true)) {
+                    this.WorkingPremisesField = value;
+                    this.RaisePropertyChanged("WorkingPremises");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="AutoDocument", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class AutoDocument : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DocumentTypeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DocumentTypeNameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long IdField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string DocumentType {
+            get {
+                return this.DocumentTypeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DocumentTypeField, value) != true)) {
+                    this.DocumentTypeField = value;
+                    this.RaisePropertyChanged("DocumentType");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string DocumentTypeName {
+            get {
+                return this.DocumentTypeNameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DocumentTypeNameField, value) != true)) {
+                    this.DocumentTypeNameField = value;
+                    this.RaisePropertyChanged("DocumentTypeName");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="CottageCertificate", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class CottageCertificate : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CertificateIssueDateField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CertificateNumberField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CreatedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreatedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DocumentTypeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_BusinessRegistrationIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string FK_IssuedByIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_LastRenewedByIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime LastModifiedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LastModifiedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime LastRenewalDateField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime NextRenewalDateField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool RequireWorkFlowField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string StatusField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string StatusReasonField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long WorkFlowIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string WorkFlowStatusField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime CertificateIssueDate {
+            get {
+                return this.CertificateIssueDateField;
+            }
+            set {
+                if ((this.CertificateIssueDateField.Equals(value) != true)) {
+                    this.CertificateIssueDateField = value;
+                    this.RaisePropertyChanged("CertificateIssueDate");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CertificateNumber {
+            get {
+                return this.CertificateNumberField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CertificateNumberField, value) != true)) {
+                    this.CertificateNumberField = value;
+                    this.RaisePropertyChanged("CertificateNumber");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Created {
+            get {
+                return this.CreatedField;
+            }
+            set {
+                if ((this.CreatedField.Equals(value) != true)) {
+                    this.CreatedField = value;
+                    this.RaisePropertyChanged("Created");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreatedBy {
+            get {
+                return this.CreatedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreatedByField, value) != true)) {
+                    this.CreatedByField = value;
+                    this.RaisePropertyChanged("CreatedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string DocumentType {
+            get {
+                return this.DocumentTypeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DocumentTypeField, value) != true)) {
+                    this.DocumentTypeField = value;
+                    this.RaisePropertyChanged("DocumentType");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_BusinessRegistrationId {
+            get {
+                return this.FK_BusinessRegistrationIdField;
+            }
+            set {
+                if ((this.FK_BusinessRegistrationIdField.Equals(value) != true)) {
+                    this.FK_BusinessRegistrationIdField = value;
+                    this.RaisePropertyChanged("FK_BusinessRegistrationId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string FK_IssuedById {
+            get {
+                return this.FK_IssuedByIdField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.FK_IssuedByIdField, value) != true)) {
+                    this.FK_IssuedByIdField = value;
+                    this.RaisePropertyChanged("FK_IssuedById");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_LastRenewedById {
+            get {
+                return this.FK_LastRenewedByIdField;
+            }
+            set {
+                if ((this.FK_LastRenewedByIdField.Equals(value) != true)) {
+                    this.FK_LastRenewedByIdField = value;
+                    this.RaisePropertyChanged("FK_LastRenewedById");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime LastModified {
+            get {
+                return this.LastModifiedField;
+            }
+            set {
+                if ((this.LastModifiedField.Equals(value) != true)) {
+                    this.LastModifiedField = value;
+                    this.RaisePropertyChanged("LastModified");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LastModifiedBy {
+            get {
+                return this.LastModifiedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LastModifiedByField, value) != true)) {
+                    this.LastModifiedByField = value;
+                    this.RaisePropertyChanged("LastModifiedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime LastRenewalDate {
+            get {
+                return this.LastRenewalDateField;
+            }
+            set {
+                if ((this.LastRenewalDateField.Equals(value) != true)) {
+                    this.LastRenewalDateField = value;
+                    this.RaisePropertyChanged("LastRenewalDate");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime NextRenewalDate {
+            get {
+                return this.NextRenewalDateField;
+            }
+            set {
+                if ((this.NextRenewalDateField.Equals(value) != true)) {
+                    this.NextRenewalDateField = value;
+                    this.RaisePropertyChanged("NextRenewalDate");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool RequireWorkFlow {
+            get {
+                return this.RequireWorkFlowField;
+            }
+            set {
+                if ((this.RequireWorkFlowField.Equals(value) != true)) {
+                    this.RequireWorkFlowField = value;
+                    this.RaisePropertyChanged("RequireWorkFlow");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Status {
+            get {
+                return this.StatusField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.StatusField, value) != true)) {
+                    this.StatusField = value;
+                    this.RaisePropertyChanged("Status");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string StatusReason {
+            get {
+                return this.StatusReasonField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.StatusReasonField, value) != true)) {
+                    this.StatusReasonField = value;
+                    this.RaisePropertyChanged("StatusReason");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long WorkFlowId {
+            get {
+                return this.WorkFlowIdField;
+            }
+            set {
+                if ((this.WorkFlowIdField.Equals(value) != true)) {
+                    this.WorkFlowIdField = value;
+                    this.RaisePropertyChanged("WorkFlowId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string WorkFlowStatus {
+            get {
+                return this.WorkFlowStatusField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.WorkFlowStatusField, value) != true)) {
+                    this.WorkFlowStatusField = value;
+                    this.RaisePropertyChanged("WorkFlowStatus");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ActiveRenewalRequest", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class ActiveRenewalRequest : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string BusinessNameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CertificateNumberField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string EmailField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string FirstNamesField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LastNameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string MobileField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string NINField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string RegistrationNumberField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string StatusField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string BusinessName {
+            get {
+                return this.BusinessNameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.BusinessNameField, value) != true)) {
+                    this.BusinessNameField = value;
+                    this.RaisePropertyChanged("BusinessName");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CertificateNumber {
+            get {
+                return this.CertificateNumberField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CertificateNumberField, value) != true)) {
+                    this.CertificateNumberField = value;
+                    this.RaisePropertyChanged("CertificateNumber");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Email {
+            get {
+                return this.EmailField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.EmailField, value) != true)) {
+                    this.EmailField = value;
+                    this.RaisePropertyChanged("Email");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string FirstNames {
+            get {
+                return this.FirstNamesField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.FirstNamesField, value) != true)) {
+                    this.FirstNamesField = value;
+                    this.RaisePropertyChanged("FirstNames");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LastName {
+            get {
+                return this.LastNameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LastNameField, value) != true)) {
+                    this.LastNameField = value;
+                    this.RaisePropertyChanged("LastName");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Mobile {
+            get {
+                return this.MobileField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.MobileField, value) != true)) {
+                    this.MobileField = value;
+                    this.RaisePropertyChanged("Mobile");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string NIN {
+            get {
+                return this.NINField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NINField, value) != true)) {
+                    this.NINField = value;
+                    this.RaisePropertyChanged("NIN");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string RegistrationNumber {
+            get {
+                return this.RegistrationNumberField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.RegistrationNumberField, value) != true)) {
+                    this.RegistrationNumberField = value;
+                    this.RaisePropertyChanged("RegistrationNumber");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Status {
+            get {
+                return this.StatusField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.StatusField, value) != true)) {
+                    this.StatusField = value;
+                    this.RaisePropertyChanged("Status");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="QuickStats", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class QuickStats : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long PendingBusinessRegistrationsCountField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long PendingRenewalsCountField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long PendingSiteVisitsCountField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long RegisteredBusinessCountField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long PendingBusinessRegistrationsCount {
+            get {
+                return this.PendingBusinessRegistrationsCountField;
+            }
+            set {
+                if ((this.PendingBusinessRegistrationsCountField.Equals(value) != true)) {
+                    this.PendingBusinessRegistrationsCountField = value;
+                    this.RaisePropertyChanged("PendingBusinessRegistrationsCount");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long PendingRenewalsCount {
+            get {
+                return this.PendingRenewalsCountField;
+            }
+            set {
+                if ((this.PendingRenewalsCountField.Equals(value) != true)) {
+                    this.PendingRenewalsCountField = value;
+                    this.RaisePropertyChanged("PendingRenewalsCount");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long PendingSiteVisitsCount {
+            get {
+                return this.PendingSiteVisitsCountField;
+            }
+            set {
+                if ((this.PendingSiteVisitsCountField.Equals(value) != true)) {
+                    this.PendingSiteVisitsCountField = value;
+                    this.RaisePropertyChanged("PendingSiteVisitsCount");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long RegisteredBusinessCount {
+            get {
+                return this.RegisteredBusinessCountField;
+            }
+            set {
+                if ((this.RegisteredBusinessCountField.Equals(value) != true)) {
+                    this.RegisteredBusinessCountField = value;
+                    this.RaisePropertyChanged("RegisteredBusinessCount");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Notifications", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class Notifications : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CreatedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreatedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DocumentTypeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long FK_DocumentIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string FK_UsernameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime LastModifiedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LastModifiedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool StatusField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string TitleField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Created {
+            get {
+                return this.CreatedField;
+            }
+            set {
+                if ((this.CreatedField.Equals(value) != true)) {
+                    this.CreatedField = value;
+                    this.RaisePropertyChanged("Created");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreatedBy {
+            get {
+                return this.CreatedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreatedByField, value) != true)) {
+                    this.CreatedByField = value;
+                    this.RaisePropertyChanged("CreatedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string DocumentType {
+            get {
+                return this.DocumentTypeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DocumentTypeField, value) != true)) {
+                    this.DocumentTypeField = value;
+                    this.RaisePropertyChanged("DocumentType");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long FK_DocumentId {
+            get {
+                return this.FK_DocumentIdField;
+            }
+            set {
+                if ((this.FK_DocumentIdField.Equals(value) != true)) {
+                    this.FK_DocumentIdField = value;
+                    this.RaisePropertyChanged("FK_DocumentId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string FK_Username {
+            get {
+                return this.FK_UsernameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.FK_UsernameField, value) != true)) {
+                    this.FK_UsernameField = value;
+                    this.RaisePropertyChanged("FK_Username");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime LastModified {
+            get {
+                return this.LastModifiedField;
+            }
+            set {
+                if ((this.LastModifiedField.Equals(value) != true)) {
+                    this.LastModifiedField = value;
+                    this.RaisePropertyChanged("LastModified");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LastModifiedBy {
+            get {
+                return this.LastModifiedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LastModifiedByField, value) != true)) {
+                    this.LastModifiedByField = value;
+                    this.RaisePropertyChanged("LastModifiedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool Status {
+            get {
+                return this.StatusField;
+            }
+            set {
+                if ((this.StatusField.Equals(value) != true)) {
+                    this.StatusField = value;
+                    this.RaisePropertyChanged("Status");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Title {
+            get {
+                return this.TitleField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.TitleField, value) != true)) {
+                    this.TitleField = value;
+                    this.RaisePropertyChanged("Title");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
     [System.Runtime.Serialization.DataContractAttribute(Name="PickList", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
     [System.SerializableAttribute()]
     public partial class PickList : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
@@ -3043,9 +9000,1640 @@ namespace SEnPA.senpa {
         }
     }
     
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ReferenceTable", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class ReferenceTable : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool ActiveField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CreatedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreatedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DescriptionField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_ParentIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime LastModifiedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LastModifiedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string NameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string TypeField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool Active {
+            get {
+                return this.ActiveField;
+            }
+            set {
+                if ((this.ActiveField.Equals(value) != true)) {
+                    this.ActiveField = value;
+                    this.RaisePropertyChanged("Active");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Created {
+            get {
+                return this.CreatedField;
+            }
+            set {
+                if ((this.CreatedField.Equals(value) != true)) {
+                    this.CreatedField = value;
+                    this.RaisePropertyChanged("Created");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreatedBy {
+            get {
+                return this.CreatedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreatedByField, value) != true)) {
+                    this.CreatedByField = value;
+                    this.RaisePropertyChanged("CreatedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Description {
+            get {
+                return this.DescriptionField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DescriptionField, value) != true)) {
+                    this.DescriptionField = value;
+                    this.RaisePropertyChanged("Description");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_ParentId {
+            get {
+                return this.FK_ParentIdField;
+            }
+            set {
+                if ((this.FK_ParentIdField.Equals(value) != true)) {
+                    this.FK_ParentIdField = value;
+                    this.RaisePropertyChanged("FK_ParentId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime LastModified {
+            get {
+                return this.LastModifiedField;
+            }
+            set {
+                if ((this.LastModifiedField.Equals(value) != true)) {
+                    this.LastModifiedField = value;
+                    this.RaisePropertyChanged("LastModified");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LastModifiedBy {
+            get {
+                return this.LastModifiedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LastModifiedByField, value) != true)) {
+                    this.LastModifiedByField = value;
+                    this.RaisePropertyChanged("LastModifiedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Name {
+            get {
+                return this.NameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NameField, value) != true)) {
+                    this.NameField = value;
+                    this.RaisePropertyChanged("Name");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Type {
+            get {
+                return this.TypeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.TypeField, value) != true)) {
+                    this.TypeField = value;
+                    this.RaisePropertyChanged("Type");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Stakeholder", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class Stakeholder : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool ActiveField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CreatedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreatedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DescriptionField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string EmailField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime LastModifiedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LastModifiedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string MobileField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string NameField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool Active {
+            get {
+                return this.ActiveField;
+            }
+            set {
+                if ((this.ActiveField.Equals(value) != true)) {
+                    this.ActiveField = value;
+                    this.RaisePropertyChanged("Active");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Created {
+            get {
+                return this.CreatedField;
+            }
+            set {
+                if ((this.CreatedField.Equals(value) != true)) {
+                    this.CreatedField = value;
+                    this.RaisePropertyChanged("Created");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreatedBy {
+            get {
+                return this.CreatedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreatedByField, value) != true)) {
+                    this.CreatedByField = value;
+                    this.RaisePropertyChanged("CreatedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Description {
+            get {
+                return this.DescriptionField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DescriptionField, value) != true)) {
+                    this.DescriptionField = value;
+                    this.RaisePropertyChanged("Description");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Email {
+            get {
+                return this.EmailField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.EmailField, value) != true)) {
+                    this.EmailField = value;
+                    this.RaisePropertyChanged("Email");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime LastModified {
+            get {
+                return this.LastModifiedField;
+            }
+            set {
+                if ((this.LastModifiedField.Equals(value) != true)) {
+                    this.LastModifiedField = value;
+                    this.RaisePropertyChanged("LastModified");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LastModifiedBy {
+            get {
+                return this.LastModifiedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LastModifiedByField, value) != true)) {
+                    this.LastModifiedByField = value;
+                    this.RaisePropertyChanged("LastModifiedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Mobile {
+            get {
+                return this.MobileField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.MobileField, value) != true)) {
+                    this.MobileField = value;
+                    this.RaisePropertyChanged("Mobile");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Name {
+            get {
+                return this.NameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NameField, value) != true)) {
+                    this.NameField = value;
+                    this.RaisePropertyChanged("Name");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="BusinessTypeStakeholder", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class BusinessTypeStakeholder : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CreatedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreatedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_BusinessTypeIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_StakeholderIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime LastModifiedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LastModifiedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool StakeholderRequiredField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Created {
+            get {
+                return this.CreatedField;
+            }
+            set {
+                if ((this.CreatedField.Equals(value) != true)) {
+                    this.CreatedField = value;
+                    this.RaisePropertyChanged("Created");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreatedBy {
+            get {
+                return this.CreatedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreatedByField, value) != true)) {
+                    this.CreatedByField = value;
+                    this.RaisePropertyChanged("CreatedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_BusinessTypeId {
+            get {
+                return this.FK_BusinessTypeIdField;
+            }
+            set {
+                if ((this.FK_BusinessTypeIdField.Equals(value) != true)) {
+                    this.FK_BusinessTypeIdField = value;
+                    this.RaisePropertyChanged("FK_BusinessTypeId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_StakeholderId {
+            get {
+                return this.FK_StakeholderIdField;
+            }
+            set {
+                if ((this.FK_StakeholderIdField.Equals(value) != true)) {
+                    this.FK_StakeholderIdField = value;
+                    this.RaisePropertyChanged("FK_StakeholderId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime LastModified {
+            get {
+                return this.LastModifiedField;
+            }
+            set {
+                if ((this.LastModifiedField.Equals(value) != true)) {
+                    this.LastModifiedField = value;
+                    this.RaisePropertyChanged("LastModified");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LastModifiedBy {
+            get {
+                return this.LastModifiedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LastModifiedByField, value) != true)) {
+                    this.LastModifiedByField = value;
+                    this.RaisePropertyChanged("LastModifiedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool StakeholderRequired {
+            get {
+                return this.StakeholderRequiredField;
+            }
+            set {
+                if ((this.StakeholderRequiredField.Equals(value) != true)) {
+                    this.StakeholderRequiredField = value;
+                    this.RaisePropertyChanged("StakeholderRequired");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="AutoDocumentsDesign", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class AutoDocumentsDesign : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CreatedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreatedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DocumentDesignField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DocumentDesignSMSField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DocumentNameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool EmailField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string EmailSubjectField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime LastModifiedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LastModifiedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool SMSField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Created {
+            get {
+                return this.CreatedField;
+            }
+            set {
+                if ((this.CreatedField.Equals(value) != true)) {
+                    this.CreatedField = value;
+                    this.RaisePropertyChanged("Created");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreatedBy {
+            get {
+                return this.CreatedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreatedByField, value) != true)) {
+                    this.CreatedByField = value;
+                    this.RaisePropertyChanged("CreatedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string DocumentDesign {
+            get {
+                return this.DocumentDesignField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DocumentDesignField, value) != true)) {
+                    this.DocumentDesignField = value;
+                    this.RaisePropertyChanged("DocumentDesign");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string DocumentDesignSMS {
+            get {
+                return this.DocumentDesignSMSField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DocumentDesignSMSField, value) != true)) {
+                    this.DocumentDesignSMSField = value;
+                    this.RaisePropertyChanged("DocumentDesignSMS");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string DocumentName {
+            get {
+                return this.DocumentNameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DocumentNameField, value) != true)) {
+                    this.DocumentNameField = value;
+                    this.RaisePropertyChanged("DocumentName");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool Email {
+            get {
+                return this.EmailField;
+            }
+            set {
+                if ((this.EmailField.Equals(value) != true)) {
+                    this.EmailField = value;
+                    this.RaisePropertyChanged("Email");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string EmailSubject {
+            get {
+                return this.EmailSubjectField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.EmailSubjectField, value) != true)) {
+                    this.EmailSubjectField = value;
+                    this.RaisePropertyChanged("EmailSubject");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime LastModified {
+            get {
+                return this.LastModifiedField;
+            }
+            set {
+                if ((this.LastModifiedField.Equals(value) != true)) {
+                    this.LastModifiedField = value;
+                    this.RaisePropertyChanged("LastModified");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LastModifiedBy {
+            get {
+                return this.LastModifiedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LastModifiedByField, value) != true)) {
+                    this.LastModifiedByField = value;
+                    this.RaisePropertyChanged("LastModifiedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool SMS {
+            get {
+                return this.SMSField;
+            }
+            set {
+                if ((this.SMSField.Equals(value) != true)) {
+                    this.SMSField = value;
+                    this.RaisePropertyChanged("SMS");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="SignoutResponse", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class SignoutResponse : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool signoutStatusField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool signoutStatus {
+            get {
+                return this.signoutStatusField;
+            }
+            set {
+                if ((this.signoutStatusField.Equals(value) != true)) {
+                    this.signoutStatusField = value;
+                    this.RaisePropertyChanged("signoutStatus");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="PasswordChangeResponse", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class PasswordChangeResponse : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool changeStatusField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string responseMessageField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool changeStatus {
+            get {
+                return this.changeStatusField;
+            }
+            set {
+                if ((this.changeStatusField.Equals(value) != true)) {
+                    this.changeStatusField = value;
+                    this.RaisePropertyChanged("changeStatus");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string responseMessage {
+            get {
+                return this.responseMessageField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.responseMessageField, value) != true)) {
+                    this.responseMessageField = value;
+                    this.RaisePropertyChanged("responseMessage");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="UserRoleActionResponse", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class UserRoleActionResponse : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool actionStatusField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string responseMessageField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool actionStatus {
+            get {
+                return this.actionStatusField;
+            }
+            set {
+                if ((this.actionStatusField.Equals(value) != true)) {
+                    this.actionStatusField = value;
+                    this.RaisePropertyChanged("actionStatus");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string responseMessage {
+            get {
+                return this.responseMessageField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.responseMessageField, value) != true)) {
+                    this.responseMessageField = value;
+                    this.RaisePropertyChanged("responseMessage");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="UserActionResponse", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class UserActionResponse : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool actionStatusField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string responseMessageField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool actionStatus {
+            get {
+                return this.actionStatusField;
+            }
+            set {
+                if ((this.actionStatusField.Equals(value) != true)) {
+                    this.actionStatusField = value;
+                    this.RaisePropertyChanged("actionStatus");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string responseMessage {
+            get {
+                return this.responseMessageField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.responseMessageField, value) != true)) {
+                    this.responseMessageField = value;
+                    this.RaisePropertyChanged("responseMessage");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ApplicationUsers", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class ApplicationUsers : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool ActiveField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime CreatedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreatedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string EmailAddressField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string FK_RoleGroupField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FK_StakeholderIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string FirstNameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime LastModifiedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LastModifiedByField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool LockedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string MobileNumberField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string PasscodeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool PasswordExpiresField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime PasswordExpiryDateField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime PasswordLastChangedField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string SurnameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string UsernameField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool Active {
+            get {
+                return this.ActiveField;
+            }
+            set {
+                if ((this.ActiveField.Equals(value) != true)) {
+                    this.ActiveField = value;
+                    this.RaisePropertyChanged("Active");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Created {
+            get {
+                return this.CreatedField;
+            }
+            set {
+                if ((this.CreatedField.Equals(value) != true)) {
+                    this.CreatedField = value;
+                    this.RaisePropertyChanged("Created");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreatedBy {
+            get {
+                return this.CreatedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreatedByField, value) != true)) {
+                    this.CreatedByField = value;
+                    this.RaisePropertyChanged("CreatedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string EmailAddress {
+            get {
+                return this.EmailAddressField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.EmailAddressField, value) != true)) {
+                    this.EmailAddressField = value;
+                    this.RaisePropertyChanged("EmailAddress");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string FK_RoleGroup {
+            get {
+                return this.FK_RoleGroupField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.FK_RoleGroupField, value) != true)) {
+                    this.FK_RoleGroupField = value;
+                    this.RaisePropertyChanged("FK_RoleGroup");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FK_StakeholderId {
+            get {
+                return this.FK_StakeholderIdField;
+            }
+            set {
+                if ((this.FK_StakeholderIdField.Equals(value) != true)) {
+                    this.FK_StakeholderIdField = value;
+                    this.RaisePropertyChanged("FK_StakeholderId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string FirstName {
+            get {
+                return this.FirstNameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.FirstNameField, value) != true)) {
+                    this.FirstNameField = value;
+                    this.RaisePropertyChanged("FirstName");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime LastModified {
+            get {
+                return this.LastModifiedField;
+            }
+            set {
+                if ((this.LastModifiedField.Equals(value) != true)) {
+                    this.LastModifiedField = value;
+                    this.RaisePropertyChanged("LastModified");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LastModifiedBy {
+            get {
+                return this.LastModifiedByField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LastModifiedByField, value) != true)) {
+                    this.LastModifiedByField = value;
+                    this.RaisePropertyChanged("LastModifiedBy");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool Locked {
+            get {
+                return this.LockedField;
+            }
+            set {
+                if ((this.LockedField.Equals(value) != true)) {
+                    this.LockedField = value;
+                    this.RaisePropertyChanged("Locked");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string MobileNumber {
+            get {
+                return this.MobileNumberField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.MobileNumberField, value) != true)) {
+                    this.MobileNumberField = value;
+                    this.RaisePropertyChanged("MobileNumber");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Passcode {
+            get {
+                return this.PasscodeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.PasscodeField, value) != true)) {
+                    this.PasscodeField = value;
+                    this.RaisePropertyChanged("Passcode");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool PasswordExpires {
+            get {
+                return this.PasswordExpiresField;
+            }
+            set {
+                if ((this.PasswordExpiresField.Equals(value) != true)) {
+                    this.PasswordExpiresField = value;
+                    this.RaisePropertyChanged("PasswordExpires");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime PasswordExpiryDate {
+            get {
+                return this.PasswordExpiryDateField;
+            }
+            set {
+                if ((this.PasswordExpiryDateField.Equals(value) != true)) {
+                    this.PasswordExpiryDateField = value;
+                    this.RaisePropertyChanged("PasswordExpiryDate");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime PasswordLastChanged {
+            get {
+                return this.PasswordLastChangedField;
+            }
+            set {
+                if ((this.PasswordLastChangedField.Equals(value) != true)) {
+                    this.PasswordLastChangedField = value;
+                    this.RaisePropertyChanged("PasswordLastChanged");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Surname {
+            get {
+                return this.SurnameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.SurnameField, value) != true)) {
+                    this.SurnameField = value;
+                    this.RaisePropertyChanged("Surname");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Username {
+            get {
+                return this.UsernameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.UsernameField, value) != true)) {
+                    this.UsernameField = value;
+                    this.RaisePropertyChanged("Username");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ApplicationRoles", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class ApplicationRoles : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DescriptionField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string NameField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Description {
+            get {
+                return this.DescriptionField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DescriptionField, value) != true)) {
+                    this.DescriptionField = value;
+                    this.RaisePropertyChanged("Description");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Name {
+            get {
+                return this.NameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NameField, value) != true)) {
+                    this.NameField = value;
+                    this.RaisePropertyChanged("Name");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ApplicationRoleGroups", Namespace="http://schemas.datacontract.org/2004/07/SEnPA")]
+    [System.SerializableAttribute()]
+    public partial class ApplicationRoleGroups : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DescriptionField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string NameField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Description {
+            get {
+                return this.DescriptionField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DescriptionField, value) != true)) {
+                    this.DescriptionField = value;
+                    this.RaisePropertyChanged("Description");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Name {
+            get {
+                return this.NameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NameField, value) != true)) {
+                    this.NameField = value;
+                    this.RaisePropertyChanged("Name");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="senpa.ISEnPA")]
     public interface ISEnPA {
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SaveSiteVisitReport", ReplyAction="http://tempuri.org/ISEnPA/SaveSiteVisitReportResponse")]
+        long SaveSiteVisitReport(long fK_SiteVisitId, int fK_StakeholderId, string comments);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SaveSiteVisitReport", ReplyAction="http://tempuri.org/ISEnPA/SaveSiteVisitReportResponse")]
+        System.Threading.Tasks.Task<long> SaveSiteVisitReportAsync(long fK_SiteVisitId, int fK_StakeholderId, string comments);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetSiteVisitReport", ReplyAction="http://tempuri.org/ISEnPA/GetSiteVisitReportResponse")]
+        SEnPA.senpa.SiteVisitReport GetSiteVisitReport(long fK_SiteVisitId, int fK_StakeholderId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetSiteVisitReport", ReplyAction="http://tempuri.org/ISEnPA/GetSiteVisitReportResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.SiteVisitReport> GetSiteVisitReportAsync(long fK_SiteVisitId, int fK_StakeholderId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/RemoveSiteVisitReport", ReplyAction="http://tempuri.org/ISEnPA/RemoveSiteVisitReportResponse")]
+        bool RemoveSiteVisitReport(long fK_SiteVisitId, int fK_StakeholderId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/RemoveSiteVisitReport", ReplyAction="http://tempuri.org/ISEnPA/RemoveSiteVisitReportResponse")]
+        System.Threading.Tasks.Task<bool> RemoveSiteVisitReportAsync(long fK_SiteVisitId, int fK_StakeholderId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/ConfirmSiteVisitReport", ReplyAction="http://tempuri.org/ISEnPA/ConfirmSiteVisitReportResponse")]
+        bool ConfirmSiteVisitReport(long fK_SiteVisitId, int fK_StakeholderId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/ConfirmSiteVisitReport", ReplyAction="http://tempuri.org/ISEnPA/ConfirmSiteVisitReportResponse")]
+        System.Threading.Tasks.Task<bool> ConfirmSiteVisitReportAsync(long fK_SiteVisitId, int fK_StakeholderId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CreateWorkflowSiteVisit", ReplyAction="http://tempuri.org/ISEnPA/CreateWorkflowSiteVisitResponse")]
+        long CreateWorkflowSiteVisit(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CreateWorkflowSiteVisit", ReplyAction="http://tempuri.org/ISEnPA/CreateWorkflowSiteVisitResponse")]
+        System.Threading.Tasks.Task<long> CreateWorkflowSiteVisitAsync(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CreateWorkflowRecommendationSiteVisit", ReplyAction="http://tempuri.org/ISEnPA/CreateWorkflowRecommendationSiteVisitResponse")]
+        long CreateWorkflowRecommendationSiteVisit(long Id, string entityType, long recommendationId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CreateWorkflowRecommendationSiteVisit", ReplyAction="http://tempuri.org/ISEnPA/CreateWorkflowRecommendationSiteVisitResponse")]
+        System.Threading.Tasks.Task<long> CreateWorkflowRecommendationSiteVisitAsync(long Id, string entityType, long recommendationId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetCurrentWorkflowSiteVisit", ReplyAction="http://tempuri.org/ISEnPA/GetCurrentWorkflowSiteVisitResponse")]
+        SEnPA.senpa.SiteVisit GetCurrentWorkflowSiteVisit(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetCurrentWorkflowSiteVisit", ReplyAction="http://tempuri.org/ISEnPA/GetCurrentWorkflowSiteVisitResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.SiteVisit> GetCurrentWorkflowSiteVisitAsync(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetCurrentWorkflowRecommendationSiteVisit", ReplyAction="http://tempuri.org/ISEnPA/GetCurrentWorkflowRecommendationSiteVisitResponse")]
+        SEnPA.senpa.SiteVisit GetCurrentWorkflowRecommendationSiteVisit(long recommendationId, long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetCurrentWorkflowRecommendationSiteVisit", ReplyAction="http://tempuri.org/ISEnPA/GetCurrentWorkflowRecommendationSiteVisitResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.SiteVisit> GetCurrentWorkflowRecommendationSiteVisitAsync(long recommendationId, long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/UploadSiteVisitWorkFlowDocument", ReplyAction="http://tempuri.org/ISEnPA/UploadSiteVisitWorkFlowDocumentResponse")]
+        bool UploadSiteVisitWorkFlowDocument(long siteVisitId, int stakeholderId, string comments, long Id, string entityType, string fileName, byte[] fileData, int documentTypeId, long documentFolderId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/UploadSiteVisitWorkFlowDocument", ReplyAction="http://tempuri.org/ISEnPA/UploadSiteVisitWorkFlowDocumentResponse")]
+        System.Threading.Tasks.Task<bool> UploadSiteVisitWorkFlowDocumentAsync(long siteVisitId, int stakeholderId, string comments, long Id, string entityType, string fileName, byte[] fileData, int documentTypeId, long documentFolderId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SaveSiteVisit", ReplyAction="http://tempuri.org/ISEnPA/SaveSiteVisitResponse")]
+        bool SaveSiteVisit(SEnPA.senpa.SiteVisit site);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SaveSiteVisit", ReplyAction="http://tempuri.org/ISEnPA/SaveSiteVisitResponse")]
+        System.Threading.Tasks.Task<bool> SaveSiteVisitAsync(SEnPA.senpa.SiteVisit site);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/ScheduleSiteVisit", ReplyAction="http://tempuri.org/ISEnPA/ScheduleSiteVisitResponse")]
+        bool ScheduleSiteVisit(SEnPA.senpa.SiteVisit site);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/ScheduleSiteVisit", ReplyAction="http://tempuri.org/ISEnPA/ScheduleSiteVisitResponse")]
+        System.Threading.Tasks.Task<bool> ScheduleSiteVisitAsync(SEnPA.senpa.SiteVisit site);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/NotifySiteVisit", ReplyAction="http://tempuri.org/ISEnPA/NotifySiteVisitResponse")]
+        bool NotifySiteVisit(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/NotifySiteVisit", ReplyAction="http://tempuri.org/ISEnPA/NotifySiteVisitResponse")]
+        System.Threading.Tasks.Task<bool> NotifySiteVisitAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/ConfirmSiteVisit", ReplyAction="http://tempuri.org/ISEnPA/ConfirmSiteVisitResponse")]
+        bool ConfirmSiteVisit(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/ConfirmSiteVisit", ReplyAction="http://tempuri.org/ISEnPA/ConfirmSiteVisitResponse")]
+        System.Threading.Tasks.Task<bool> ConfirmSiteVisitAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetInvoices", ReplyAction="http://tempuri.org/ISEnPA/GetInvoicesResponse")]
+        SEnPA.senpa.Invoice[] GetInvoices(string filterText);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetInvoices", ReplyAction="http://tempuri.org/ISEnPA/GetInvoicesResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.Invoice[]> GetInvoicesAsync(string filterText);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetInvoice", ReplyAction="http://tempuri.org/ISEnPA/GetInvoiceResponse")]
+        SEnPA.senpa.Invoice GetInvoice(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetInvoice", ReplyAction="http://tempuri.org/ISEnPA/GetInvoiceResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.Invoice> GetInvoiceAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/PayInvoice", ReplyAction="http://tempuri.org/ISEnPA/PayInvoiceResponse")]
+        string PayInvoice(long Id, string currency, float amount, float change, int fK_PayBranchId, int fK_PaymentMethodId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/PayInvoice", ReplyAction="http://tempuri.org/ISEnPA/PayInvoiceResponse")]
+        System.Threading.Tasks.Task<string> PayInvoiceAsync(long Id, string currency, float amount, float change, int fK_PayBranchId, int fK_PaymentMethodId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetInvoiceItems", ReplyAction="http://tempuri.org/ISEnPA/GetInvoiceItemsResponse")]
+        SEnPA.senpa.InvoiceItem[] GetInvoiceItems(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetInvoiceItems", ReplyAction="http://tempuri.org/ISEnPA/GetInvoiceItemsResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.InvoiceItem[]> GetInvoiceItemsAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetRecommendedActions", ReplyAction="http://tempuri.org/ISEnPA/GetRecommendedActionsResponse")]
+        SEnPA.senpa.RecommendedAction[] GetRecommendedActions(long fK_RecommendationId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetRecommendedActions", ReplyAction="http://tempuri.org/ISEnPA/GetRecommendedActionsResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.RecommendedAction[]> GetRecommendedActionsAsync(long fK_RecommendationId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SaveRecommendedAction", ReplyAction="http://tempuri.org/ISEnPA/SaveRecommendedActionResponse")]
+        long SaveRecommendedAction(long fK_RecommendationId, int fK_StakeholderId, int fK_ActionId, string details, bool reminder, string status, string statusReason, bool active);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SaveRecommendedAction", ReplyAction="http://tempuri.org/ISEnPA/SaveRecommendedActionResponse")]
+        System.Threading.Tasks.Task<long> SaveRecommendedActionAsync(long fK_RecommendationId, int fK_StakeholderId, int fK_ActionId, string details, bool reminder, string status, string statusReason, bool active);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetRecommendedAction", ReplyAction="http://tempuri.org/ISEnPA/GetRecommendedActionResponse")]
+        SEnPA.senpa.RecommendedAction GetRecommendedAction(long fK_RecommendationId, int fK_StakeholderId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetRecommendedAction", ReplyAction="http://tempuri.org/ISEnPA/GetRecommendedActionResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.RecommendedAction> GetRecommendedActionAsync(long fK_RecommendationId, int fK_StakeholderId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CreateWorkflowRecommendations", ReplyAction="http://tempuri.org/ISEnPA/CreateWorkflowRecommendationsResponse")]
+        long CreateWorkflowRecommendations(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CreateWorkflowRecommendations", ReplyAction="http://tempuri.org/ISEnPA/CreateWorkflowRecommendationsResponse")]
+        System.Threading.Tasks.Task<long> CreateWorkflowRecommendationsAsync(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetCurrentWorkflowRecommendations", ReplyAction="http://tempuri.org/ISEnPA/GetCurrentWorkflowRecommendationsResponse")]
+        SEnPA.senpa.Recommendations GetCurrentWorkflowRecommendations(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetCurrentWorkflowRecommendations", ReplyAction="http://tempuri.org/ISEnPA/GetCurrentWorkflowRecommendationsResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.Recommendations> GetCurrentWorkflowRecommendationsAsync(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetResident", ReplyAction="http://tempuri.org/ISEnPA/GetResidentResponse")]
+        SEnPA.senpa.Resident GetResident(string nIN);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetResident", ReplyAction="http://tempuri.org/ISEnPA/GetResidentResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.Resident> GetResidentAsync(string nIN);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetBusiness", ReplyAction="http://tempuri.org/ISEnPA/GetBusinessResponse")]
+        SEnPA.senpa.Business GetBusiness(string bRN);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetBusiness", ReplyAction="http://tempuri.org/ISEnPA/GetBusinessResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.Business> GetBusinessAsync(string bRN);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetTrainingSessions", ReplyAction="http://tempuri.org/ISEnPA/GetTrainingSessionsResponse")]
+        SEnPA.senpa.TrainingSessionReport[] GetTrainingSessions(string filterText);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetTrainingSessions", ReplyAction="http://tempuri.org/ISEnPA/GetTrainingSessionsResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.TrainingSessionReport[]> GetTrainingSessionsAsync(string filterText);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetTrainingSession", ReplyAction="http://tempuri.org/ISEnPA/GetTrainingSessionResponse")]
+        SEnPA.senpa.TrainingSession GetTrainingSession(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetTrainingSession", ReplyAction="http://tempuri.org/ISEnPA/GetTrainingSessionResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.TrainingSession> GetTrainingSessionAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SaveTrainingRegistration", ReplyAction="http://tempuri.org/ISEnPA/SaveTrainingRegistrationResponse")]
+        long SaveTrainingRegistration(long fK_TrainingSessionId, long fK_BusinessRegistrationId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SaveTrainingRegistration", ReplyAction="http://tempuri.org/ISEnPA/SaveTrainingRegistrationResponse")]
+        System.Threading.Tasks.Task<long> SaveTrainingRegistrationAsync(long fK_TrainingSessionId, long fK_BusinessRegistrationId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetTrainingRegistrationReport", ReplyAction="http://tempuri.org/ISEnPA/GetTrainingRegistrationReportResponse")]
+        SEnPA.senpa.TrainingRegistrationReport[] GetTrainingRegistrationReport(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetTrainingRegistrationReport", ReplyAction="http://tempuri.org/ISEnPA/GetTrainingRegistrationReportResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.TrainingRegistrationReport[]> GetTrainingRegistrationReportAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/UpdateAttendance", ReplyAction="http://tempuri.org/ISEnPA/UpdateAttendanceResponse")]
+        bool UpdateAttendance(long fK_TrainingSessionId, long fK_BusinessRegistrationId, bool attended);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/UpdateAttendance", ReplyAction="http://tempuri.org/ISEnPA/UpdateAttendanceResponse")]
+        System.Threading.Tasks.Task<bool> UpdateAttendanceAsync(long fK_TrainingSessionId, long fK_BusinessRegistrationId, bool attended);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SaveTrainingSession", ReplyAction="http://tempuri.org/ISEnPA/SaveTrainingSessionResponse")]
+        long SaveTrainingSession(SEnPA.senpa.TrainingSession training);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SaveTrainingSession", ReplyAction="http://tempuri.org/ISEnPA/SaveTrainingSessionResponse")]
+        System.Threading.Tasks.Task<long> SaveTrainingSessionAsync(SEnPA.senpa.TrainingSession training);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetAttendedTrainingRegistrationReport", ReplyAction="http://tempuri.org/ISEnPA/GetAttendedTrainingRegistrationReportResponse")]
+        SEnPA.senpa.TrainingRegistrationReport[] GetAttendedTrainingRegistrationReport(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetAttendedTrainingRegistrationReport", ReplyAction="http://tempuri.org/ISEnPA/GetAttendedTrainingRegistrationReportResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.TrainingRegistrationReport[]> GetAttendedTrainingRegistrationReportAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CloseTraining", ReplyAction="http://tempuri.org/ISEnPA/CloseTrainingResponse")]
+        bool CloseTraining(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CloseTraining", ReplyAction="http://tempuri.org/ISEnPA/CloseTrainingResponse")]
+        System.Threading.Tasks.Task<bool> CloseTrainingAsync(long Id);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SendBasicEmail", ReplyAction="http://tempuri.org/ISEnPA/SendBasicEmailResponse")]
         bool SendBasicEmail(string to, string subject, string message);
@@ -3070,6 +10658,18 @@ namespace SEnPA.senpa {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetSMSs", ReplyAction="http://tempuri.org/ISEnPA/GetSMSsResponse")]
         System.Threading.Tasks.Task<SEnPA.senpa.SMS[]> GetSMSsAsync(string filterText);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/ClearEmails", ReplyAction="http://tempuri.org/ISEnPA/ClearEmailsResponse")]
+        bool ClearEmails();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/ClearEmails", ReplyAction="http://tempuri.org/ISEnPA/ClearEmailsResponse")]
+        System.Threading.Tasks.Task<bool> ClearEmailsAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/ClearSMSs", ReplyAction="http://tempuri.org/ISEnPA/ClearSMSsResponse")]
+        bool ClearSMSs();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/ClearSMSs", ReplyAction="http://tempuri.org/ISEnPA/ClearSMSsResponse")]
+        System.Threading.Tasks.Task<bool> ClearSMSsAsync();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetEmailMessageDesigns", ReplyAction="http://tempuri.org/ISEnPA/GetEmailMessageDesignsResponse")]
         SEnPA.senpa.EmailMessageDesign[] GetEmailMessageDesigns();
@@ -3131,17 +10731,199 @@ namespace SEnPA.senpa {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CheckCurrentStageDocumentRequirements", ReplyAction="http://tempuri.org/ISEnPA/CheckCurrentStageDocumentRequirementsResponse")]
         System.Threading.Tasks.Task<string> CheckCurrentStageDocumentRequirementsAsync(long Id, string entityType);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/UploadWorkFlowDocument", ReplyAction="http://tempuri.org/ISEnPA/UploadWorkFlowDocumentResponse")]
-        bool UploadWorkFlowDocument(long Id, string entityType, string fileName, byte[] fileData, int documentTypeId, long documentFolderId);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CheckCurrentStagePaymentRequirements", ReplyAction="http://tempuri.org/ISEnPA/CheckCurrentStagePaymentRequirementsResponse")]
+        bool CheckCurrentStagePaymentRequirements(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CheckCurrentStagePaymentRequirements", ReplyAction="http://tempuri.org/ISEnPA/CheckCurrentStagePaymentRequirementsResponse")]
+        System.Threading.Tasks.Task<bool> CheckCurrentStagePaymentRequirementsAsync(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CheckCurrentStageSiteVisitRequirements", ReplyAction="http://tempuri.org/ISEnPA/CheckCurrentStageSiteVisitRequirementsResponse")]
+        string CheckCurrentStageSiteVisitRequirements(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CheckCurrentStageSiteVisitRequirements", ReplyAction="http://tempuri.org/ISEnPA/CheckCurrentStageSiteVisitRequirementsResponse")]
+        System.Threading.Tasks.Task<string> CheckCurrentStageSiteVisitRequirementsAsync(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CheckCurrentStageRecommandationSiteVisitRequirements", ReplyAction="http://tempuri.org/ISEnPA/CheckCurrentStageRecommandationSiteVisitRequirementsRes" +
+            "ponse")]
+        string CheckCurrentStageRecommandationSiteVisitRequirements(long Id, string entityType, long recommendationId, int stakeholderId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CheckCurrentStageRecommandationSiteVisitRequirements", ReplyAction="http://tempuri.org/ISEnPA/CheckCurrentStageRecommandationSiteVisitRequirementsRes" +
+            "ponse")]
+        System.Threading.Tasks.Task<string> CheckCurrentStageRecommandationSiteVisitRequirementsAsync(long Id, string entityType, long recommendationId, int stakeholderId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CheckCurrentStageRecommendationsRequirements", ReplyAction="http://tempuri.org/ISEnPA/CheckCurrentStageRecommendationsRequirementsResponse")]
+        string CheckCurrentStageRecommendationsRequirements(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CheckCurrentStageRecommendationsRequirements", ReplyAction="http://tempuri.org/ISEnPA/CheckCurrentStageRecommendationsRequirementsResponse")]
+        System.Threading.Tasks.Task<string> CheckCurrentStageRecommendationsRequirementsAsync(long Id, string entityType);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/UploadWorkFlowDocument", ReplyAction="http://tempuri.org/ISEnPA/UploadWorkFlowDocumentResponse")]
-        System.Threading.Tasks.Task<bool> UploadWorkFlowDocumentAsync(long Id, string entityType, string fileName, byte[] fileData, int documentTypeId, long documentFolderId);
+        bool UploadWorkFlowDocument(long Id, string entityType, string fileName, byte[] fileData, int documentTypeId, long documentFolderId, bool businessAssesment);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/UploadWorkFlowDocument", ReplyAction="http://tempuri.org/ISEnPA/UploadWorkFlowDocumentResponse")]
+        System.Threading.Tasks.Task<bool> UploadWorkFlowDocumentAsync(long Id, string entityType, string fileName, byte[] fileData, int documentTypeId, long documentFolderId, bool businessAssesment);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetWorkFlowDocuments", ReplyAction="http://tempuri.org/ISEnPA/GetWorkFlowDocumentsResponse")]
         SEnPA.senpa.DocumentLibrary[] GetWorkFlowDocuments(long Id, string entityType);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetWorkFlowDocuments", ReplyAction="http://tempuri.org/ISEnPA/GetWorkFlowDocumentsResponse")]
         System.Threading.Tasks.Task<SEnPA.senpa.DocumentLibrary[]> GetWorkFlowDocumentsAsync(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetWorkFlow", ReplyAction="http://tempuri.org/ISEnPA/GetWorkFlowResponse")]
+        SEnPA.senpa.WorkFlows GetWorkFlow(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetWorkFlow", ReplyAction="http://tempuri.org/ISEnPA/GetWorkFlowResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.WorkFlows> GetWorkFlowAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/UpdateWorkFlow", ReplyAction="http://tempuri.org/ISEnPA/UpdateWorkFlowResponse")]
+        bool UpdateWorkFlow(SEnPA.senpa.WorkFlows wrkFlow);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/UpdateWorkFlow", ReplyAction="http://tempuri.org/ISEnPA/UpdateWorkFlowResponse")]
+        System.Threading.Tasks.Task<bool> UpdateWorkFlowAsync(SEnPA.senpa.WorkFlows wrkFlow);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CreateWorkFlow", ReplyAction="http://tempuri.org/ISEnPA/CreateWorkFlowResponse")]
+        long CreateWorkFlow(string workFlowName, string workFlowDescription, long startRoleGroupId, long endRoleGroupId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CreateWorkFlow", ReplyAction="http://tempuri.org/ISEnPA/CreateWorkFlowResponse")]
+        System.Threading.Tasks.Task<long> CreateWorkFlowAsync(string workFlowName, string workFlowDescription, long startRoleGroupId, long endRoleGroupId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetWorkFlows", ReplyAction="http://tempuri.org/ISEnPA/GetWorkFlowsResponse")]
+        SEnPA.senpa.WorkFlows[] GetWorkFlows();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetWorkFlows", ReplyAction="http://tempuri.org/ISEnPA/GetWorkFlowsResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.WorkFlows[]> GetWorkFlowsAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetWorkFlowStage", ReplyAction="http://tempuri.org/ISEnPA/GetWorkFlowStageResponse")]
+        SEnPA.senpa.WorkFlowStages GetWorkFlowStage(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetWorkFlowStage", ReplyAction="http://tempuri.org/ISEnPA/GetWorkFlowStageResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.WorkFlowStages> GetWorkFlowStageAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetDocumentWorkFlowStage", ReplyAction="http://tempuri.org/ISEnPA/GetDocumentWorkFlowStageResponse")]
+        SEnPA.senpa.WorkFlowStages GetDocumentWorkFlowStage(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetDocumentWorkFlowStage", ReplyAction="http://tempuri.org/ISEnPA/GetDocumentWorkFlowStageResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.WorkFlowStages> GetDocumentWorkFlowStageAsync(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/UpdateWorkFlowStageRecord", ReplyAction="http://tempuri.org/ISEnPA/UpdateWorkFlowStageRecordResponse")]
+        bool UpdateWorkFlowStageRecord(SEnPA.senpa.WorkFlowStages wrkFlow);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/UpdateWorkFlowStageRecord", ReplyAction="http://tempuri.org/ISEnPA/UpdateWorkFlowStageRecordResponse")]
+        System.Threading.Tasks.Task<bool> UpdateWorkFlowStageRecordAsync(SEnPA.senpa.WorkFlowStages wrkFlow);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CreateWorkFlowStage", ReplyAction="http://tempuri.org/ISEnPA/CreateWorkFlowStageResponse")]
+        long CreateWorkFlowStage(long workFlowId, int stagePosition, string stageName, string stageDescription, long roleGroupId, int stageAssignMode, bool stageOptional, bool requireDocuments, bool requirePayment, bool requireSiteVisit, bool requireRecommendations, string fK_AutoDocumentName, int sendEmail, int sendSMS);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CreateWorkFlowStage", ReplyAction="http://tempuri.org/ISEnPA/CreateWorkFlowStageResponse")]
+        System.Threading.Tasks.Task<long> CreateWorkFlowStageAsync(long workFlowId, int stagePosition, string stageName, string stageDescription, long roleGroupId, int stageAssignMode, bool stageOptional, bool requireDocuments, bool requirePayment, bool requireSiteVisit, bool requireRecommendations, string fK_AutoDocumentName, int sendEmail, int sendSMS);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetWorkFlowStages", ReplyAction="http://tempuri.org/ISEnPA/GetWorkFlowStagesResponse")]
+        SEnPA.senpa.WorkFlowStages[] GetWorkFlowStages(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetWorkFlowStages", ReplyAction="http://tempuri.org/ISEnPA/GetWorkFlowStagesResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.WorkFlowStages[]> GetWorkFlowStagesAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetWorkFlowStageDocument", ReplyAction="http://tempuri.org/ISEnPA/GetWorkFlowStageDocumentResponse")]
+        SEnPA.senpa.WorkFlowStageDocuments GetWorkFlowStageDocument(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetWorkFlowStageDocument", ReplyAction="http://tempuri.org/ISEnPA/GetWorkFlowStageDocumentResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.WorkFlowStageDocuments> GetWorkFlowStageDocumentAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/UpdateWorkFlowStageDocument", ReplyAction="http://tempuri.org/ISEnPA/UpdateWorkFlowStageDocumentResponse")]
+        bool UpdateWorkFlowStageDocument(SEnPA.senpa.WorkFlowStageDocuments wrkFlow);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/UpdateWorkFlowStageDocument", ReplyAction="http://tempuri.org/ISEnPA/UpdateWorkFlowStageDocumentResponse")]
+        System.Threading.Tasks.Task<bool> UpdateWorkFlowStageDocumentAsync(SEnPA.senpa.WorkFlowStageDocuments wrkFlow);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CreateWorkFlowStageDocument", ReplyAction="http://tempuri.org/ISEnPA/CreateWorkFlowStageDocumentResponse")]
+        bool CreateWorkFlowStageDocument(long stageId, int documentTypeId, bool documentRequired);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CreateWorkFlowStageDocument", ReplyAction="http://tempuri.org/ISEnPA/CreateWorkFlowStageDocumentResponse")]
+        System.Threading.Tasks.Task<bool> CreateWorkFlowStageDocumentAsync(long stageId, int documentTypeId, bool documentRequired);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetWorkFlowStageDocuments", ReplyAction="http://tempuri.org/ISEnPA/GetWorkFlowStageDocumentsResponse")]
+        SEnPA.senpa.WorkFlowStageDocuments[] GetWorkFlowStageDocuments(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetWorkFlowStageDocuments", ReplyAction="http://tempuri.org/ISEnPA/GetWorkFlowStageDocumentsResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.WorkFlowStageDocuments[]> GetWorkFlowStageDocumentsAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetWorkFlowProgress", ReplyAction="http://tempuri.org/ISEnPA/GetWorkFlowProgressResponse")]
+        SEnPA.senpa.DocumentWorkFlowProgress[] GetWorkFlowProgress(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetWorkFlowProgress", ReplyAction="http://tempuri.org/ISEnPA/GetWorkFlowProgressResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.DocumentWorkFlowProgress[]> GetWorkFlowProgressAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetDocumentsRequiredStatus", ReplyAction="http://tempuri.org/ISEnPA/GetDocumentsRequiredStatusResponse")]
+        SEnPA.senpa.WorkFlowStageDocumentStatus[] GetDocumentsRequiredStatus(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetDocumentsRequiredStatus", ReplyAction="http://tempuri.org/ISEnPA/GetDocumentsRequiredStatusResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.WorkFlowStageDocumentStatus[]> GetDocumentsRequiredStatusAsync(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CheckAccessToStage", ReplyAction="http://tempuri.org/ISEnPA/CheckAccessToStageResponse")]
+        bool CheckAccessToStage(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CheckAccessToStage", ReplyAction="http://tempuri.org/ISEnPA/CheckAccessToStageResponse")]
+        System.Threading.Tasks.Task<bool> CheckAccessToStageAsync(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetAllRequiredDocuments", ReplyAction="http://tempuri.org/ISEnPA/GetAllRequiredDocumentsResponse")]
+        SEnPA.senpa.WorkFlowStageDocumentStatus[] GetAllRequiredDocuments(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetAllRequiredDocuments", ReplyAction="http://tempuri.org/ISEnPA/GetAllRequiredDocumentsResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.WorkFlowStageDocumentStatus[]> GetAllRequiredDocumentsAsync(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetValidationsList", ReplyAction="http://tempuri.org/ISEnPA/GetValidationsListResponse")]
+        SEnPA.senpa.WorkFlowFieldValidations[] GetValidationsList(string docType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetValidationsList", ReplyAction="http://tempuri.org/ISEnPA/GetValidationsListResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.WorkFlowFieldValidations[]> GetValidationsListAsync(string docType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetFeeRulesList", ReplyAction="http://tempuri.org/ISEnPA/GetFeeRulesListResponse")]
+        SEnPA.senpa.FeeRules[] GetFeeRulesList(string docType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetFeeRulesList", ReplyAction="http://tempuri.org/ISEnPA/GetFeeRulesListResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.FeeRules[]> GetFeeRulesListAsync(string docType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SkipOptionalStage", ReplyAction="http://tempuri.org/ISEnPA/SkipOptionalStageResponse")]
+        bool SkipOptionalStage(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SkipOptionalStage", ReplyAction="http://tempuri.org/ISEnPA/SkipOptionalStageResponse")]
+        System.Threading.Tasks.Task<bool> SkipOptionalStageAsync(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/ReverseStage", ReplyAction="http://tempuri.org/ISEnPA/ReverseStageResponse")]
+        bool ReverseStage(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/ReverseStage", ReplyAction="http://tempuri.org/ISEnPA/ReverseStageResponse")]
+        System.Threading.Tasks.Task<bool> ReverseStageAsync(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetWorkFlowStagesAutoDocuments", ReplyAction="http://tempuri.org/ISEnPA/GetWorkFlowStagesAutoDocumentsResponse")]
+        SEnPA.senpa.WorkFlowStagesAutoDocuments[] GetWorkFlowStagesAutoDocuments(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetWorkFlowStagesAutoDocuments", ReplyAction="http://tempuri.org/ISEnPA/GetWorkFlowStagesAutoDocumentsResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.WorkFlowStagesAutoDocuments[]> GetWorkFlowStagesAutoDocumentsAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CreateWorkFlowStagesAutoDocument", ReplyAction="http://tempuri.org/ISEnPA/CreateWorkFlowStagesAutoDocumentResponse")]
+        long CreateWorkFlowStagesAutoDocument(long workFlowStageId, string fK_AutoDocumentName, int sendEmail, int sendSMS, bool active);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CreateWorkFlowStagesAutoDocument", ReplyAction="http://tempuri.org/ISEnPA/CreateWorkFlowStagesAutoDocumentResponse")]
+        System.Threading.Tasks.Task<long> CreateWorkFlowStagesAutoDocumentAsync(long workFlowStageId, string fK_AutoDocumentName, int sendEmail, int sendSMS, bool active);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetWorkFlowStagesAutoDocument", ReplyAction="http://tempuri.org/ISEnPA/GetWorkFlowStagesAutoDocumentResponse")]
+        SEnPA.senpa.WorkFlowStagesAutoDocuments GetWorkFlowStagesAutoDocument(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetWorkFlowStagesAutoDocument", ReplyAction="http://tempuri.org/ISEnPA/GetWorkFlowStagesAutoDocumentResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.WorkFlowStagesAutoDocuments> GetWorkFlowStagesAutoDocumentAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SwitchStages", ReplyAction="http://tempuri.org/ISEnPA/SwitchStagesResponse")]
+        bool SwitchStages(long IdUp, long IdDown);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SwitchStages", ReplyAction="http://tempuri.org/ISEnPA/SwitchStagesResponse")]
+        System.Threading.Tasks.Task<bool> SwitchStagesAsync(long IdUp, long IdDown);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/DeleteStage", ReplyAction="http://tempuri.org/ISEnPA/DeleteStageResponse")]
+        bool DeleteStage(long workId, long delId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/DeleteStage", ReplyAction="http://tempuri.org/ISEnPA/DeleteStageResponse")]
+        System.Threading.Tasks.Task<bool> DeleteStageAsync(long workId, long delId);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/UploadDocument", ReplyAction="http://tempuri.org/ISEnPA/UploadDocumentResponse")]
         bool UploadDocument(long Id, string fileName, byte[] fileData, int documentTypeId, long documentFolderId);
@@ -3160,6 +10942,12 @@ namespace SEnPA.senpa {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetFolderDocuments", ReplyAction="http://tempuri.org/ISEnPA/GetFolderDocumentsResponse")]
         System.Threading.Tasks.Task<SEnPA.senpa.DocumentLibrary[]> GetFolderDocumentsAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetRegistrationsFolderDocuments", ReplyAction="http://tempuri.org/ISEnPA/GetRegistrationsFolderDocumentsResponse")]
+        SEnPA.senpa.DocumentLibrary[] GetRegistrationsFolderDocuments(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetRegistrationsFolderDocuments", ReplyAction="http://tempuri.org/ISEnPA/GetRegistrationsFolderDocumentsResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.DocumentLibrary[]> GetRegistrationsFolderDocumentsAsync(long Id);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetDocument", ReplyAction="http://tempuri.org/ISEnPA/GetDocumentResponse")]
         SEnPA.senpa.DocumentLibrary GetDocument(long Id);
@@ -3197,6 +10985,12 @@ namespace SEnPA.senpa {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SearchDocuments", ReplyAction="http://tempuri.org/ISEnPA/SearchDocumentsResponse")]
         System.Threading.Tasks.Task<SEnPA.senpa.DocumentLibrary[]> SearchDocumentsAsync(long Id, string filterText);
         
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SearchRegistrationDocuments", ReplyAction="http://tempuri.org/ISEnPA/SearchRegistrationDocumentsResponse")]
+        SEnPA.senpa.DocumentLibrary[] SearchRegistrationDocuments(long Id, string filterText);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SearchRegistrationDocuments", ReplyAction="http://tempuri.org/ISEnPA/SearchRegistrationDocumentsResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.DocumentLibrary[]> SearchRegistrationDocumentsAsync(long Id, string filterText);
+        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetFolderName", ReplyAction="http://tempuri.org/ISEnPA/GetFolderNameResponse")]
         string GetFolderName(long Id);
         
@@ -3221,18 +11015,6 @@ namespace SEnPA.senpa {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SaveRegistrationRequest", ReplyAction="http://tempuri.org/ISEnPA/SaveRegistrationRequestResponse")]
         System.Threading.Tasks.Task<long> SaveRegistrationRequestAsync(SEnPA.senpa.RegistrationRequest registration);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetPickList", ReplyAction="http://tempuri.org/ISEnPA/GetPickListResponse")]
-        SEnPA.senpa.PickList[] GetPickList(string type);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetPickList", ReplyAction="http://tempuri.org/ISEnPA/GetPickListResponse")]
-        System.Threading.Tasks.Task<SEnPA.senpa.PickList[]> GetPickListAsync(string type);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetUserPickList", ReplyAction="http://tempuri.org/ISEnPA/GetUserPickListResponse")]
-        SEnPA.senpa.PickList[] GetUserPickList(string groupType);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetUserPickList", ReplyAction="http://tempuri.org/ISEnPA/GetUserPickListResponse")]
-        System.Threading.Tasks.Task<SEnPA.senpa.PickList[]> GetUserPickListAsync(string groupType);
-        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetRegistrationRequests", ReplyAction="http://tempuri.org/ISEnPA/GetRegistrationRequestsResponse")]
         SEnPA.senpa.RegistrationRequest[] GetRegistrationRequests(string filterText);
         
@@ -3244,6 +11026,384 @@ namespace SEnPA.senpa {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetRegistrationRequest", ReplyAction="http://tempuri.org/ISEnPA/GetRegistrationRequestResponse")]
         System.Threading.Tasks.Task<SEnPA.senpa.RegistrationRequest> GetRegistrationRequestAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/RegisterBusiness", ReplyAction="http://tempuri.org/ISEnPA/RegisterBusinessResponse")]
+        long RegisterBusiness(long registrationRequestId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/RegisterBusiness", ReplyAction="http://tempuri.org/ISEnPA/RegisterBusinessResponse")]
+        System.Threading.Tasks.Task<long> RegisterBusinessAsync(long registrationRequestId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetBusinessRegistrations", ReplyAction="http://tempuri.org/ISEnPA/GetBusinessRegistrationsResponse")]
+        SEnPA.senpa.BusinessRegistration[] GetBusinessRegistrations(string filterText);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetBusinessRegistrations", ReplyAction="http://tempuri.org/ISEnPA/GetBusinessRegistrationsResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.BusinessRegistration[]> GetBusinessRegistrationsAsync(string filterText);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetBusinessRegistration", ReplyAction="http://tempuri.org/ISEnPA/GetBusinessRegistrationResponse")]
+        SEnPA.senpa.BusinessRegistration GetBusinessRegistration(long Id, bool regNo);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetBusinessRegistration", ReplyAction="http://tempuri.org/ISEnPA/GetBusinessRegistrationResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.BusinessRegistration> GetBusinessRegistrationAsync(long Id, bool regNo);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SaveRenewalRequest", ReplyAction="http://tempuri.org/ISEnPA/SaveRenewalRequestResponse")]
+        long SaveRenewalRequest(SEnPA.senpa.RenewalRequest registration);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SaveRenewalRequest", ReplyAction="http://tempuri.org/ISEnPA/SaveRenewalRequestResponse")]
+        System.Threading.Tasks.Task<long> SaveRenewalRequestAsync(SEnPA.senpa.RenewalRequest registration);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetRenewalRequests", ReplyAction="http://tempuri.org/ISEnPA/GetRenewalRequestsResponse")]
+        SEnPA.senpa.RenewalRequest[] GetRenewalRequests(string filterText);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetRenewalRequests", ReplyAction="http://tempuri.org/ISEnPA/GetRenewalRequestsResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.RenewalRequest[]> GetRenewalRequestsAsync(string filterText);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetRenewalRequest", ReplyAction="http://tempuri.org/ISEnPA/GetRenewalRequestResponse")]
+        SEnPA.senpa.RenewalRequest GetRenewalRequest(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetRenewalRequest", ReplyAction="http://tempuri.org/ISEnPA/GetRenewalRequestResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.RenewalRequest> GetRenewalRequestAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetCurrentRenewalID", ReplyAction="http://tempuri.org/ISEnPA/GetCurrentRenewalIDResponse")]
+        long GetCurrentRenewalID(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetCurrentRenewalID", ReplyAction="http://tempuri.org/ISEnPA/GetCurrentRenewalIDResponse")]
+        System.Threading.Tasks.Task<long> GetCurrentRenewalIDAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CheckAutoDocument", ReplyAction="http://tempuri.org/ISEnPA/CheckAutoDocumentResponse")]
+        SEnPA.senpa.AutoDocument[] CheckAutoDocument(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CheckAutoDocument", ReplyAction="http://tempuri.org/ISEnPA/CheckAutoDocumentResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.AutoDocument[]> CheckAutoDocumentAsync(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetAutoDocument", ReplyAction="http://tempuri.org/ISEnPA/GetAutoDocumentResponse")]
+        byte[] GetAutoDocument(string docType, long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetAutoDocument", ReplyAction="http://tempuri.org/ISEnPA/GetAutoDocumentResponse")]
+        System.Threading.Tasks.Task<byte[]> GetAutoDocumentAsync(string docType, long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CheckCertificate", ReplyAction="http://tempuri.org/ISEnPA/CheckCertificateResponse")]
+        int CheckCertificate(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CheckCertificate", ReplyAction="http://tempuri.org/ISEnPA/CheckCertificateResponse")]
+        System.Threading.Tasks.Task<int> CheckCertificateAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/IssueCertificate", ReplyAction="http://tempuri.org/ISEnPA/IssueCertificateResponse")]
+        bool IssueCertificate(long Id, long renewalId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/IssueCertificate", ReplyAction="http://tempuri.org/ISEnPA/IssueCertificateResponse")]
+        System.Threading.Tasks.Task<bool> IssueCertificateAsync(long Id, long renewalId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetCertificateDetails", ReplyAction="http://tempuri.org/ISEnPA/GetCertificateDetailsResponse")]
+        SEnPA.senpa.CottageCertificate GetCertificateDetails(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetCertificateDetails", ReplyAction="http://tempuri.org/ISEnPA/GetCertificateDetailsResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.CottageCertificate> GetCertificateDetailsAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/LastRenewalId", ReplyAction="http://tempuri.org/ISEnPA/LastRenewalIdResponse")]
+        long LastRenewalId(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/LastRenewalId", ReplyAction="http://tempuri.org/ISEnPA/LastRenewalIdResponse")]
+        System.Threading.Tasks.Task<long> LastRenewalIdAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SetRenewal", ReplyAction="http://tempuri.org/ISEnPA/SetRenewalResponse")]
+        bool SetRenewal(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SetRenewal", ReplyAction="http://tempuri.org/ISEnPA/SetRenewalResponse")]
+        System.Threading.Tasks.Task<bool> SetRenewalAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetCertificates", ReplyAction="http://tempuri.org/ISEnPA/GetCertificatesResponse")]
+        SEnPA.senpa.CottageCertificate[] GetCertificates(string filterText);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetCertificates", ReplyAction="http://tempuri.org/ISEnPA/GetCertificatesResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.CottageCertificate[]> GetCertificatesAsync(string filterText);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/UpdatePeriod", ReplyAction="http://tempuri.org/ISEnPA/UpdatePeriodResponse")]
+        bool UpdatePeriod(long id, System.DateTime lastRenewalDate, System.DateTime nextRenewalDate);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/UpdatePeriod", ReplyAction="http://tempuri.org/ISEnPA/UpdatePeriodResponse")]
+        System.Threading.Tasks.Task<bool> UpdatePeriodAsync(long id, System.DateTime lastRenewalDate, System.DateTime nextRenewalDate);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CheckTrainingAutoDocument", ReplyAction="http://tempuri.org/ISEnPA/CheckTrainingAutoDocumentResponse")]
+        SEnPA.senpa.AutoDocument[] CheckTrainingAutoDocument(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CheckTrainingAutoDocument", ReplyAction="http://tempuri.org/ISEnPA/CheckTrainingAutoDocumentResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.AutoDocument[]> CheckTrainingAutoDocumentAsync(long Id, string entityType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetActiveBusinessRenewals", ReplyAction="http://tempuri.org/ISEnPA/GetActiveBusinessRenewalsResponse")]
+        SEnPA.senpa.ActiveRenewalRequest[] GetActiveBusinessRenewals(string filterText);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetActiveBusinessRenewals", ReplyAction="http://tempuri.org/ISEnPA/GetActiveBusinessRenewalsResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.ActiveRenewalRequest[]> GetActiveBusinessRenewalsAsync(string filterText);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetQuickStats", ReplyAction="http://tempuri.org/ISEnPA/GetQuickStatsResponse")]
+        SEnPA.senpa.QuickStats GetQuickStats();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetQuickStats", ReplyAction="http://tempuri.org/ISEnPA/GetQuickStatsResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.QuickStats> GetQuickStatsAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CheckNotifications", ReplyAction="http://tempuri.org/ISEnPA/CheckNotificationsResponse")]
+        SEnPA.senpa.Notifications[] CheckNotifications(string filterText, bool pending);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/CheckNotifications", ReplyAction="http://tempuri.org/ISEnPA/CheckNotificationsResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.Notifications[]> CheckNotificationsAsync(string filterText, bool pending);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/UpdateNotifications", ReplyAction="http://tempuri.org/ISEnPA/UpdateNotificationsResponse")]
+        bool UpdateNotifications(long Id, bool status);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/UpdateNotifications", ReplyAction="http://tempuri.org/ISEnPA/UpdateNotificationsResponse")]
+        System.Threading.Tasks.Task<bool> UpdateNotificationsAsync(long Id, bool status);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetPickList", ReplyAction="http://tempuri.org/ISEnPA/GetPickListResponse")]
+        SEnPA.senpa.PickList[] GetPickList(string type);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetPickList", ReplyAction="http://tempuri.org/ISEnPA/GetPickListResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.PickList[]> GetPickListAsync(string type);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetChildPickList", ReplyAction="http://tempuri.org/ISEnPA/GetChildPickListResponse")]
+        SEnPA.senpa.PickList[] GetChildPickList(string type, int parentId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetChildPickList", ReplyAction="http://tempuri.org/ISEnPA/GetChildPickListResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.PickList[]> GetChildPickListAsync(string type, int parentId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetUserPickList", ReplyAction="http://tempuri.org/ISEnPA/GetUserPickListResponse")]
+        SEnPA.senpa.PickList[] GetUserPickList(string groupType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetUserPickList", ReplyAction="http://tempuri.org/ISEnPA/GetUserPickListResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.PickList[]> GetUserPickListAsync(string groupType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetEntityName", ReplyAction="http://tempuri.org/ISEnPA/GetEntityNameResponse")]
+        string GetEntityName(long Id, string type);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetEntityName", ReplyAction="http://tempuri.org/ISEnPA/GetEntityNameResponse")]
+        System.Threading.Tasks.Task<string> GetEntityNameAsync(long Id, string type);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetDocumentTypeName", ReplyAction="http://tempuri.org/ISEnPA/GetDocumentTypeNameResponse")]
+        string GetDocumentTypeName(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetDocumentTypeName", ReplyAction="http://tempuri.org/ISEnPA/GetDocumentTypeNameResponse")]
+        System.Threading.Tasks.Task<string> GetDocumentTypeNameAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetReferenceTableItems", ReplyAction="http://tempuri.org/ISEnPA/GetReferenceTableItemsResponse")]
+        SEnPA.senpa.ReferenceTable[] GetReferenceTableItems(string type);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetReferenceTableItems", ReplyAction="http://tempuri.org/ISEnPA/GetReferenceTableItemsResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.ReferenceTable[]> GetReferenceTableItemsAsync(string type);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SaveReferenceTable", ReplyAction="http://tempuri.org/ISEnPA/SaveReferenceTableResponse")]
+        bool SaveReferenceTable(string name, string description, bool active, string type, int fK_ParentId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SaveReferenceTable", ReplyAction="http://tempuri.org/ISEnPA/SaveReferenceTableResponse")]
+        System.Threading.Tasks.Task<bool> SaveReferenceTableAsync(string name, string description, bool active, string type, int fK_ParentId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetReferenceTableItem", ReplyAction="http://tempuri.org/ISEnPA/GetReferenceTableItemResponse")]
+        SEnPA.senpa.ReferenceTable GetReferenceTableItem(long Id, string type);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetReferenceTableItem", ReplyAction="http://tempuri.org/ISEnPA/GetReferenceTableItemResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.ReferenceTable> GetReferenceTableItemAsync(long Id, string type);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetReferenceTableItemByName", ReplyAction="http://tempuri.org/ISEnPA/GetReferenceTableItemByNameResponse")]
+        SEnPA.senpa.ReferenceTable GetReferenceTableItemByName(string name, string type);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetReferenceTableItemByName", ReplyAction="http://tempuri.org/ISEnPA/GetReferenceTableItemByNameResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.ReferenceTable> GetReferenceTableItemByNameAsync(string name, string type);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetStakeholders", ReplyAction="http://tempuri.org/ISEnPA/GetStakeholdersResponse")]
+        SEnPA.senpa.Stakeholder[] GetStakeholders();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetStakeholders", ReplyAction="http://tempuri.org/ISEnPA/GetStakeholdersResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.Stakeholder[]> GetStakeholdersAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SaveStakeholder", ReplyAction="http://tempuri.org/ISEnPA/SaveStakeholderResponse")]
+        long SaveStakeholder(string name, string description, string mobile, string email, bool active);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SaveStakeholder", ReplyAction="http://tempuri.org/ISEnPA/SaveStakeholderResponse")]
+        System.Threading.Tasks.Task<long> SaveStakeholderAsync(string name, string description, string mobile, string email, bool active);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetStakeholder", ReplyAction="http://tempuri.org/ISEnPA/GetStakeholderResponse")]
+        SEnPA.senpa.Stakeholder GetStakeholder(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetStakeholder", ReplyAction="http://tempuri.org/ISEnPA/GetStakeholderResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.Stakeholder> GetStakeholderAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetBusinessTypeStakeholders", ReplyAction="http://tempuri.org/ISEnPA/GetBusinessTypeStakeholdersResponse")]
+        SEnPA.senpa.Stakeholder[] GetBusinessTypeStakeholders(int businessTypeId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetBusinessTypeStakeholders", ReplyAction="http://tempuri.org/ISEnPA/GetBusinessTypeStakeholdersResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.Stakeholder[]> GetBusinessTypeStakeholdersAsync(int businessTypeId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SaveBusinessTypeStakeholder", ReplyAction="http://tempuri.org/ISEnPA/SaveBusinessTypeStakeholderResponse")]
+        bool SaveBusinessTypeStakeholder(int fK_BusinessTypeId, int fK_StakeholderId, bool stakeholderRequired);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SaveBusinessTypeStakeholder", ReplyAction="http://tempuri.org/ISEnPA/SaveBusinessTypeStakeholderResponse")]
+        System.Threading.Tasks.Task<bool> SaveBusinessTypeStakeholderAsync(int fK_BusinessTypeId, int fK_StakeholderId, bool stakeholderRequired);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetBusinessTypeStakeholder", ReplyAction="http://tempuri.org/ISEnPA/GetBusinessTypeStakeholderResponse")]
+        SEnPA.senpa.BusinessTypeStakeholder GetBusinessTypeStakeholder(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetBusinessTypeStakeholder", ReplyAction="http://tempuri.org/ISEnPA/GetBusinessTypeStakeholderResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.BusinessTypeStakeholder> GetBusinessTypeStakeholderAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetStakeholderBusinessTypes", ReplyAction="http://tempuri.org/ISEnPA/GetStakeholderBusinessTypesResponse")]
+        SEnPA.senpa.ReferenceTable[] GetStakeholderBusinessTypes(int stakeholderId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetStakeholderBusinessTypes", ReplyAction="http://tempuri.org/ISEnPA/GetStakeholderBusinessTypesResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.ReferenceTable[]> GetStakeholderBusinessTypesAsync(int stakeholderId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/RemoveBusinessTypeStakeholder", ReplyAction="http://tempuri.org/ISEnPA/RemoveBusinessTypeStakeholderResponse")]
+        bool RemoveBusinessTypeStakeholder(int fK_BusinessTypeId, int fK_StakeholderId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/RemoveBusinessTypeStakeholder", ReplyAction="http://tempuri.org/ISEnPA/RemoveBusinessTypeStakeholderResponse")]
+        System.Threading.Tasks.Task<bool> RemoveBusinessTypeStakeholderAsync(int fK_BusinessTypeId, int fK_StakeholderId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetAutoDocumentsDesign", ReplyAction="http://tempuri.org/ISEnPA/GetAutoDocumentsDesignResponse")]
+        SEnPA.senpa.AutoDocumentsDesign GetAutoDocumentsDesign(string name);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetAutoDocumentsDesign", ReplyAction="http://tempuri.org/ISEnPA/GetAutoDocumentsDesignResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.AutoDocumentsDesign> GetAutoDocumentsDesignAsync(string name);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetAutoDocumentsDesigns", ReplyAction="http://tempuri.org/ISEnPA/GetAutoDocumentsDesignsResponse")]
+        SEnPA.senpa.AutoDocumentsDesign[] GetAutoDocumentsDesigns();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetAutoDocumentsDesigns", ReplyAction="http://tempuri.org/ISEnPA/GetAutoDocumentsDesignsResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.AutoDocumentsDesign[]> GetAutoDocumentsDesignsAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SaveAutoDocumentsDesign", ReplyAction="http://tempuri.org/ISEnPA/SaveAutoDocumentsDesignResponse")]
+        bool SaveAutoDocumentsDesign(string documentName, string documentDesignSMS, string documentDesign, string emailSubject, bool sms, bool email);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SaveAutoDocumentsDesign", ReplyAction="http://tempuri.org/ISEnPA/SaveAutoDocumentsDesignResponse")]
+        System.Threading.Tasks.Task<bool> SaveAutoDocumentsDesignAsync(string documentName, string documentDesignSMS, string documentDesign, string emailSubject, bool sms, bool email);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetValidation", ReplyAction="http://tempuri.org/ISEnPA/GetValidationResponse")]
+        SEnPA.senpa.WorkFlowFieldValidations GetValidation(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetValidation", ReplyAction="http://tempuri.org/ISEnPA/GetValidationResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.WorkFlowFieldValidations> GetValidationAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SaveValidation", ReplyAction="http://tempuri.org/ISEnPA/SaveValidationResponse")]
+        long SaveValidation(long id, string documentType, string parameterField, string parameterDataType, string parameterFieldName, string parameterValue, string parameterMaxValue, string parameterEvaluationType, bool active);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SaveValidation", ReplyAction="http://tempuri.org/ISEnPA/SaveValidationResponse")]
+        System.Threading.Tasks.Task<long> SaveValidationAsync(long id, string documentType, string parameterField, string parameterDataType, string parameterFieldName, string parameterValue, string parameterMaxValue, string parameterEvaluationType, bool active);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetFeeRule", ReplyAction="http://tempuri.org/ISEnPA/GetFeeRuleResponse")]
+        SEnPA.senpa.FeeRules GetFeeRule(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetFeeRule", ReplyAction="http://tempuri.org/ISEnPA/GetFeeRuleResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.FeeRules> GetFeeRuleAsync(long Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SaveFeeRule", ReplyAction="http://tempuri.org/ISEnPA/SaveFeeRuleResponse")]
+        long SaveFeeRule(int id, string ruleName, string ruleType, string ruleField, string ruleExecutionType, string ruleExecutionValue, string ruleEvaluationField, string ruleEvaluationDataType, string ruleEvaluationType, string ruleEvaluationValue, string ruleEvaluationMaxValue, bool active);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/SaveFeeRule", ReplyAction="http://tempuri.org/ISEnPA/SaveFeeRuleResponse")]
+        System.Threading.Tasks.Task<long> SaveFeeRuleAsync(int id, string ruleName, string ruleType, string ruleField, string ruleExecutionType, string ruleExecutionValue, string ruleEvaluationField, string ruleEvaluationDataType, string ruleEvaluationType, string ruleEvaluationValue, string ruleEvaluationMaxValue, bool active);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/Signout", ReplyAction="http://tempuri.org/ISEnPA/SignoutResponse")]
+        SEnPA.senpa.SignoutResponse Signout(string username);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/Signout", ReplyAction="http://tempuri.org/ISEnPA/SignoutResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.SignoutResponse> SignoutAsync(string username);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/ChangePassword", ReplyAction="http://tempuri.org/ISEnPA/ChangePasswordResponse")]
+        SEnPA.senpa.PasswordChangeResponse ChangePassword(string username, string oldPassword, string newPassword);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/ChangePassword", ReplyAction="http://tempuri.org/ISEnPA/ChangePasswordResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.PasswordChangeResponse> ChangePasswordAsync(string username, string oldPassword, string newPassword);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/AddRole", ReplyAction="http://tempuri.org/ISEnPA/AddRoleResponse")]
+        SEnPA.senpa.UserRoleActionResponse AddRole(string username, string userRole);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/AddRole", ReplyAction="http://tempuri.org/ISEnPA/AddRoleResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.UserRoleActionResponse> AddRoleAsync(string username, string userRole);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/RemoveRole", ReplyAction="http://tempuri.org/ISEnPA/RemoveRoleResponse")]
+        SEnPA.senpa.UserRoleActionResponse RemoveRole(string username, string userRole);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/RemoveRole", ReplyAction="http://tempuri.org/ISEnPA/RemoveRoleResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.UserRoleActionResponse> RemoveRoleAsync(string username, string userRole);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/AddUser", ReplyAction="http://tempuri.org/ISEnPA/AddUserResponse")]
+        SEnPA.senpa.UserActionResponse AddUser(string username, string password, int stakeholderId, string roleGroup, string firstName, string surname, string emailAddress, string mobileNumber, bool passwordExpires, bool active, bool locked);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/AddUser", ReplyAction="http://tempuri.org/ISEnPA/AddUserResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.UserActionResponse> AddUserAsync(string username, string password, int stakeholderId, string roleGroup, string firstName, string surname, string emailAddress, string mobileNumber, bool passwordExpires, bool active, bool locked);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/UpdateUser", ReplyAction="http://tempuri.org/ISEnPA/UpdateUserResponse")]
+        SEnPA.senpa.UserActionResponse UpdateUser(string username, string action);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/UpdateUser", ReplyAction="http://tempuri.org/ISEnPA/UpdateUserResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.UserActionResponse> UpdateUserAsync(string username, string action);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetUsers", ReplyAction="http://tempuri.org/ISEnPA/GetUsersResponse")]
+        SEnPA.senpa.ApplicationUsers[] GetUsers(string filterText);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetUsers", ReplyAction="http://tempuri.org/ISEnPA/GetUsersResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.ApplicationUsers[]> GetUsersAsync(string filterText);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetUser", ReplyAction="http://tempuri.org/ISEnPA/GetUserResponse")]
+        SEnPA.senpa.ApplicationUsers GetUser(string username);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetUser", ReplyAction="http://tempuri.org/ISEnPA/GetUserResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.ApplicationUsers> GetUserAsync(string username);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetApplicationRoles", ReplyAction="http://tempuri.org/ISEnPA/GetApplicationRolesResponse")]
+        SEnPA.senpa.ApplicationRoles[] GetApplicationRoles(string username);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetApplicationRoles", ReplyAction="http://tempuri.org/ISEnPA/GetApplicationRolesResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.ApplicationRoles[]> GetApplicationRolesAsync(string username);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/AddGroupRole", ReplyAction="http://tempuri.org/ISEnPA/AddGroupRoleResponse")]
+        SEnPA.senpa.UserRoleActionResponse AddGroupRole(string username, string userRole);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/AddGroupRole", ReplyAction="http://tempuri.org/ISEnPA/AddGroupRoleResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.UserRoleActionResponse> AddGroupRoleAsync(string username, string userRole);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/RemoveGroupRole", ReplyAction="http://tempuri.org/ISEnPA/RemoveGroupRoleResponse")]
+        SEnPA.senpa.UserRoleActionResponse RemoveGroupRole(string username, string userRole);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/RemoveGroupRole", ReplyAction="http://tempuri.org/ISEnPA/RemoveGroupRoleResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.UserRoleActionResponse> RemoveGroupRoleAsync(string username, string userRole);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetApplicationGroupRoles", ReplyAction="http://tempuri.org/ISEnPA/GetApplicationGroupRolesResponse")]
+        SEnPA.senpa.ApplicationRoleGroups[] GetApplicationGroupRoles(string username);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetApplicationGroupRoles", ReplyAction="http://tempuri.org/ISEnPA/GetApplicationGroupRolesResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.ApplicationRoleGroups[]> GetApplicationGroupRolesAsync(string username);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/AddUserGroup", ReplyAction="http://tempuri.org/ISEnPA/AddUserGroupResponse")]
+        SEnPA.senpa.UserRoleActionResponse AddUserGroup(string group, string description);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/AddUserGroup", ReplyAction="http://tempuri.org/ISEnPA/AddUserGroupResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.UserRoleActionResponse> AddUserGroupAsync(string group, string description);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetApplicationUserGroupRoles", ReplyAction="http://tempuri.org/ISEnPA/GetApplicationUserGroupRolesResponse")]
+        SEnPA.senpa.ApplicationRoles[] GetApplicationUserGroupRoles(string group);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetApplicationUserGroupRoles", ReplyAction="http://tempuri.org/ISEnPA/GetApplicationUserGroupRolesResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.ApplicationRoles[]> GetApplicationUserGroupRolesAsync(string group);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/AddUserGroupRole", ReplyAction="http://tempuri.org/ISEnPA/AddUserGroupRoleResponse")]
+        SEnPA.senpa.UserRoleActionResponse AddUserGroupRole(string group, string userRole);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/AddUserGroupRole", ReplyAction="http://tempuri.org/ISEnPA/AddUserGroupRoleResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.UserRoleActionResponse> AddUserGroupRoleAsync(string group, string userRole);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/RemoveUserGroupRole", ReplyAction="http://tempuri.org/ISEnPA/RemoveUserGroupRoleResponse")]
+        SEnPA.senpa.UserRoleActionResponse RemoveUserGroupRole(string group, string userRole);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/RemoveUserGroupRole", ReplyAction="http://tempuri.org/ISEnPA/RemoveUserGroupRoleResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.UserRoleActionResponse> RemoveUserGroupRoleAsync(string group, string userRole);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/DefaultPassword", ReplyAction="http://tempuri.org/ISEnPA/DefaultPasswordResponse")]
+        string DefaultPassword();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/DefaultPassword", ReplyAction="http://tempuri.org/ISEnPA/DefaultPasswordResponse")]
+        System.Threading.Tasks.Task<string> DefaultPasswordAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetSiteVisitReports", ReplyAction="http://tempuri.org/ISEnPA/GetSiteVisitReportsResponse")]
+        SEnPA.senpa.SiteVisitReport[] GetSiteVisitReports(long siteVisitId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISEnPA/GetSiteVisitReports", ReplyAction="http://tempuri.org/ISEnPA/GetSiteVisitReportsResponse")]
+        System.Threading.Tasks.Task<SEnPA.senpa.SiteVisitReport[]> GetSiteVisitReportsAsync(long siteVisitId);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -3271,6 +11431,262 @@ namespace SEnPA.senpa {
         
         public SEnPAClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress) {
+        }
+        
+        public long SaveSiteVisitReport(long fK_SiteVisitId, int fK_StakeholderId, string comments) {
+            return base.Channel.SaveSiteVisitReport(fK_SiteVisitId, fK_StakeholderId, comments);
+        }
+        
+        public System.Threading.Tasks.Task<long> SaveSiteVisitReportAsync(long fK_SiteVisitId, int fK_StakeholderId, string comments) {
+            return base.Channel.SaveSiteVisitReportAsync(fK_SiteVisitId, fK_StakeholderId, comments);
+        }
+        
+        public SEnPA.senpa.SiteVisitReport GetSiteVisitReport(long fK_SiteVisitId, int fK_StakeholderId) {
+            return base.Channel.GetSiteVisitReport(fK_SiteVisitId, fK_StakeholderId);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.SiteVisitReport> GetSiteVisitReportAsync(long fK_SiteVisitId, int fK_StakeholderId) {
+            return base.Channel.GetSiteVisitReportAsync(fK_SiteVisitId, fK_StakeholderId);
+        }
+        
+        public bool RemoveSiteVisitReport(long fK_SiteVisitId, int fK_StakeholderId) {
+            return base.Channel.RemoveSiteVisitReport(fK_SiteVisitId, fK_StakeholderId);
+        }
+        
+        public System.Threading.Tasks.Task<bool> RemoveSiteVisitReportAsync(long fK_SiteVisitId, int fK_StakeholderId) {
+            return base.Channel.RemoveSiteVisitReportAsync(fK_SiteVisitId, fK_StakeholderId);
+        }
+        
+        public bool ConfirmSiteVisitReport(long fK_SiteVisitId, int fK_StakeholderId) {
+            return base.Channel.ConfirmSiteVisitReport(fK_SiteVisitId, fK_StakeholderId);
+        }
+        
+        public System.Threading.Tasks.Task<bool> ConfirmSiteVisitReportAsync(long fK_SiteVisitId, int fK_StakeholderId) {
+            return base.Channel.ConfirmSiteVisitReportAsync(fK_SiteVisitId, fK_StakeholderId);
+        }
+        
+        public long CreateWorkflowSiteVisit(long Id, string entityType) {
+            return base.Channel.CreateWorkflowSiteVisit(Id, entityType);
+        }
+        
+        public System.Threading.Tasks.Task<long> CreateWorkflowSiteVisitAsync(long Id, string entityType) {
+            return base.Channel.CreateWorkflowSiteVisitAsync(Id, entityType);
+        }
+        
+        public long CreateWorkflowRecommendationSiteVisit(long Id, string entityType, long recommendationId) {
+            return base.Channel.CreateWorkflowRecommendationSiteVisit(Id, entityType, recommendationId);
+        }
+        
+        public System.Threading.Tasks.Task<long> CreateWorkflowRecommendationSiteVisitAsync(long Id, string entityType, long recommendationId) {
+            return base.Channel.CreateWorkflowRecommendationSiteVisitAsync(Id, entityType, recommendationId);
+        }
+        
+        public SEnPA.senpa.SiteVisit GetCurrentWorkflowSiteVisit(long Id, string entityType) {
+            return base.Channel.GetCurrentWorkflowSiteVisit(Id, entityType);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.SiteVisit> GetCurrentWorkflowSiteVisitAsync(long Id, string entityType) {
+            return base.Channel.GetCurrentWorkflowSiteVisitAsync(Id, entityType);
+        }
+        
+        public SEnPA.senpa.SiteVisit GetCurrentWorkflowRecommendationSiteVisit(long recommendationId, long Id, string entityType) {
+            return base.Channel.GetCurrentWorkflowRecommendationSiteVisit(recommendationId, Id, entityType);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.SiteVisit> GetCurrentWorkflowRecommendationSiteVisitAsync(long recommendationId, long Id, string entityType) {
+            return base.Channel.GetCurrentWorkflowRecommendationSiteVisitAsync(recommendationId, Id, entityType);
+        }
+        
+        public bool UploadSiteVisitWorkFlowDocument(long siteVisitId, int stakeholderId, string comments, long Id, string entityType, string fileName, byte[] fileData, int documentTypeId, long documentFolderId) {
+            return base.Channel.UploadSiteVisitWorkFlowDocument(siteVisitId, stakeholderId, comments, Id, entityType, fileName, fileData, documentTypeId, documentFolderId);
+        }
+        
+        public System.Threading.Tasks.Task<bool> UploadSiteVisitWorkFlowDocumentAsync(long siteVisitId, int stakeholderId, string comments, long Id, string entityType, string fileName, byte[] fileData, int documentTypeId, long documentFolderId) {
+            return base.Channel.UploadSiteVisitWorkFlowDocumentAsync(siteVisitId, stakeholderId, comments, Id, entityType, fileName, fileData, documentTypeId, documentFolderId);
+        }
+        
+        public bool SaveSiteVisit(SEnPA.senpa.SiteVisit site) {
+            return base.Channel.SaveSiteVisit(site);
+        }
+        
+        public System.Threading.Tasks.Task<bool> SaveSiteVisitAsync(SEnPA.senpa.SiteVisit site) {
+            return base.Channel.SaveSiteVisitAsync(site);
+        }
+        
+        public bool ScheduleSiteVisit(SEnPA.senpa.SiteVisit site) {
+            return base.Channel.ScheduleSiteVisit(site);
+        }
+        
+        public System.Threading.Tasks.Task<bool> ScheduleSiteVisitAsync(SEnPA.senpa.SiteVisit site) {
+            return base.Channel.ScheduleSiteVisitAsync(site);
+        }
+        
+        public bool NotifySiteVisit(long Id) {
+            return base.Channel.NotifySiteVisit(Id);
+        }
+        
+        public System.Threading.Tasks.Task<bool> NotifySiteVisitAsync(long Id) {
+            return base.Channel.NotifySiteVisitAsync(Id);
+        }
+        
+        public bool ConfirmSiteVisit(long Id) {
+            return base.Channel.ConfirmSiteVisit(Id);
+        }
+        
+        public System.Threading.Tasks.Task<bool> ConfirmSiteVisitAsync(long Id) {
+            return base.Channel.ConfirmSiteVisitAsync(Id);
+        }
+        
+        public SEnPA.senpa.Invoice[] GetInvoices(string filterText) {
+            return base.Channel.GetInvoices(filterText);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.Invoice[]> GetInvoicesAsync(string filterText) {
+            return base.Channel.GetInvoicesAsync(filterText);
+        }
+        
+        public SEnPA.senpa.Invoice GetInvoice(long Id) {
+            return base.Channel.GetInvoice(Id);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.Invoice> GetInvoiceAsync(long Id) {
+            return base.Channel.GetInvoiceAsync(Id);
+        }
+        
+        public string PayInvoice(long Id, string currency, float amount, float change, int fK_PayBranchId, int fK_PaymentMethodId) {
+            return base.Channel.PayInvoice(Id, currency, amount, change, fK_PayBranchId, fK_PaymentMethodId);
+        }
+        
+        public System.Threading.Tasks.Task<string> PayInvoiceAsync(long Id, string currency, float amount, float change, int fK_PayBranchId, int fK_PaymentMethodId) {
+            return base.Channel.PayInvoiceAsync(Id, currency, amount, change, fK_PayBranchId, fK_PaymentMethodId);
+        }
+        
+        public SEnPA.senpa.InvoiceItem[] GetInvoiceItems(long Id) {
+            return base.Channel.GetInvoiceItems(Id);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.InvoiceItem[]> GetInvoiceItemsAsync(long Id) {
+            return base.Channel.GetInvoiceItemsAsync(Id);
+        }
+        
+        public SEnPA.senpa.RecommendedAction[] GetRecommendedActions(long fK_RecommendationId) {
+            return base.Channel.GetRecommendedActions(fK_RecommendationId);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.RecommendedAction[]> GetRecommendedActionsAsync(long fK_RecommendationId) {
+            return base.Channel.GetRecommendedActionsAsync(fK_RecommendationId);
+        }
+        
+        public long SaveRecommendedAction(long fK_RecommendationId, int fK_StakeholderId, int fK_ActionId, string details, bool reminder, string status, string statusReason, bool active) {
+            return base.Channel.SaveRecommendedAction(fK_RecommendationId, fK_StakeholderId, fK_ActionId, details, reminder, status, statusReason, active);
+        }
+        
+        public System.Threading.Tasks.Task<long> SaveRecommendedActionAsync(long fK_RecommendationId, int fK_StakeholderId, int fK_ActionId, string details, bool reminder, string status, string statusReason, bool active) {
+            return base.Channel.SaveRecommendedActionAsync(fK_RecommendationId, fK_StakeholderId, fK_ActionId, details, reminder, status, statusReason, active);
+        }
+        
+        public SEnPA.senpa.RecommendedAction GetRecommendedAction(long fK_RecommendationId, int fK_StakeholderId) {
+            return base.Channel.GetRecommendedAction(fK_RecommendationId, fK_StakeholderId);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.RecommendedAction> GetRecommendedActionAsync(long fK_RecommendationId, int fK_StakeholderId) {
+            return base.Channel.GetRecommendedActionAsync(fK_RecommendationId, fK_StakeholderId);
+        }
+        
+        public long CreateWorkflowRecommendations(long Id, string entityType) {
+            return base.Channel.CreateWorkflowRecommendations(Id, entityType);
+        }
+        
+        public System.Threading.Tasks.Task<long> CreateWorkflowRecommendationsAsync(long Id, string entityType) {
+            return base.Channel.CreateWorkflowRecommendationsAsync(Id, entityType);
+        }
+        
+        public SEnPA.senpa.Recommendations GetCurrentWorkflowRecommendations(long Id, string entityType) {
+            return base.Channel.GetCurrentWorkflowRecommendations(Id, entityType);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.Recommendations> GetCurrentWorkflowRecommendationsAsync(long Id, string entityType) {
+            return base.Channel.GetCurrentWorkflowRecommendationsAsync(Id, entityType);
+        }
+        
+        public SEnPA.senpa.Resident GetResident(string nIN) {
+            return base.Channel.GetResident(nIN);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.Resident> GetResidentAsync(string nIN) {
+            return base.Channel.GetResidentAsync(nIN);
+        }
+        
+        public SEnPA.senpa.Business GetBusiness(string bRN) {
+            return base.Channel.GetBusiness(bRN);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.Business> GetBusinessAsync(string bRN) {
+            return base.Channel.GetBusinessAsync(bRN);
+        }
+        
+        public SEnPA.senpa.TrainingSessionReport[] GetTrainingSessions(string filterText) {
+            return base.Channel.GetTrainingSessions(filterText);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.TrainingSessionReport[]> GetTrainingSessionsAsync(string filterText) {
+            return base.Channel.GetTrainingSessionsAsync(filterText);
+        }
+        
+        public SEnPA.senpa.TrainingSession GetTrainingSession(long Id) {
+            return base.Channel.GetTrainingSession(Id);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.TrainingSession> GetTrainingSessionAsync(long Id) {
+            return base.Channel.GetTrainingSessionAsync(Id);
+        }
+        
+        public long SaveTrainingRegistration(long fK_TrainingSessionId, long fK_BusinessRegistrationId) {
+            return base.Channel.SaveTrainingRegistration(fK_TrainingSessionId, fK_BusinessRegistrationId);
+        }
+        
+        public System.Threading.Tasks.Task<long> SaveTrainingRegistrationAsync(long fK_TrainingSessionId, long fK_BusinessRegistrationId) {
+            return base.Channel.SaveTrainingRegistrationAsync(fK_TrainingSessionId, fK_BusinessRegistrationId);
+        }
+        
+        public SEnPA.senpa.TrainingRegistrationReport[] GetTrainingRegistrationReport(long Id) {
+            return base.Channel.GetTrainingRegistrationReport(Id);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.TrainingRegistrationReport[]> GetTrainingRegistrationReportAsync(long Id) {
+            return base.Channel.GetTrainingRegistrationReportAsync(Id);
+        }
+        
+        public bool UpdateAttendance(long fK_TrainingSessionId, long fK_BusinessRegistrationId, bool attended) {
+            return base.Channel.UpdateAttendance(fK_TrainingSessionId, fK_BusinessRegistrationId, attended);
+        }
+        
+        public System.Threading.Tasks.Task<bool> UpdateAttendanceAsync(long fK_TrainingSessionId, long fK_BusinessRegistrationId, bool attended) {
+            return base.Channel.UpdateAttendanceAsync(fK_TrainingSessionId, fK_BusinessRegistrationId, attended);
+        }
+        
+        public long SaveTrainingSession(SEnPA.senpa.TrainingSession training) {
+            return base.Channel.SaveTrainingSession(training);
+        }
+        
+        public System.Threading.Tasks.Task<long> SaveTrainingSessionAsync(SEnPA.senpa.TrainingSession training) {
+            return base.Channel.SaveTrainingSessionAsync(training);
+        }
+        
+        public SEnPA.senpa.TrainingRegistrationReport[] GetAttendedTrainingRegistrationReport(long Id) {
+            return base.Channel.GetAttendedTrainingRegistrationReport(Id);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.TrainingRegistrationReport[]> GetAttendedTrainingRegistrationReportAsync(long Id) {
+            return base.Channel.GetAttendedTrainingRegistrationReportAsync(Id);
+        }
+        
+        public bool CloseTraining(long Id) {
+            return base.Channel.CloseTraining(Id);
+        }
+        
+        public System.Threading.Tasks.Task<bool> CloseTrainingAsync(long Id) {
+            return base.Channel.CloseTrainingAsync(Id);
         }
         
         public bool SendBasicEmail(string to, string subject, string message) {
@@ -3303,6 +11719,22 @@ namespace SEnPA.senpa {
         
         public System.Threading.Tasks.Task<SEnPA.senpa.SMS[]> GetSMSsAsync(string filterText) {
             return base.Channel.GetSMSsAsync(filterText);
+        }
+        
+        public bool ClearEmails() {
+            return base.Channel.ClearEmails();
+        }
+        
+        public System.Threading.Tasks.Task<bool> ClearEmailsAsync() {
+            return base.Channel.ClearEmailsAsync();
+        }
+        
+        public bool ClearSMSs() {
+            return base.Channel.ClearSMSs();
+        }
+        
+        public System.Threading.Tasks.Task<bool> ClearSMSsAsync() {
+            return base.Channel.ClearSMSsAsync();
         }
         
         public SEnPA.senpa.EmailMessageDesign[] GetEmailMessageDesigns() {
@@ -3385,12 +11817,44 @@ namespace SEnPA.senpa {
             return base.Channel.CheckCurrentStageDocumentRequirementsAsync(Id, entityType);
         }
         
-        public bool UploadWorkFlowDocument(long Id, string entityType, string fileName, byte[] fileData, int documentTypeId, long documentFolderId) {
-            return base.Channel.UploadWorkFlowDocument(Id, entityType, fileName, fileData, documentTypeId, documentFolderId);
+        public bool CheckCurrentStagePaymentRequirements(long Id, string entityType) {
+            return base.Channel.CheckCurrentStagePaymentRequirements(Id, entityType);
         }
         
-        public System.Threading.Tasks.Task<bool> UploadWorkFlowDocumentAsync(long Id, string entityType, string fileName, byte[] fileData, int documentTypeId, long documentFolderId) {
-            return base.Channel.UploadWorkFlowDocumentAsync(Id, entityType, fileName, fileData, documentTypeId, documentFolderId);
+        public System.Threading.Tasks.Task<bool> CheckCurrentStagePaymentRequirementsAsync(long Id, string entityType) {
+            return base.Channel.CheckCurrentStagePaymentRequirementsAsync(Id, entityType);
+        }
+        
+        public string CheckCurrentStageSiteVisitRequirements(long Id, string entityType) {
+            return base.Channel.CheckCurrentStageSiteVisitRequirements(Id, entityType);
+        }
+        
+        public System.Threading.Tasks.Task<string> CheckCurrentStageSiteVisitRequirementsAsync(long Id, string entityType) {
+            return base.Channel.CheckCurrentStageSiteVisitRequirementsAsync(Id, entityType);
+        }
+        
+        public string CheckCurrentStageRecommandationSiteVisitRequirements(long Id, string entityType, long recommendationId, int stakeholderId) {
+            return base.Channel.CheckCurrentStageRecommandationSiteVisitRequirements(Id, entityType, recommendationId, stakeholderId);
+        }
+        
+        public System.Threading.Tasks.Task<string> CheckCurrentStageRecommandationSiteVisitRequirementsAsync(long Id, string entityType, long recommendationId, int stakeholderId) {
+            return base.Channel.CheckCurrentStageRecommandationSiteVisitRequirementsAsync(Id, entityType, recommendationId, stakeholderId);
+        }
+        
+        public string CheckCurrentStageRecommendationsRequirements(long Id, string entityType) {
+            return base.Channel.CheckCurrentStageRecommendationsRequirements(Id, entityType);
+        }
+        
+        public System.Threading.Tasks.Task<string> CheckCurrentStageRecommendationsRequirementsAsync(long Id, string entityType) {
+            return base.Channel.CheckCurrentStageRecommendationsRequirementsAsync(Id, entityType);
+        }
+        
+        public bool UploadWorkFlowDocument(long Id, string entityType, string fileName, byte[] fileData, int documentTypeId, long documentFolderId, bool businessAssesment) {
+            return base.Channel.UploadWorkFlowDocument(Id, entityType, fileName, fileData, documentTypeId, documentFolderId, businessAssesment);
+        }
+        
+        public System.Threading.Tasks.Task<bool> UploadWorkFlowDocumentAsync(long Id, string entityType, string fileName, byte[] fileData, int documentTypeId, long documentFolderId, bool businessAssesment) {
+            return base.Channel.UploadWorkFlowDocumentAsync(Id, entityType, fileName, fileData, documentTypeId, documentFolderId, businessAssesment);
         }
         
         public SEnPA.senpa.DocumentLibrary[] GetWorkFlowDocuments(long Id, string entityType) {
@@ -3399,6 +11863,214 @@ namespace SEnPA.senpa {
         
         public System.Threading.Tasks.Task<SEnPA.senpa.DocumentLibrary[]> GetWorkFlowDocumentsAsync(long Id, string entityType) {
             return base.Channel.GetWorkFlowDocumentsAsync(Id, entityType);
+        }
+        
+        public SEnPA.senpa.WorkFlows GetWorkFlow(long Id) {
+            return base.Channel.GetWorkFlow(Id);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.WorkFlows> GetWorkFlowAsync(long Id) {
+            return base.Channel.GetWorkFlowAsync(Id);
+        }
+        
+        public bool UpdateWorkFlow(SEnPA.senpa.WorkFlows wrkFlow) {
+            return base.Channel.UpdateWorkFlow(wrkFlow);
+        }
+        
+        public System.Threading.Tasks.Task<bool> UpdateWorkFlowAsync(SEnPA.senpa.WorkFlows wrkFlow) {
+            return base.Channel.UpdateWorkFlowAsync(wrkFlow);
+        }
+        
+        public long CreateWorkFlow(string workFlowName, string workFlowDescription, long startRoleGroupId, long endRoleGroupId) {
+            return base.Channel.CreateWorkFlow(workFlowName, workFlowDescription, startRoleGroupId, endRoleGroupId);
+        }
+        
+        public System.Threading.Tasks.Task<long> CreateWorkFlowAsync(string workFlowName, string workFlowDescription, long startRoleGroupId, long endRoleGroupId) {
+            return base.Channel.CreateWorkFlowAsync(workFlowName, workFlowDescription, startRoleGroupId, endRoleGroupId);
+        }
+        
+        public SEnPA.senpa.WorkFlows[] GetWorkFlows() {
+            return base.Channel.GetWorkFlows();
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.WorkFlows[]> GetWorkFlowsAsync() {
+            return base.Channel.GetWorkFlowsAsync();
+        }
+        
+        public SEnPA.senpa.WorkFlowStages GetWorkFlowStage(long Id) {
+            return base.Channel.GetWorkFlowStage(Id);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.WorkFlowStages> GetWorkFlowStageAsync(long Id) {
+            return base.Channel.GetWorkFlowStageAsync(Id);
+        }
+        
+        public SEnPA.senpa.WorkFlowStages GetDocumentWorkFlowStage(long Id, string entityType) {
+            return base.Channel.GetDocumentWorkFlowStage(Id, entityType);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.WorkFlowStages> GetDocumentWorkFlowStageAsync(long Id, string entityType) {
+            return base.Channel.GetDocumentWorkFlowStageAsync(Id, entityType);
+        }
+        
+        public bool UpdateWorkFlowStageRecord(SEnPA.senpa.WorkFlowStages wrkFlow) {
+            return base.Channel.UpdateWorkFlowStageRecord(wrkFlow);
+        }
+        
+        public System.Threading.Tasks.Task<bool> UpdateWorkFlowStageRecordAsync(SEnPA.senpa.WorkFlowStages wrkFlow) {
+            return base.Channel.UpdateWorkFlowStageRecordAsync(wrkFlow);
+        }
+        
+        public long CreateWorkFlowStage(long workFlowId, int stagePosition, string stageName, string stageDescription, long roleGroupId, int stageAssignMode, bool stageOptional, bool requireDocuments, bool requirePayment, bool requireSiteVisit, bool requireRecommendations, string fK_AutoDocumentName, int sendEmail, int sendSMS) {
+            return base.Channel.CreateWorkFlowStage(workFlowId, stagePosition, stageName, stageDescription, roleGroupId, stageAssignMode, stageOptional, requireDocuments, requirePayment, requireSiteVisit, requireRecommendations, fK_AutoDocumentName, sendEmail, sendSMS);
+        }
+        
+        public System.Threading.Tasks.Task<long> CreateWorkFlowStageAsync(long workFlowId, int stagePosition, string stageName, string stageDescription, long roleGroupId, int stageAssignMode, bool stageOptional, bool requireDocuments, bool requirePayment, bool requireSiteVisit, bool requireRecommendations, string fK_AutoDocumentName, int sendEmail, int sendSMS) {
+            return base.Channel.CreateWorkFlowStageAsync(workFlowId, stagePosition, stageName, stageDescription, roleGroupId, stageAssignMode, stageOptional, requireDocuments, requirePayment, requireSiteVisit, requireRecommendations, fK_AutoDocumentName, sendEmail, sendSMS);
+        }
+        
+        public SEnPA.senpa.WorkFlowStages[] GetWorkFlowStages(long Id) {
+            return base.Channel.GetWorkFlowStages(Id);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.WorkFlowStages[]> GetWorkFlowStagesAsync(long Id) {
+            return base.Channel.GetWorkFlowStagesAsync(Id);
+        }
+        
+        public SEnPA.senpa.WorkFlowStageDocuments GetWorkFlowStageDocument(long Id) {
+            return base.Channel.GetWorkFlowStageDocument(Id);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.WorkFlowStageDocuments> GetWorkFlowStageDocumentAsync(long Id) {
+            return base.Channel.GetWorkFlowStageDocumentAsync(Id);
+        }
+        
+        public bool UpdateWorkFlowStageDocument(SEnPA.senpa.WorkFlowStageDocuments wrkFlow) {
+            return base.Channel.UpdateWorkFlowStageDocument(wrkFlow);
+        }
+        
+        public System.Threading.Tasks.Task<bool> UpdateWorkFlowStageDocumentAsync(SEnPA.senpa.WorkFlowStageDocuments wrkFlow) {
+            return base.Channel.UpdateWorkFlowStageDocumentAsync(wrkFlow);
+        }
+        
+        public bool CreateWorkFlowStageDocument(long stageId, int documentTypeId, bool documentRequired) {
+            return base.Channel.CreateWorkFlowStageDocument(stageId, documentTypeId, documentRequired);
+        }
+        
+        public System.Threading.Tasks.Task<bool> CreateWorkFlowStageDocumentAsync(long stageId, int documentTypeId, bool documentRequired) {
+            return base.Channel.CreateWorkFlowStageDocumentAsync(stageId, documentTypeId, documentRequired);
+        }
+        
+        public SEnPA.senpa.WorkFlowStageDocuments[] GetWorkFlowStageDocuments(long Id) {
+            return base.Channel.GetWorkFlowStageDocuments(Id);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.WorkFlowStageDocuments[]> GetWorkFlowStageDocumentsAsync(long Id) {
+            return base.Channel.GetWorkFlowStageDocumentsAsync(Id);
+        }
+        
+        public SEnPA.senpa.DocumentWorkFlowProgress[] GetWorkFlowProgress(long Id) {
+            return base.Channel.GetWorkFlowProgress(Id);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.DocumentWorkFlowProgress[]> GetWorkFlowProgressAsync(long Id) {
+            return base.Channel.GetWorkFlowProgressAsync(Id);
+        }
+        
+        public SEnPA.senpa.WorkFlowStageDocumentStatus[] GetDocumentsRequiredStatus(long Id, string entityType) {
+            return base.Channel.GetDocumentsRequiredStatus(Id, entityType);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.WorkFlowStageDocumentStatus[]> GetDocumentsRequiredStatusAsync(long Id, string entityType) {
+            return base.Channel.GetDocumentsRequiredStatusAsync(Id, entityType);
+        }
+        
+        public bool CheckAccessToStage(long Id, string entityType) {
+            return base.Channel.CheckAccessToStage(Id, entityType);
+        }
+        
+        public System.Threading.Tasks.Task<bool> CheckAccessToStageAsync(long Id, string entityType) {
+            return base.Channel.CheckAccessToStageAsync(Id, entityType);
+        }
+        
+        public SEnPA.senpa.WorkFlowStageDocumentStatus[] GetAllRequiredDocuments(long Id, string entityType) {
+            return base.Channel.GetAllRequiredDocuments(Id, entityType);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.WorkFlowStageDocumentStatus[]> GetAllRequiredDocumentsAsync(long Id, string entityType) {
+            return base.Channel.GetAllRequiredDocumentsAsync(Id, entityType);
+        }
+        
+        public SEnPA.senpa.WorkFlowFieldValidations[] GetValidationsList(string docType) {
+            return base.Channel.GetValidationsList(docType);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.WorkFlowFieldValidations[]> GetValidationsListAsync(string docType) {
+            return base.Channel.GetValidationsListAsync(docType);
+        }
+        
+        public SEnPA.senpa.FeeRules[] GetFeeRulesList(string docType) {
+            return base.Channel.GetFeeRulesList(docType);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.FeeRules[]> GetFeeRulesListAsync(string docType) {
+            return base.Channel.GetFeeRulesListAsync(docType);
+        }
+        
+        public bool SkipOptionalStage(long Id, string entityType) {
+            return base.Channel.SkipOptionalStage(Id, entityType);
+        }
+        
+        public System.Threading.Tasks.Task<bool> SkipOptionalStageAsync(long Id, string entityType) {
+            return base.Channel.SkipOptionalStageAsync(Id, entityType);
+        }
+        
+        public bool ReverseStage(long Id, string entityType) {
+            return base.Channel.ReverseStage(Id, entityType);
+        }
+        
+        public System.Threading.Tasks.Task<bool> ReverseStageAsync(long Id, string entityType) {
+            return base.Channel.ReverseStageAsync(Id, entityType);
+        }
+        
+        public SEnPA.senpa.WorkFlowStagesAutoDocuments[] GetWorkFlowStagesAutoDocuments(long Id) {
+            return base.Channel.GetWorkFlowStagesAutoDocuments(Id);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.WorkFlowStagesAutoDocuments[]> GetWorkFlowStagesAutoDocumentsAsync(long Id) {
+            return base.Channel.GetWorkFlowStagesAutoDocumentsAsync(Id);
+        }
+        
+        public long CreateWorkFlowStagesAutoDocument(long workFlowStageId, string fK_AutoDocumentName, int sendEmail, int sendSMS, bool active) {
+            return base.Channel.CreateWorkFlowStagesAutoDocument(workFlowStageId, fK_AutoDocumentName, sendEmail, sendSMS, active);
+        }
+        
+        public System.Threading.Tasks.Task<long> CreateWorkFlowStagesAutoDocumentAsync(long workFlowStageId, string fK_AutoDocumentName, int sendEmail, int sendSMS, bool active) {
+            return base.Channel.CreateWorkFlowStagesAutoDocumentAsync(workFlowStageId, fK_AutoDocumentName, sendEmail, sendSMS, active);
+        }
+        
+        public SEnPA.senpa.WorkFlowStagesAutoDocuments GetWorkFlowStagesAutoDocument(long Id) {
+            return base.Channel.GetWorkFlowStagesAutoDocument(Id);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.WorkFlowStagesAutoDocuments> GetWorkFlowStagesAutoDocumentAsync(long Id) {
+            return base.Channel.GetWorkFlowStagesAutoDocumentAsync(Id);
+        }
+        
+        public bool SwitchStages(long IdUp, long IdDown) {
+            return base.Channel.SwitchStages(IdUp, IdDown);
+        }
+        
+        public System.Threading.Tasks.Task<bool> SwitchStagesAsync(long IdUp, long IdDown) {
+            return base.Channel.SwitchStagesAsync(IdUp, IdDown);
+        }
+        
+        public bool DeleteStage(long workId, long delId) {
+            return base.Channel.DeleteStage(workId, delId);
+        }
+        
+        public System.Threading.Tasks.Task<bool> DeleteStageAsync(long workId, long delId) {
+            return base.Channel.DeleteStageAsync(workId, delId);
         }
         
         public bool UploadDocument(long Id, string fileName, byte[] fileData, int documentTypeId, long documentFolderId) {
@@ -3423,6 +12095,14 @@ namespace SEnPA.senpa {
         
         public System.Threading.Tasks.Task<SEnPA.senpa.DocumentLibrary[]> GetFolderDocumentsAsync(long Id) {
             return base.Channel.GetFolderDocumentsAsync(Id);
+        }
+        
+        public SEnPA.senpa.DocumentLibrary[] GetRegistrationsFolderDocuments(long Id) {
+            return base.Channel.GetRegistrationsFolderDocuments(Id);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.DocumentLibrary[]> GetRegistrationsFolderDocumentsAsync(long Id) {
+            return base.Channel.GetRegistrationsFolderDocumentsAsync(Id);
         }
         
         public SEnPA.senpa.DocumentLibrary GetDocument(long Id) {
@@ -3473,6 +12153,14 @@ namespace SEnPA.senpa {
             return base.Channel.SearchDocumentsAsync(Id, filterText);
         }
         
+        public SEnPA.senpa.DocumentLibrary[] SearchRegistrationDocuments(long Id, string filterText) {
+            return base.Channel.SearchRegistrationDocuments(Id, filterText);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.DocumentLibrary[]> SearchRegistrationDocumentsAsync(long Id, string filterText) {
+            return base.Channel.SearchRegistrationDocumentsAsync(Id, filterText);
+        }
+        
         public string GetFolderName(long Id) {
             return base.Channel.GetFolderName(Id);
         }
@@ -3505,22 +12193,6 @@ namespace SEnPA.senpa {
             return base.Channel.SaveRegistrationRequestAsync(registration);
         }
         
-        public SEnPA.senpa.PickList[] GetPickList(string type) {
-            return base.Channel.GetPickList(type);
-        }
-        
-        public System.Threading.Tasks.Task<SEnPA.senpa.PickList[]> GetPickListAsync(string type) {
-            return base.Channel.GetPickListAsync(type);
-        }
-        
-        public SEnPA.senpa.PickList[] GetUserPickList(string groupType) {
-            return base.Channel.GetUserPickList(groupType);
-        }
-        
-        public System.Threading.Tasks.Task<SEnPA.senpa.PickList[]> GetUserPickListAsync(string groupType) {
-            return base.Channel.GetUserPickListAsync(groupType);
-        }
-        
         public SEnPA.senpa.RegistrationRequest[] GetRegistrationRequests(string filterText) {
             return base.Channel.GetRegistrationRequests(filterText);
         }
@@ -3535,6 +12207,510 @@ namespace SEnPA.senpa {
         
         public System.Threading.Tasks.Task<SEnPA.senpa.RegistrationRequest> GetRegistrationRequestAsync(long Id) {
             return base.Channel.GetRegistrationRequestAsync(Id);
+        }
+        
+        public long RegisterBusiness(long registrationRequestId) {
+            return base.Channel.RegisterBusiness(registrationRequestId);
+        }
+        
+        public System.Threading.Tasks.Task<long> RegisterBusinessAsync(long registrationRequestId) {
+            return base.Channel.RegisterBusinessAsync(registrationRequestId);
+        }
+        
+        public SEnPA.senpa.BusinessRegistration[] GetBusinessRegistrations(string filterText) {
+            return base.Channel.GetBusinessRegistrations(filterText);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.BusinessRegistration[]> GetBusinessRegistrationsAsync(string filterText) {
+            return base.Channel.GetBusinessRegistrationsAsync(filterText);
+        }
+        
+        public SEnPA.senpa.BusinessRegistration GetBusinessRegistration(long Id, bool regNo) {
+            return base.Channel.GetBusinessRegistration(Id, regNo);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.BusinessRegistration> GetBusinessRegistrationAsync(long Id, bool regNo) {
+            return base.Channel.GetBusinessRegistrationAsync(Id, regNo);
+        }
+        
+        public long SaveRenewalRequest(SEnPA.senpa.RenewalRequest registration) {
+            return base.Channel.SaveRenewalRequest(registration);
+        }
+        
+        public System.Threading.Tasks.Task<long> SaveRenewalRequestAsync(SEnPA.senpa.RenewalRequest registration) {
+            return base.Channel.SaveRenewalRequestAsync(registration);
+        }
+        
+        public SEnPA.senpa.RenewalRequest[] GetRenewalRequests(string filterText) {
+            return base.Channel.GetRenewalRequests(filterText);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.RenewalRequest[]> GetRenewalRequestsAsync(string filterText) {
+            return base.Channel.GetRenewalRequestsAsync(filterText);
+        }
+        
+        public SEnPA.senpa.RenewalRequest GetRenewalRequest(long Id) {
+            return base.Channel.GetRenewalRequest(Id);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.RenewalRequest> GetRenewalRequestAsync(long Id) {
+            return base.Channel.GetRenewalRequestAsync(Id);
+        }
+        
+        public long GetCurrentRenewalID(long Id) {
+            return base.Channel.GetCurrentRenewalID(Id);
+        }
+        
+        public System.Threading.Tasks.Task<long> GetCurrentRenewalIDAsync(long Id) {
+            return base.Channel.GetCurrentRenewalIDAsync(Id);
+        }
+        
+        public SEnPA.senpa.AutoDocument[] CheckAutoDocument(long Id, string entityType) {
+            return base.Channel.CheckAutoDocument(Id, entityType);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.AutoDocument[]> CheckAutoDocumentAsync(long Id, string entityType) {
+            return base.Channel.CheckAutoDocumentAsync(Id, entityType);
+        }
+        
+        public byte[] GetAutoDocument(string docType, long Id) {
+            return base.Channel.GetAutoDocument(docType, Id);
+        }
+        
+        public System.Threading.Tasks.Task<byte[]> GetAutoDocumentAsync(string docType, long Id) {
+            return base.Channel.GetAutoDocumentAsync(docType, Id);
+        }
+        
+        public int CheckCertificate(long Id) {
+            return base.Channel.CheckCertificate(Id);
+        }
+        
+        public System.Threading.Tasks.Task<int> CheckCertificateAsync(long Id) {
+            return base.Channel.CheckCertificateAsync(Id);
+        }
+        
+        public bool IssueCertificate(long Id, long renewalId) {
+            return base.Channel.IssueCertificate(Id, renewalId);
+        }
+        
+        public System.Threading.Tasks.Task<bool> IssueCertificateAsync(long Id, long renewalId) {
+            return base.Channel.IssueCertificateAsync(Id, renewalId);
+        }
+        
+        public SEnPA.senpa.CottageCertificate GetCertificateDetails(long Id) {
+            return base.Channel.GetCertificateDetails(Id);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.CottageCertificate> GetCertificateDetailsAsync(long Id) {
+            return base.Channel.GetCertificateDetailsAsync(Id);
+        }
+        
+        public long LastRenewalId(long Id) {
+            return base.Channel.LastRenewalId(Id);
+        }
+        
+        public System.Threading.Tasks.Task<long> LastRenewalIdAsync(long Id) {
+            return base.Channel.LastRenewalIdAsync(Id);
+        }
+        
+        public bool SetRenewal(long Id) {
+            return base.Channel.SetRenewal(Id);
+        }
+        
+        public System.Threading.Tasks.Task<bool> SetRenewalAsync(long Id) {
+            return base.Channel.SetRenewalAsync(Id);
+        }
+        
+        public SEnPA.senpa.CottageCertificate[] GetCertificates(string filterText) {
+            return base.Channel.GetCertificates(filterText);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.CottageCertificate[]> GetCertificatesAsync(string filterText) {
+            return base.Channel.GetCertificatesAsync(filterText);
+        }
+        
+        public bool UpdatePeriod(long id, System.DateTime lastRenewalDate, System.DateTime nextRenewalDate) {
+            return base.Channel.UpdatePeriod(id, lastRenewalDate, nextRenewalDate);
+        }
+        
+        public System.Threading.Tasks.Task<bool> UpdatePeriodAsync(long id, System.DateTime lastRenewalDate, System.DateTime nextRenewalDate) {
+            return base.Channel.UpdatePeriodAsync(id, lastRenewalDate, nextRenewalDate);
+        }
+        
+        public SEnPA.senpa.AutoDocument[] CheckTrainingAutoDocument(long Id, string entityType) {
+            return base.Channel.CheckTrainingAutoDocument(Id, entityType);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.AutoDocument[]> CheckTrainingAutoDocumentAsync(long Id, string entityType) {
+            return base.Channel.CheckTrainingAutoDocumentAsync(Id, entityType);
+        }
+        
+        public SEnPA.senpa.ActiveRenewalRequest[] GetActiveBusinessRenewals(string filterText) {
+            return base.Channel.GetActiveBusinessRenewals(filterText);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.ActiveRenewalRequest[]> GetActiveBusinessRenewalsAsync(string filterText) {
+            return base.Channel.GetActiveBusinessRenewalsAsync(filterText);
+        }
+        
+        public SEnPA.senpa.QuickStats GetQuickStats() {
+            return base.Channel.GetQuickStats();
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.QuickStats> GetQuickStatsAsync() {
+            return base.Channel.GetQuickStatsAsync();
+        }
+        
+        public SEnPA.senpa.Notifications[] CheckNotifications(string filterText, bool pending) {
+            return base.Channel.CheckNotifications(filterText, pending);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.Notifications[]> CheckNotificationsAsync(string filterText, bool pending) {
+            return base.Channel.CheckNotificationsAsync(filterText, pending);
+        }
+        
+        public bool UpdateNotifications(long Id, bool status) {
+            return base.Channel.UpdateNotifications(Id, status);
+        }
+        
+        public System.Threading.Tasks.Task<bool> UpdateNotificationsAsync(long Id, bool status) {
+            return base.Channel.UpdateNotificationsAsync(Id, status);
+        }
+        
+        public SEnPA.senpa.PickList[] GetPickList(string type) {
+            return base.Channel.GetPickList(type);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.PickList[]> GetPickListAsync(string type) {
+            return base.Channel.GetPickListAsync(type);
+        }
+        
+        public SEnPA.senpa.PickList[] GetChildPickList(string type, int parentId) {
+            return base.Channel.GetChildPickList(type, parentId);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.PickList[]> GetChildPickListAsync(string type, int parentId) {
+            return base.Channel.GetChildPickListAsync(type, parentId);
+        }
+        
+        public SEnPA.senpa.PickList[] GetUserPickList(string groupType) {
+            return base.Channel.GetUserPickList(groupType);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.PickList[]> GetUserPickListAsync(string groupType) {
+            return base.Channel.GetUserPickListAsync(groupType);
+        }
+        
+        public string GetEntityName(long Id, string type) {
+            return base.Channel.GetEntityName(Id, type);
+        }
+        
+        public System.Threading.Tasks.Task<string> GetEntityNameAsync(long Id, string type) {
+            return base.Channel.GetEntityNameAsync(Id, type);
+        }
+        
+        public string GetDocumentTypeName(long Id) {
+            return base.Channel.GetDocumentTypeName(Id);
+        }
+        
+        public System.Threading.Tasks.Task<string> GetDocumentTypeNameAsync(long Id) {
+            return base.Channel.GetDocumentTypeNameAsync(Id);
+        }
+        
+        public SEnPA.senpa.ReferenceTable[] GetReferenceTableItems(string type) {
+            return base.Channel.GetReferenceTableItems(type);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.ReferenceTable[]> GetReferenceTableItemsAsync(string type) {
+            return base.Channel.GetReferenceTableItemsAsync(type);
+        }
+        
+        public bool SaveReferenceTable(string name, string description, bool active, string type, int fK_ParentId) {
+            return base.Channel.SaveReferenceTable(name, description, active, type, fK_ParentId);
+        }
+        
+        public System.Threading.Tasks.Task<bool> SaveReferenceTableAsync(string name, string description, bool active, string type, int fK_ParentId) {
+            return base.Channel.SaveReferenceTableAsync(name, description, active, type, fK_ParentId);
+        }
+        
+        public SEnPA.senpa.ReferenceTable GetReferenceTableItem(long Id, string type) {
+            return base.Channel.GetReferenceTableItem(Id, type);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.ReferenceTable> GetReferenceTableItemAsync(long Id, string type) {
+            return base.Channel.GetReferenceTableItemAsync(Id, type);
+        }
+        
+        public SEnPA.senpa.ReferenceTable GetReferenceTableItemByName(string name, string type) {
+            return base.Channel.GetReferenceTableItemByName(name, type);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.ReferenceTable> GetReferenceTableItemByNameAsync(string name, string type) {
+            return base.Channel.GetReferenceTableItemByNameAsync(name, type);
+        }
+        
+        public SEnPA.senpa.Stakeholder[] GetStakeholders() {
+            return base.Channel.GetStakeholders();
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.Stakeholder[]> GetStakeholdersAsync() {
+            return base.Channel.GetStakeholdersAsync();
+        }
+        
+        public long SaveStakeholder(string name, string description, string mobile, string email, bool active) {
+            return base.Channel.SaveStakeholder(name, description, mobile, email, active);
+        }
+        
+        public System.Threading.Tasks.Task<long> SaveStakeholderAsync(string name, string description, string mobile, string email, bool active) {
+            return base.Channel.SaveStakeholderAsync(name, description, mobile, email, active);
+        }
+        
+        public SEnPA.senpa.Stakeholder GetStakeholder(long Id) {
+            return base.Channel.GetStakeholder(Id);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.Stakeholder> GetStakeholderAsync(long Id) {
+            return base.Channel.GetStakeholderAsync(Id);
+        }
+        
+        public SEnPA.senpa.Stakeholder[] GetBusinessTypeStakeholders(int businessTypeId) {
+            return base.Channel.GetBusinessTypeStakeholders(businessTypeId);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.Stakeholder[]> GetBusinessTypeStakeholdersAsync(int businessTypeId) {
+            return base.Channel.GetBusinessTypeStakeholdersAsync(businessTypeId);
+        }
+        
+        public bool SaveBusinessTypeStakeholder(int fK_BusinessTypeId, int fK_StakeholderId, bool stakeholderRequired) {
+            return base.Channel.SaveBusinessTypeStakeholder(fK_BusinessTypeId, fK_StakeholderId, stakeholderRequired);
+        }
+        
+        public System.Threading.Tasks.Task<bool> SaveBusinessTypeStakeholderAsync(int fK_BusinessTypeId, int fK_StakeholderId, bool stakeholderRequired) {
+            return base.Channel.SaveBusinessTypeStakeholderAsync(fK_BusinessTypeId, fK_StakeholderId, stakeholderRequired);
+        }
+        
+        public SEnPA.senpa.BusinessTypeStakeholder GetBusinessTypeStakeholder(long Id) {
+            return base.Channel.GetBusinessTypeStakeholder(Id);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.BusinessTypeStakeholder> GetBusinessTypeStakeholderAsync(long Id) {
+            return base.Channel.GetBusinessTypeStakeholderAsync(Id);
+        }
+        
+        public SEnPA.senpa.ReferenceTable[] GetStakeholderBusinessTypes(int stakeholderId) {
+            return base.Channel.GetStakeholderBusinessTypes(stakeholderId);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.ReferenceTable[]> GetStakeholderBusinessTypesAsync(int stakeholderId) {
+            return base.Channel.GetStakeholderBusinessTypesAsync(stakeholderId);
+        }
+        
+        public bool RemoveBusinessTypeStakeholder(int fK_BusinessTypeId, int fK_StakeholderId) {
+            return base.Channel.RemoveBusinessTypeStakeholder(fK_BusinessTypeId, fK_StakeholderId);
+        }
+        
+        public System.Threading.Tasks.Task<bool> RemoveBusinessTypeStakeholderAsync(int fK_BusinessTypeId, int fK_StakeholderId) {
+            return base.Channel.RemoveBusinessTypeStakeholderAsync(fK_BusinessTypeId, fK_StakeholderId);
+        }
+        
+        public SEnPA.senpa.AutoDocumentsDesign GetAutoDocumentsDesign(string name) {
+            return base.Channel.GetAutoDocumentsDesign(name);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.AutoDocumentsDesign> GetAutoDocumentsDesignAsync(string name) {
+            return base.Channel.GetAutoDocumentsDesignAsync(name);
+        }
+        
+        public SEnPA.senpa.AutoDocumentsDesign[] GetAutoDocumentsDesigns() {
+            return base.Channel.GetAutoDocumentsDesigns();
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.AutoDocumentsDesign[]> GetAutoDocumentsDesignsAsync() {
+            return base.Channel.GetAutoDocumentsDesignsAsync();
+        }
+        
+        public bool SaveAutoDocumentsDesign(string documentName, string documentDesignSMS, string documentDesign, string emailSubject, bool sms, bool email) {
+            return base.Channel.SaveAutoDocumentsDesign(documentName, documentDesignSMS, documentDesign, emailSubject, sms, email);
+        }
+        
+        public System.Threading.Tasks.Task<bool> SaveAutoDocumentsDesignAsync(string documentName, string documentDesignSMS, string documentDesign, string emailSubject, bool sms, bool email) {
+            return base.Channel.SaveAutoDocumentsDesignAsync(documentName, documentDesignSMS, documentDesign, emailSubject, sms, email);
+        }
+        
+        public SEnPA.senpa.WorkFlowFieldValidations GetValidation(long Id) {
+            return base.Channel.GetValidation(Id);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.WorkFlowFieldValidations> GetValidationAsync(long Id) {
+            return base.Channel.GetValidationAsync(Id);
+        }
+        
+        public long SaveValidation(long id, string documentType, string parameterField, string parameterDataType, string parameterFieldName, string parameterValue, string parameterMaxValue, string parameterEvaluationType, bool active) {
+            return base.Channel.SaveValidation(id, documentType, parameterField, parameterDataType, parameterFieldName, parameterValue, parameterMaxValue, parameterEvaluationType, active);
+        }
+        
+        public System.Threading.Tasks.Task<long> SaveValidationAsync(long id, string documentType, string parameterField, string parameterDataType, string parameterFieldName, string parameterValue, string parameterMaxValue, string parameterEvaluationType, bool active) {
+            return base.Channel.SaveValidationAsync(id, documentType, parameterField, parameterDataType, parameterFieldName, parameterValue, parameterMaxValue, parameterEvaluationType, active);
+        }
+        
+        public SEnPA.senpa.FeeRules GetFeeRule(long Id) {
+            return base.Channel.GetFeeRule(Id);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.FeeRules> GetFeeRuleAsync(long Id) {
+            return base.Channel.GetFeeRuleAsync(Id);
+        }
+        
+        public long SaveFeeRule(int id, string ruleName, string ruleType, string ruleField, string ruleExecutionType, string ruleExecutionValue, string ruleEvaluationField, string ruleEvaluationDataType, string ruleEvaluationType, string ruleEvaluationValue, string ruleEvaluationMaxValue, bool active) {
+            return base.Channel.SaveFeeRule(id, ruleName, ruleType, ruleField, ruleExecutionType, ruleExecutionValue, ruleEvaluationField, ruleEvaluationDataType, ruleEvaluationType, ruleEvaluationValue, ruleEvaluationMaxValue, active);
+        }
+        
+        public System.Threading.Tasks.Task<long> SaveFeeRuleAsync(int id, string ruleName, string ruleType, string ruleField, string ruleExecutionType, string ruleExecutionValue, string ruleEvaluationField, string ruleEvaluationDataType, string ruleEvaluationType, string ruleEvaluationValue, string ruleEvaluationMaxValue, bool active) {
+            return base.Channel.SaveFeeRuleAsync(id, ruleName, ruleType, ruleField, ruleExecutionType, ruleExecutionValue, ruleEvaluationField, ruleEvaluationDataType, ruleEvaluationType, ruleEvaluationValue, ruleEvaluationMaxValue, active);
+        }
+        
+        public SEnPA.senpa.SignoutResponse Signout(string username) {
+            return base.Channel.Signout(username);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.SignoutResponse> SignoutAsync(string username) {
+            return base.Channel.SignoutAsync(username);
+        }
+        
+        public SEnPA.senpa.PasswordChangeResponse ChangePassword(string username, string oldPassword, string newPassword) {
+            return base.Channel.ChangePassword(username, oldPassword, newPassword);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.PasswordChangeResponse> ChangePasswordAsync(string username, string oldPassword, string newPassword) {
+            return base.Channel.ChangePasswordAsync(username, oldPassword, newPassword);
+        }
+        
+        public SEnPA.senpa.UserRoleActionResponse AddRole(string username, string userRole) {
+            return base.Channel.AddRole(username, userRole);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.UserRoleActionResponse> AddRoleAsync(string username, string userRole) {
+            return base.Channel.AddRoleAsync(username, userRole);
+        }
+        
+        public SEnPA.senpa.UserRoleActionResponse RemoveRole(string username, string userRole) {
+            return base.Channel.RemoveRole(username, userRole);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.UserRoleActionResponse> RemoveRoleAsync(string username, string userRole) {
+            return base.Channel.RemoveRoleAsync(username, userRole);
+        }
+        
+        public SEnPA.senpa.UserActionResponse AddUser(string username, string password, int stakeholderId, string roleGroup, string firstName, string surname, string emailAddress, string mobileNumber, bool passwordExpires, bool active, bool locked) {
+            return base.Channel.AddUser(username, password, stakeholderId, roleGroup, firstName, surname, emailAddress, mobileNumber, passwordExpires, active, locked);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.UserActionResponse> AddUserAsync(string username, string password, int stakeholderId, string roleGroup, string firstName, string surname, string emailAddress, string mobileNumber, bool passwordExpires, bool active, bool locked) {
+            return base.Channel.AddUserAsync(username, password, stakeholderId, roleGroup, firstName, surname, emailAddress, mobileNumber, passwordExpires, active, locked);
+        }
+        
+        public SEnPA.senpa.UserActionResponse UpdateUser(string username, string action) {
+            return base.Channel.UpdateUser(username, action);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.UserActionResponse> UpdateUserAsync(string username, string action) {
+            return base.Channel.UpdateUserAsync(username, action);
+        }
+        
+        public SEnPA.senpa.ApplicationUsers[] GetUsers(string filterText) {
+            return base.Channel.GetUsers(filterText);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.ApplicationUsers[]> GetUsersAsync(string filterText) {
+            return base.Channel.GetUsersAsync(filterText);
+        }
+        
+        public SEnPA.senpa.ApplicationUsers GetUser(string username) {
+            return base.Channel.GetUser(username);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.ApplicationUsers> GetUserAsync(string username) {
+            return base.Channel.GetUserAsync(username);
+        }
+        
+        public SEnPA.senpa.ApplicationRoles[] GetApplicationRoles(string username) {
+            return base.Channel.GetApplicationRoles(username);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.ApplicationRoles[]> GetApplicationRolesAsync(string username) {
+            return base.Channel.GetApplicationRolesAsync(username);
+        }
+        
+        public SEnPA.senpa.UserRoleActionResponse AddGroupRole(string username, string userRole) {
+            return base.Channel.AddGroupRole(username, userRole);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.UserRoleActionResponse> AddGroupRoleAsync(string username, string userRole) {
+            return base.Channel.AddGroupRoleAsync(username, userRole);
+        }
+        
+        public SEnPA.senpa.UserRoleActionResponse RemoveGroupRole(string username, string userRole) {
+            return base.Channel.RemoveGroupRole(username, userRole);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.UserRoleActionResponse> RemoveGroupRoleAsync(string username, string userRole) {
+            return base.Channel.RemoveGroupRoleAsync(username, userRole);
+        }
+        
+        public SEnPA.senpa.ApplicationRoleGroups[] GetApplicationGroupRoles(string username) {
+            return base.Channel.GetApplicationGroupRoles(username);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.ApplicationRoleGroups[]> GetApplicationGroupRolesAsync(string username) {
+            return base.Channel.GetApplicationGroupRolesAsync(username);
+        }
+        
+        public SEnPA.senpa.UserRoleActionResponse AddUserGroup(string group, string description) {
+            return base.Channel.AddUserGroup(group, description);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.UserRoleActionResponse> AddUserGroupAsync(string group, string description) {
+            return base.Channel.AddUserGroupAsync(group, description);
+        }
+        
+        public SEnPA.senpa.ApplicationRoles[] GetApplicationUserGroupRoles(string group) {
+            return base.Channel.GetApplicationUserGroupRoles(group);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.ApplicationRoles[]> GetApplicationUserGroupRolesAsync(string group) {
+            return base.Channel.GetApplicationUserGroupRolesAsync(group);
+        }
+        
+        public SEnPA.senpa.UserRoleActionResponse AddUserGroupRole(string group, string userRole) {
+            return base.Channel.AddUserGroupRole(group, userRole);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.UserRoleActionResponse> AddUserGroupRoleAsync(string group, string userRole) {
+            return base.Channel.AddUserGroupRoleAsync(group, userRole);
+        }
+        
+        public SEnPA.senpa.UserRoleActionResponse RemoveUserGroupRole(string group, string userRole) {
+            return base.Channel.RemoveUserGroupRole(group, userRole);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.UserRoleActionResponse> RemoveUserGroupRoleAsync(string group, string userRole) {
+            return base.Channel.RemoveUserGroupRoleAsync(group, userRole);
+        }
+        
+        public string DefaultPassword() {
+            return base.Channel.DefaultPassword();
+        }
+        
+        public System.Threading.Tasks.Task<string> DefaultPasswordAsync() {
+            return base.Channel.DefaultPasswordAsync();
+        }
+        
+        public SEnPA.senpa.SiteVisitReport[] GetSiteVisitReports(long siteVisitId) {
+            return base.Channel.GetSiteVisitReports(siteVisitId);
+        }
+        
+        public System.Threading.Tasks.Task<SEnPA.senpa.SiteVisitReport[]> GetSiteVisitReportsAsync(long siteVisitId) {
+            return base.Channel.GetSiteVisitReportsAsync(siteVisitId);
         }
     }
 }

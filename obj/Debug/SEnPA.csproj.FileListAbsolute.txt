@@ -253,3 +253,702 @@ C:\Work\Moore Stephens\Seychelles\Development\SEnPA\Desktop\SEnPA\SEnPA\bin\Debu
 C:\Work\Moore Stephens\Seychelles\Development\SEnPA\Desktop\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraVerticalGrid.v17.1.resources.dll
 C:\Work\Moore Stephens\Seychelles\Development\SEnPA\Desktop\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraVerticalGrid.v17.1.resources.dll
 C:\Work\Moore Stephens\Seychelles\Development\SEnPA\Desktop\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\SEnPA.exe.config
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\SEnPA.exe
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\SEnPA.pdb
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.BonusSkins.v17.1.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Charts.v17.1.Core.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Data.v17.1.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.DataAccess.v17.1.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.DataAccess.v17.1.UI.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Office.v17.1.Core.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Spreadsheet.v17.1.Core.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Utils.v17.1.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Utils.v17.1.UI.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Xpo.v17.1.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraBars.v17.1.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraCharts.v17.1.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraSpreadsheet.v17.1.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.CodeParser.v17.1.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Diagram.v17.1.Core.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraDiagram.v17.1.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Data.v17.1.xml
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.DataAccess.v17.1.xml
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.DataAccess.v17.1.UI.xml
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Office.v17.1.Core.xml
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Spreadsheet.v17.1.Core.xml
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Utils.v17.1.xml
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Utils.v17.1.UI.xml
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Xpo.v17.1.xml
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraBars.v17.1.xml
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraCharts.v17.1.xml
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraSpreadsheet.v17.1.xml
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Diagram.v17.1.Core.xml
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraDiagram.v17.1.xml
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.xml
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.DataAccess.v17.1.UI.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.DataAccess.v17.1.UI.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.DataAccess.v17.1.UI.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.DataAccess.v17.1.UI.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Utils.v17.1.UI.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Utils.v17.1.UI.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Utils.v17.1.UI.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Utils.v17.1.UI.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraCharts.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraCharts.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraCharts.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraCharts.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraSpreadsheet.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraSpreadsheet.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraSpreadsheet.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraSpreadsheet.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Diagram.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Diagram.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Diagram.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Diagram.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.Folder.resources
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.Properties.Resources.resources
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.SEnPAMain.resources
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.SignIn.resources
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.csproj.GenerateResource.Cache
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.exe.licenses
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.exe
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.pdb
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ProcessInvoice.resources
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\SEnPA.exe.manifest
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\SEnPA.application
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.exe.manifest
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.application
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.AddUser.resources
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ManagerUserProperties.resources
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ManageStages.resources
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ManageStakeholder.resources
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ManageUserGroupProperties.resources
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraBars.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraBars.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraSpreadsheet.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.csprojResolveAssemblyReference.cache
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.AddUser.resources
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.Folder.resources
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ManagerUserProperties.resources
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ManageStages.resources
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ManageStakeholder.resources
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ManageUserGroupProperties.resources
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ProcessInvoice.resources
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.Properties.Resources.resources
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.SEnPAMain.resources
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.SignIn.resources
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.Tests.resources
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.csproj.GenerateResource.Cache
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.exe.licenses
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\SEnPA.exe.config
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\SEnPA.exe.manifest
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\SEnPA.application
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\SEnPA.exe
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\SEnPA.pdb
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.BonusSkins.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Charts.v17.1.Core.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Data.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.DataAccess.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.DataAccess.v17.1.UI.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Office.v17.1.Core.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Spreadsheet.v17.1.Core.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Utils.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Utils.v17.1.UI.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Xpo.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraCharts.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraSpreadsheet.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.CodeParser.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Diagram.v17.1.Core.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraDiagram.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Data.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.DataAccess.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.DataAccess.v17.1.UI.xml
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Office.v17.1.Core.xml
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Spreadsheet.v17.1.Core.xml
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Utils.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Utils.v17.1.UI.xml
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Xpo.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraCharts.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraSpreadsheet.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Diagram.v17.1.Core.xml
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraDiagram.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraSpreadsheet.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraSpreadsheet.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraSpreadsheet.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.exe.manifest
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.application
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.exe
+C:\Work\Moore Stephens\Seychelles\Development\SEnPA_090720171648\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.pdb
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ValidationRules.resources
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ChargeRules.resources
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ManageStageAutoDocuments.resources
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\SEnPA.exe.config
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\SEnPA.exe.manifest
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\SEnPA.application
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\SEnPA.exe
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\SEnPA.pdb
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.BonusSkins.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Charts.v17.1.Core.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Data.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.DataAccess.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.DataAccess.v17.1.UI.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Office.v17.1.Core.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Spreadsheet.v17.1.Core.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Utils.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Utils.v17.1.UI.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Xpo.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraBars.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraCharts.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraSpreadsheet.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.CodeParser.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Diagram.v17.1.Core.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraDiagram.v17.1.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Data.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.DataAccess.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.DataAccess.v17.1.UI.xml
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Office.v17.1.Core.xml
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Spreadsheet.v17.1.Core.xml
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Utils.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Utils.v17.1.UI.xml
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Xpo.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraBars.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraCharts.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraSpreadsheet.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Diagram.v17.1.Core.xml
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraDiagram.v17.1.xml
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraSpreadsheet.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraSpreadsheet.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraSpreadsheet.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraSpreadsheet.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.csprojResolveAssemblyReference.cache
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.AddUser.resources
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ChargeRules.resources
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.Folder.resources
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ManagerUserProperties.resources
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ManageStageAutoDocuments.resources
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ManageStages.resources
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ManageStakeholder.resources
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ManageUserGroupProperties.resources
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ProcessInvoice.resources
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.Properties.Resources.resources
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.SEnPAMain.resources
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.SignIn.resources
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ValidationRules.resources
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.csproj.GenerateResource.Cache
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.exe.licenses
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.exe.manifest
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.application
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.exe
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.pdb
+I:\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.csprojResolveAssemblyReference.cache
+C:\Work\Moore Stephens\Seychelles\Development\MIS_120720171103\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.UserAccountSettings.resources
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\SEnPA.exe.config
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\SEnPA.exe.manifest
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\SEnPA.application
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\SEnPA.exe
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\SEnPA.pdb
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.BonusSkins.v17.1.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Charts.v17.1.Core.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Data.v17.1.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.DataAccess.v17.1.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.DataAccess.v17.1.UI.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Office.v17.1.Core.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Spreadsheet.v17.1.Core.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Utils.v17.1.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Utils.v17.1.UI.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Xpo.v17.1.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraBars.v17.1.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraCharts.v17.1.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraSpreadsheet.v17.1.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.CodeParser.v17.1.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Diagram.v17.1.Core.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraDiagram.v17.1.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Data.v17.1.xml
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.DataAccess.v17.1.xml
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.DataAccess.v17.1.UI.xml
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Office.v17.1.Core.xml
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Spreadsheet.v17.1.Core.xml
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Utils.v17.1.xml
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Utils.v17.1.UI.xml
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Xpo.v17.1.xml
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraBars.v17.1.xml
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraCharts.v17.1.xml
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraSpreadsheet.v17.1.xml
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.xml
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Diagram.v17.1.Core.xml
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.XtraDiagram.v17.1.xml
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraSpreadsheet.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraSpreadsheet.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraSpreadsheet.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraSpreadsheet.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.AddUser.resources
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ChargeRules.resources
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.Folder.resources
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ManagerUserProperties.resources
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ManageStageAutoDocuments.resources
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ManageStages.resources
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ManageStakeholder.resources
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ManageUserGroupProperties.resources
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ProcessInvoice.resources
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.Properties.Resources.resources
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.SEnPAMain.resources
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.SignIn.resources
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.UserAccountSettings.resources
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.ValidationRules.resources
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.csproj.GenerateResource.Cache
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.exe.licenses
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.exe.manifest
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.application
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.exe
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.pdb
+C:\Attack\MS\Seychelles\Development\SEnPA\Desktop\Actual\SEnPA\SEnPA\obj\Debug\SEnPA.csprojResolveAssemblyReference.cache
+C:\Users\USER\Documents\Git\SEnPA Desktop App\SEnPA Desktop App\SEnPA\bin\Debug\SEnPA.exe.config
+C:\Users\USER\Documents\Git\SEnPA Desktop App\SEnPA Desktop App\SEnPA\obj\Debug\SEnPA.exe
+C:\Users\USER\Documents\Git\SEnPA Desktop App\SEnPA Desktop App\SEnPA\obj\Debug\SEnPA.pdb

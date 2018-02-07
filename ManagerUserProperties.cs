@@ -16,7 +16,7 @@ namespace SEnPA
 {
     public partial class ManagerUserProperties : DevExpress.XtraEditors.XtraForm
     {
-        senpaSecurity.SEnPASecurityClient security = new senpaSecurity.SEnPASecurityClient();
+       
         public ManagerUserProperties()
         {
             InitializeComponent();
@@ -33,16 +33,10 @@ namespace SEnPA
 
         private void ManagerUserProperties_Load(object sender, EventArgs e)
         {
-            //attempt 
-            var httpRequestProperty = new HttpRequestMessageProperty();
-            httpRequestProperty.Headers[HttpRequestHeader.Authorization] = Globals.authorizationKey;
-
-            var context = new OperationContext(security.InnerChannel);
-            using (new OperationContextScope(context))
-            {
-                context.OutgoingMessageProperties[HttpRequestMessageProperty.Name] = httpRequestProperty;
-                senpaSecurity.ApplicationUsers response = security.GetUser(ManageUsers.currentUsername);
-                lblUsername.Text = ManageUsers.currentUsername;
+            SenpaApi agent = new SenpaApi();
+            using (new OperationContextScope(agent.context)) { 
+                senpa.ApplicationUsers response = agent.operation.GetUser(SEnPAMain.currentUsername);
+                lblUsername.Text = SEnPAMain.currentUsername;
                 chkActive.Checked = response.Active;
                 chkExpires.Checked = response.PasswordExpires;
                 chkLocked.Checked = response.Locked;
@@ -52,20 +46,22 @@ namespace SEnPA
                 txtMobile.Text = response.MobileNumber;
                 txtName.Text = response.FirstName;
                 txtSurname.Text = response.Surname;
+                Globals.SetPickList(cmbStakeholder, "stahol");
+                Globals.SetPickListValue(cmbStakeholder, response.FK_StakeholderId);
 
                 //get application user roles
-                senpaSecurity.ApplicationRoles[] roles = security.GetApplicationRoles("default");
-                foreach (senpaSecurity.ApplicationRoles role in roles)
+                senpa.ApplicationRoles[] roles = agent.operation.GetApplicationRoles("default");
+                foreach (senpa.ApplicationRoles role in roles)
                 {
-                    string currentRole = role.RoleName;
+                    string currentRole = role.Name;
                     treeSystemRoles.Nodes["systemRoles"].Nodes.Add(currentRole, currentRole);
                     treeSystemRoles.Nodes["systemRoles"].Nodes[currentRole].Nodes.Add(role.Description);
                 }
                 //get selected user roles
-                senpaSecurity.ApplicationRoles[] userRoles = security.GetApplicationRoles(ManageUsers.currentUsername);
-                foreach (senpaSecurity.ApplicationRoles role in userRoles)
+                senpa.ApplicationRoles[] userRoles = agent.operation.GetApplicationRoles(SEnPAMain.currentUsername);
+                foreach (senpa.ApplicationRoles role in userRoles)
                 {
-                    string currentRole = role.RoleName;
+                    string currentRole = role.Name;
                     treeUserRoles.Nodes["userSystemRoles"].Nodes.Add(currentRole, currentRole);
                     treeUserRoles.Nodes["userSystemRoles"].Nodes[currentRole].Nodes.Add(role.Description);
                     //remove from system roles
@@ -73,18 +69,18 @@ namespace SEnPA
                 }
                 //get user group roles
                 //get application user group roles
-                senpaSecurity.ApplicationRoleGroups[] rolesGroup = security.GetApplicationGroupRoles("default");
-                foreach (senpaSecurity.ApplicationRoleGroups role in rolesGroup)
+                senpa.ApplicationRoleGroups[] rolesGroup = agent.operation.GetApplicationGroupRoles("default");
+                foreach (senpa.ApplicationRoleGroups role in rolesGroup)
                 {
-                    string currentRole = role.RoleGroup;
+                    string currentRole = role.Name;
                     treeSystemRoles.Nodes["systemGroupRoles"].Nodes.Add(currentRole, currentRole);
                     treeSystemRoles.Nodes["systemGroupRoles"].Nodes[currentRole].Nodes.Add(role.Description);
                 }
                 //get selected user roles
-                senpaSecurity.ApplicationRoleGroups[] userRolesGroup = security.GetApplicationGroupRoles(ManageUsers.currentUsername);
-                foreach (senpaSecurity.ApplicationRoleGroups role in userRolesGroup)
+                senpa.ApplicationRoleGroups[] userRolesGroup = agent.operation.GetApplicationGroupRoles(SEnPAMain.currentUsername);
+                foreach (senpa.ApplicationRoleGroups role in userRolesGroup)
                 {
-                    string currentRole = role.RoleGroup;
+                    string currentRole = role.Name;
                     treeUserRoles.Nodes["userSystemGroupRoles"].Nodes.Add(currentRole, currentRole);
                     treeUserRoles.Nodes["userSystemGroupRoles"].Nodes[currentRole].Nodes.Add(role.Description);
                     //remove from system roles
@@ -118,22 +114,18 @@ namespace SEnPA
 
         private void btnAddRole_Click(object sender, EventArgs e)
         {
-            var httpRequestProperty = new HttpRequestMessageProperty();
-            httpRequestProperty.Headers[HttpRequestHeader.Authorization] = Globals.authorizationKey;
-
-            var context = new OperationContext(security.InnerChannel);
-            using (new OperationContextScope(context))
+            SenpaApi agent = new SenpaApi();
+            using (new OperationContextScope(agent.context))
             {
-                context.OutgoingMessageProperties[HttpRequestMessageProperty.Name] = httpRequestProperty;
                 TreeNode temp = treeSystemRoles.SelectedNode;
-                senpaSecurity.UserRoleActionResponse response;
+                senpa.UserRoleActionResponse response;
                 if (FindRootNode(temp).Name == "systemRoles")
                 {
-                    response = security.AddRole(ManageUsers.currentUsername, treeSystemRoles.SelectedNode.Text);
+                    response = agent.operation.AddRole(SEnPAMain.currentUsername, treeSystemRoles.SelectedNode.Text);
                 }
                 else
                 {
-                    response = security.AddGroupRole(ManageUsers.currentUsername, treeSystemRoles.SelectedNode.Text);
+                    response = agent.operation.AddGroupRole(SEnPAMain.currentUsername, treeSystemRoles.SelectedNode.Text);
                 }
                 if (response.actionStatus)
                 {                   
@@ -157,22 +149,18 @@ namespace SEnPA
 
         private void btnRemoveRole_Click(object sender, EventArgs e)
         {
-            var httpRequestProperty = new HttpRequestMessageProperty();
-            httpRequestProperty.Headers[HttpRequestHeader.Authorization] = Globals.authorizationKey;
-
-            var context = new OperationContext(security.InnerChannel);
-            using (new OperationContextScope(context))
+            SenpaApi agent = new SenpaApi();
+            using (new OperationContextScope(agent.context))
             {
-                context.OutgoingMessageProperties[HttpRequestMessageProperty.Name] = httpRequestProperty;
                 TreeNode temp = treeUserRoles.SelectedNode;
-                senpaSecurity.UserRoleActionResponse response;
+                senpa.UserRoleActionResponse response;
                 if (FindRootNode(temp).Name == "userSystemRoles")
                 {
-                    response = security.RemoveRole(ManageUsers.currentUsername, treeUserRoles.SelectedNode.Text);
+                    response = agent.operation.RemoveRole(SEnPAMain.currentUsername, treeUserRoles.SelectedNode.Text);
                 }
                 else
                 {
-                    response = security.RemoveGroupRole(ManageUsers.currentUsername, treeUserRoles.SelectedNode.Text);
+                    response = agent.operation.RemoveGroupRole(SEnPAMain.currentUsername, treeUserRoles.SelectedNode.Text);
                 }
                 if (response.actionStatus)
                 {
@@ -198,42 +186,30 @@ namespace SEnPA
 
         private void chkActive_CheckedChanged(object sender, EventArgs e)
         {
-            var httpRequestProperty = new HttpRequestMessageProperty();
-            httpRequestProperty.Headers[HttpRequestHeader.Authorization] = Globals.authorizationKey;
-
-            var context = new OperationContext(security.InnerChannel);
-            using (new OperationContextScope(context))
+            SenpaApi agent = new SenpaApi();
+            using (new OperationContextScope(agent.context))
             {
-                context.OutgoingMessageProperties[HttpRequestMessageProperty.Name] = httpRequestProperty;
-                senpaSecurity.UserActionResponse response = security.UpdateUser(ManageUsers.currentUsername, ((chkActive.Checked)? "enable" : "disable"));
+                senpa.UserActionResponse response = agent.operation.UpdateUser(SEnPAMain.currentUsername, ((chkActive.Checked)? "enable" : "disable"));
                 chkActive.Checked = response.actionStatus;
             }
         }
 
         private void chkLocked_CheckedChanged(object sender, EventArgs e)
         {
-            var httpRequestProperty = new HttpRequestMessageProperty();
-            httpRequestProperty.Headers[HttpRequestHeader.Authorization] = Globals.authorizationKey;
-
-            var context = new OperationContext(security.InnerChannel);
-            using (new OperationContextScope(context))
+            SenpaApi agent = new SenpaApi();
+            using (new OperationContextScope(agent.context))
             {
-                context.OutgoingMessageProperties[HttpRequestMessageProperty.Name] = httpRequestProperty;
-                senpaSecurity.UserActionResponse response = security.UpdateUser(ManageUsers.currentUsername, ((chkLocked.Checked) ? "lock" : "unlock"));
+                senpa.UserActionResponse response = agent.operation.UpdateUser(SEnPAMain.currentUsername, ((chkLocked.Checked) ? "lock" : "unlock"));
                 chkLocked.Checked = response.actionStatus;
             }
         }
 
         private void chkExpires_CheckedChanged(object sender, EventArgs e)
         {
-            var httpRequestProperty = new HttpRequestMessageProperty();
-            httpRequestProperty.Headers[HttpRequestHeader.Authorization] = Globals.authorizationKey;
-
-            var context = new OperationContext(security.InnerChannel);
-            using (new OperationContextScope(context))
+            SenpaApi agent = new SenpaApi();
+            using (new OperationContextScope(agent.context))
             {
-                context.OutgoingMessageProperties[HttpRequestMessageProperty.Name] = httpRequestProperty;
-                senpaSecurity.UserActionResponse response = security.UpdateUser(ManageUsers.currentUsername, ((chkExpires.Checked) ? "expire" : "notexpire"));
+                senpa.UserActionResponse response = agent.operation.UpdateUser(SEnPAMain.currentUsername, ((chkExpires.Checked) ? "expire" : "notexpire"));
                 chkExpires.Checked = response.actionStatus;
             }
         }

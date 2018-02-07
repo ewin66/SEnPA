@@ -22,11 +22,11 @@
     <MetadataSource Address="http://localhost/SEnPA/SEnPASecurity.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="SEnPASecurity.disco" MetadataType="Disco" ID="0339c09e-20d6-45b8-93bf-6fcd8af5f795" SourceId="1" SourceUrl="http://localhost/SEnPA/SEnPASecurity.svc?disco" />
-    <MetadataFile FileName="SEnPASecurity.xsd" MetadataType="Schema" ID="c09ef840-6bb1-4ba6-8ea7-d3a4eb8f6974" SourceId="1" SourceUrl="http://localhost/SEnPA/SEnPASecurity.svc?xsd=xsd1" />
-    <MetadataFile FileName="SEnPASecurity1.xsd" MetadataType="Schema" ID="39b80a8f-ac3c-4a0c-957f-bd6b36984606" SourceId="1" SourceUrl="http://localhost/SEnPA/SEnPASecurity.svc?xsd=xsd0" />
-    <MetadataFile FileName="SEnPASecurity.wsdl" MetadataType="Wsdl" ID="cdc9132f-5ba8-4473-8e2e-93b733e6b008" SourceId="1" SourceUrl="http://localhost/SEnPA/SEnPASecurity.svc?wsdl" />
-    <MetadataFile FileName="SEnPASecurity2.xsd" MetadataType="Schema" ID="25cf3715-ac3b-44ab-b3c1-7b26e8d2a984" SourceId="1" SourceUrl="http://localhost/SEnPA/SEnPASecurity.svc?xsd=xsd2" />
+    <MetadataFile FileName="SEnPASecurity2.disco" MetadataType="Disco" ID="6cf2291e-7836-4725-8394-a1687e427ae0" SourceId="1" SourceUrl="http://localhost/SEnPA/SEnPASecurity.svc?disco" />
+    <MetadataFile FileName="SEnPASecurity4.xsd" MetadataType="Schema" ID="ffd4a0c9-4204-4e9a-80d4-65246f9be45a" SourceId="1" SourceUrl="http://localhost/SEnPA/SEnPASecurity.svc?xsd=xsd1" />
+    <MetadataFile FileName="SEnPASecurity5.xsd" MetadataType="Schema" ID="24ea93c7-142b-4828-9c8d-63f59fdff263" SourceId="1" SourceUrl="http://localhost/SEnPA/SEnPASecurity.svc?xsd=xsd0" />
+    <MetadataFile FileName="SEnPASecurity2.wsdl" MetadataType="Wsdl" ID="bbf6874a-6554-4cf0-a01e-eb4f3bd7bdc2" SourceId="1" SourceUrl="http://localhost/SEnPA/SEnPASecurity.svc?wsdl" />
+    <MetadataFile FileName="SEnPASecurity6.xsd" MetadataType="Schema" ID="cb0262ec-6729-4479-958b-badeed5ec2b5" SourceId="1" SourceUrl="http://localhost/SEnPA/SEnPASecurity.svc?xsd=xsd2" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

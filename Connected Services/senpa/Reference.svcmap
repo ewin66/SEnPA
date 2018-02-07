@@ -22,11 +22,11 @@
     <MetadataSource Address="http://localhost/SEnPA/SEnPA.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="SEnPA.disco" MetadataType="Disco" ID="3d237c28-e748-47b6-9adb-cefee608fe9d" SourceId="1" SourceUrl="http://localhost/SEnPA/SEnPA.svc?disco" />
-    <MetadataFile FileName="SEnPA.xsd" MetadataType="Schema" ID="498ef773-ca02-48e2-b67a-40c179045ad4" SourceId="1" SourceUrl="http://localhost/SEnPA/SEnPA.svc?xsd=xsd1" />
-    <MetadataFile FileName="SEnPA1.xsd" MetadataType="Schema" ID="b3806cf4-7f83-4960-a0fb-5d3c9e523d26" SourceId="1" SourceUrl="http://localhost/SEnPA/SEnPA.svc?xsd=xsd0" />
-    <MetadataFile FileName="SEnPA.wsdl" MetadataType="Wsdl" ID="b3b63832-0b6b-4077-a604-9a02100080eb" SourceId="1" SourceUrl="http://localhost/SEnPA/SEnPA.svc?wsdl" />
-    <MetadataFile FileName="SEnPA2.xsd" MetadataType="Schema" ID="9e45525b-61d0-4f7c-b212-99d37ffebb09" SourceId="1" SourceUrl="http://localhost/SEnPA/SEnPA.svc?xsd=xsd2" />
+    <MetadataFile FileName="SEnPA2.disco" MetadataType="Disco" ID="e710342c-81b0-4ded-ba5f-cc47cf243958" SourceId="1" SourceUrl="http://localhost/SEnPA/SEnPA.svc?disco" />
+    <MetadataFile FileName="SEnPA4.xsd" MetadataType="Schema" ID="e2ed38b9-c51b-431f-af94-0f7b67ff983f" SourceId="1" SourceUrl="http://localhost/SEnPA/SEnPA.svc?xsd=xsd1" />
+    <MetadataFile FileName="SEnPA5.xsd" MetadataType="Schema" ID="93616332-bad0-4409-a3c6-bf03320ff7b2" SourceId="1" SourceUrl="http://localhost/SEnPA/SEnPA.svc?xsd=xsd0" />
+    <MetadataFile FileName="SEnPA2.wsdl" MetadataType="Wsdl" ID="ba19e97e-8cbe-4c4f-9f51-7147549c4bb9" SourceId="1" SourceUrl="http://localhost/SEnPA/SEnPA.svc?wsdl" />
+    <MetadataFile FileName="SEnPA6.xsd" MetadataType="Schema" ID="deb2b4eb-2774-450f-8e00-6455424f36c1" SourceId="1" SourceUrl="http://localhost/SEnPA/SEnPA.svc?xsd=xsd2" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/SEnPA" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/SEnPA" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="AuthenticationResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="accessToken" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="authenticationStatus" type="xs:boolean" />
+      <xs:element minOccurs="0" name="responseCode" type="xs:int" />
+      <xs:element minOccurs="0" name="responseMessage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AuthenticationResponse" nillable="true" type="tns:AuthenticationResponse" />
+  <xs:complexType name="PasswordChangeResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="changeStatus" type="xs:boolean" />
+      <xs:element minOccurs="0" name="responseMessage" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PasswordChangeResponse" nillable="true" type="tns:PasswordChangeResponse" />
+</xs:schema>

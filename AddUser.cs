@@ -16,7 +16,7 @@ namespace SEnPA
 {
     public partial class AddUser : DevExpress.XtraEditors.XtraForm
     {
-        senpaSecurity.SEnPASecurityClient security = new senpaSecurity.SEnPASecurityClient();
+       
         public AddUser()
         {
             InitializeComponent();
@@ -37,19 +37,16 @@ namespace SEnPA
             txtPassword.ReadOnly = true;
             txtConfirm.ReadOnly = true;
             txtUsername.ReadOnly = true;
-            var httpRequestProperty = new HttpRequestMessageProperty();
-            httpRequestProperty.Headers[HttpRequestHeader.Authorization] = Globals.authorizationKey;
-
-            var context = new OperationContext(security.InnerChannel);
-            using (new OperationContextScope(context))
+            SenpaApi agent = new SenpaApi();
+            using (new OperationContextScope(agent.context))
             {
-                context.OutgoingMessageProperties[HttpRequestMessageProperty.Name] = httpRequestProperty;
                 //get application user group roles
-                senpaSecurity.ApplicationRoleGroups[] rolesGroup = security.GetApplicationGroupRoles("default");
-                foreach (senpaSecurity.ApplicationRoleGroups role in rolesGroup)
+                senpa.ApplicationRoleGroups[] rolesGroup = agent.operation.GetApplicationGroupRoles("default");
+                foreach (senpa.ApplicationRoleGroups role in rolesGroup)
                 {
-                    cmbRoleGroups.Items.Add(role.RoleGroup);
+                    cmbRoleGroups.Items.Add(role.Name);
                 }
+                Globals.SetPickList(cmbStakeholder, "stahol");
             }
         }
 
@@ -78,19 +75,15 @@ namespace SEnPA
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            var httpRequestProperty = new HttpRequestMessageProperty();
-            httpRequestProperty.Headers[HttpRequestHeader.Authorization] = Globals.authorizationKey;
-
-            var context = new OperationContext(security.InnerChannel);
-            using (new OperationContextScope(context))
+            SenpaApi agent = new SenpaApi();
+            using (new OperationContextScope(agent.context))
             {
-                context.OutgoingMessageProperties[HttpRequestMessageProperty.Name] = httpRequestProperty;
                 string password = "";
                 if (chkDefaultPassword.Checked)
-                    password = security.DefaultPassword();
+                    password = agent.operation.DefaultPassword();
                 else
                     password = txtPassword.Text;
-                senpaSecurity.UserActionResponse response = security.AddUser(txtUsername.Text, password, cmbRoleGroups.Text, txtName.Text, txtSurname.Text, txtEmail.Text, txtMobile.Text, chkPasswordExpires.Checked, chkActive.Checked, chkLocked.Checked);
+               senpa.UserActionResponse response = agent.operation.AddUser(txtUsername.Text, password,Globals.GetComboBoxValue(cmbStakeholder), cmbRoleGroups.Text, txtName.Text, txtSurname.Text, txtEmail.Text, txtMobile.Text, chkPasswordExpires.Checked, chkActive.Checked, chkLocked.Checked);
                 if (response.actionStatus)
                 {
                     txtName.Text = "";
@@ -105,6 +98,11 @@ namespace SEnPA
                     MessageBox.Show(response.responseMessage);
                 }
             }
+        }
+
+        private void labelControl12_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

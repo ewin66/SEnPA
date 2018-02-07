@@ -16,7 +16,7 @@ namespace SEnPA
 {
     public partial class ManageUserGroupProperties : DevExpress.XtraEditors.XtraForm
     {
-        senpaSecurity.SEnPASecurityClient security = new senpaSecurity.SEnPASecurityClient();
+       
         public ManageUserGroupProperties()
         {
             InitializeComponent();
@@ -24,30 +24,24 @@ namespace SEnPA
 
         private void ManageUserGroupProperties_Load(object sender, EventArgs e)
         {
-            //attempt 
-            var httpRequestProperty = new HttpRequestMessageProperty();
-            httpRequestProperty.Headers[HttpRequestHeader.Authorization] = Globals.authorizationKey;
-
-            var context = new OperationContext(security.InnerChannel);
-            using (new OperationContextScope(context))
+            SenpaApi agent = new SenpaApi();
+            using (new OperationContextScope(agent.context))
             {
-                context.OutgoingMessageProperties[HttpRequestMessageProperty.Name] = httpRequestProperty;
-               
                 //get application user roles
-                senpaSecurity.ApplicationRoles[] roles = security.GetApplicationRoles("default");
-                foreach (senpaSecurity.ApplicationRoles role in roles)
+                senpa.ApplicationRoles[] roles = agent.operation.GetApplicationRoles("default");
+                foreach (senpa.ApplicationRoles role in roles)
                 {
-                    string currentRole = role.RoleName;
+                    string currentRole = role.Name;
                     treeSystemRoles.Nodes["systemRoles"].Nodes.Add(currentRole, currentRole);
                     treeSystemRoles.Nodes["systemRoles"].Nodes[currentRole].Nodes.Add(role.Description);
                 }
                
                 //get user group roles
                 //get application user group roles
-                senpaSecurity.ApplicationRoleGroups[] rolesGroup = security.GetApplicationGroupRoles("default");
-                foreach (senpaSecurity.ApplicationRoleGroups role in rolesGroup)
+                senpa.ApplicationRoleGroups[] rolesGroup = agent.operation.GetApplicationGroupRoles("default");
+                foreach (senpa.ApplicationRoleGroups role in rolesGroup)
                 {
-                    string currentRole = role.RoleGroup;
+                    string currentRole = role.Name;
                     treeUserGroups.Nodes["userGroups"].Nodes.Add(currentRole, currentRole);
                     treeUserGroups.Nodes["userGroups"].Nodes[currentRole].Nodes.Add(role.Description);
                 }
@@ -57,17 +51,11 @@ namespace SEnPA
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            //attempt 
-            var httpRequestProperty = new HttpRequestMessageProperty();
-            httpRequestProperty.Headers[HttpRequestHeader.Authorization] = Globals.authorizationKey;
-
-            var context = new OperationContext(security.InnerChannel);
-            using (new OperationContextScope(context))
+            SenpaApi agent = new SenpaApi();
+            using (new OperationContextScope(agent.context))
             {
-                context.OutgoingMessageProperties[HttpRequestMessageProperty.Name] = httpRequestProperty;
-
                 //get application user roles
-                senpaSecurity.UserRoleActionResponse response = security.AddUserGroup(txtGroup.Text, txtDescription.Text);
+                senpa.UserRoleActionResponse response = agent.operation.AddUserGroup(txtGroup.Text, txtDescription.Text);
                 if(response.actionStatus)
                 {
                     string currentRole = txtGroup.Text;
@@ -82,28 +70,22 @@ namespace SEnPA
         {
             treeSystemRoles.Nodes["systemRoles"].Nodes.Clear();
             treeUserRoles.Nodes["userSystemRoles"].Nodes.Clear();
-
-            //attempt 
-            var httpRequestProperty = new HttpRequestMessageProperty();
-            httpRequestProperty.Headers[HttpRequestHeader.Authorization] = Globals.authorizationKey;
-
-            var context = new OperationContext(security.InnerChannel);
-            using (new OperationContextScope(context))
+            SenpaApi agent = new SenpaApi();
+            using (new OperationContextScope(agent.context))
             {
-                context.OutgoingMessageProperties[HttpRequestMessageProperty.Name] = httpRequestProperty;
                 //get application user roles
-                senpaSecurity.ApplicationRoles[] roles = security.GetApplicationRoles("default");
-                foreach (senpaSecurity.ApplicationRoles role in roles)
+                senpa.ApplicationRoles[] roles = agent.operation.GetApplicationRoles("default");
+                foreach (senpa.ApplicationRoles role in roles)
                 {
-                    string currentRole = role.RoleName;
+                    string currentRole = role.Name;
                     treeSystemRoles.Nodes["systemRoles"].Nodes.Add(currentRole, currentRole);
                     treeSystemRoles.Nodes["systemRoles"].Nodes[currentRole].Nodes.Add(role.Description);
                 }
                 //get selected user roles
-                senpaSecurity.ApplicationRoles[] userRoles = security.GetApplicationUserGroupRoles(treeUserGroups.SelectedNode.Text);
-                foreach (senpaSecurity.ApplicationRoles role in userRoles)
+                senpa.ApplicationRoles[] userRoles = agent.operation.GetApplicationUserGroupRoles(treeUserGroups.SelectedNode.Text);
+                foreach (senpa.ApplicationRoles role in userRoles)
                 {
-                    string currentRole = role.RoleName;
+                    string currentRole = role.Name;
                     treeUserRoles.Nodes["userSystemRoles"].Nodes.Add(currentRole, currentRole);
                     treeUserRoles.Nodes["userSystemRoles"].Nodes[currentRole].Nodes.Add(role.Description);
                     //remove from system roles
@@ -115,14 +97,10 @@ namespace SEnPA
 
         private void btnAddRole_Click(object sender, EventArgs e)
         {
-            var httpRequestProperty = new HttpRequestMessageProperty();
-            httpRequestProperty.Headers[HttpRequestHeader.Authorization] = Globals.authorizationKey;
-
-            var context = new OperationContext(security.InnerChannel);
-            using (new OperationContextScope(context))
+            SenpaApi agent = new SenpaApi();
+            using (new OperationContextScope(agent.context))
             {
-                context.OutgoingMessageProperties[HttpRequestMessageProperty.Name] = httpRequestProperty;
-                senpaSecurity.UserRoleActionResponse response = security.AddUserGroupRole(treeUserGroups.SelectedNode.Text, treeSystemRoles.SelectedNode.Text);
+                senpa.UserRoleActionResponse response = agent.operation.AddUserGroupRole(treeUserGroups.SelectedNode.Text, treeSystemRoles.SelectedNode.Text);
                 if (response.actionStatus)
                 {
                     TreeNode temp = treeSystemRoles.SelectedNode;
@@ -138,14 +116,10 @@ namespace SEnPA
 
         private void btnRemoveRole_Click(object sender, EventArgs e)
         {
-            var httpRequestProperty = new HttpRequestMessageProperty();
-            httpRequestProperty.Headers[HttpRequestHeader.Authorization] = Globals.authorizationKey;
-
-            var context = new OperationContext(security.InnerChannel);
-            using (new OperationContextScope(context))
+            SenpaApi agent = new SenpaApi();
+            using (new OperationContextScope(agent.context))
             {
-                context.OutgoingMessageProperties[HttpRequestMessageProperty.Name] = httpRequestProperty;
-                senpaSecurity.UserRoleActionResponse response = security.RemoveUserGroupRole(treeUserGroups.SelectedNode.Text, treeUserRoles.SelectedNode.Text);
+                senpa.UserRoleActionResponse response = agent.operation.RemoveUserGroupRole(treeUserGroups.SelectedNode.Text, treeUserRoles.SelectedNode.Text);
                 if (response.actionStatus)
                 {
                     TreeNode temp = treeUserRoles.SelectedNode;

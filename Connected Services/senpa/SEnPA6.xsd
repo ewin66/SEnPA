@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/SEnPA" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/SEnPA" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="SiteVisitReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Comments" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Confirmed" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DocumentLibraryId" type="xs:long" />
+      <xs:element minOccurs="0" name="FK_SiteVisitId" type="xs:long" />
+      <xs:element minOccurs="0" name="FK_StakeholderId" type="xs:int" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UploadDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="UploadStatus" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SiteVisitReport" nillable="true" type="tns:SiteVisitReport" />
+  <xs:complexType name="SiteVisit">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Background" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BusinessDescription" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Conclusion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Confirmed" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Equipment" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_BDM" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_BDO" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_DocumentId" type="xs:long" />
+      <xs:element minOccurs="0" name="FK_DocumentWorkFlowId" type="xs:long" />
+      <xs:element minOccurs="0" name="FK_FinanceInstituteId" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_HR" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_RecommendationId" type="xs:long" />
+      <xs:element minOccurs="0" name="FK_WorkFlowStageId" type="xs:long" />
+      <xs:element minOccurs="0" name="HasLoan" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LoanAmount" type="xs:float" />
+      <xs:element minOccurs="0" name="LoanPurpose" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Manpower" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Marketing" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Origin" type="xs:int" />
+      <xs:element minOccurs="0" name="Phone" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Premises" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SMS" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Training" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VisitAddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VisitDate" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SiteVisit" nillable="true" type="tns:SiteVisit" />
+  <xs:complexType name="ArrayOfInvoice">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Invoice" nillable="true" type="tns:Invoice" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfInvoice" nillable="true" type="tns:ArrayOfInvoice" />
+  <xs:complexType name="Invoice">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AllowPartPayment" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Amount" type="xs:float" />
+      <xs:element minOccurs="0" name="AmountDiscount" type="xs:float" />
+      <xs:element minOccurs="0" name="AmountPaid" type="xs:float" />
+      <xs:element minOccurs="0" name="AmountSurcharge" type="xs:float" />
+      <xs:element minOccurs="0" name="AmountTotal" type="xs:float" />
+      <xs:element minOccurs="0" name="Comments" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Currency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CurrencyPaid" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DocumentType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_DocumentId" type="xs:long" />
+      <xs:element minOccurs="0" name="FK_DocumentWorkFlowId" type="xs:long" />
+      <xs:element minOccurs="0" name="FK_InvoicedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_PayBranchId" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_PaymentMethodId" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_ReceiptedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_ReferenceNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_WorkFlowStageId" type="xs:long" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="InvoiceDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PaymentDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ReceiptNumber" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Invoice" nillable="true" type="tns:Invoice" />
+  <xs:complexType name="ArrayOfInvoiceItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="InvoiceItem" nillable="true" type="tns:InvoiceItem" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfInvoiceItem" nillable="true" type="tns:ArrayOfInvoiceItem" />
+  <xs:complexType name="InvoiceItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Amount" type="xs:float" />
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Currency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_InvoiceId" type="xs:long" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="InvoiceItem" nillable="true" type="tns:InvoiceItem" />
+  <xs:complexType name="ArrayOfRecommendedAction">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="RecommendedAction" nillable="true" type="tns:RecommendedAction" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfRecommendedAction" nillable="true" type="tns:ArrayOfRecommendedAction" />
+  <xs:complexType name="RecommendedAction">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Active" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Details" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_ActionId" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_RecommendationId" type="xs:long" />
+      <xs:element minOccurs="0" name="FK_StakeholderId" type="xs:int" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Reminder" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StatusReason" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RecommendedAction" nillable="true" type="tns:RecommendedAction" />
+  <xs:complexType name="Recommendations">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Comments" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DeadlineDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="FK_BusinessDevelopmentOfficer" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_DocumentId" type="xs:long" />
+      <xs:element minOccurs="0" name="FK_DocumentWorkFlowId" type="xs:long" />
+      <xs:element minOccurs="0" name="FK_WorkFlowStageId" type="xs:long" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StatusReason" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Recommendations" nillable="true" type="tns:Recommendations" />
+  <xs:complexType name="Resident">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DateOfBirth" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MaidenSurname" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NIN" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nationality" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Surname" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Resident" nillable="true" type="tns:Resident" />
+  <xs:complexType name="Business">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AddressLine1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AddressLine2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CommencementDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RegistrationDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="RegistrationNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RegistrationStatusId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Business" nillable="true" type="tns:Business" />
+  <xs:complexType name="ArrayOfTrainingSessionReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TrainingSessionReport" nillable="true" type="tns:TrainingSessionReport" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTrainingSessionReport" nillable="true" type="tns:ArrayOfTrainingSessionReport" />
+  <xs:complexType name="TrainingSessionReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EndDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LocationAddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StartDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StatusReason" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TrainingBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TrainingCategory" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TrainingCourse" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TrainingType" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TrainingSessionReport" nillable="true" type="tns:TrainingSessionReport" />
+  <xs:complexType name="TrainingSession">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EndDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="FK_TrainingCategoryId" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_TrainingCourseId" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_TrainingTypeId" type="xs:int" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LocationAddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StartDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StatusReason" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TrainingBy" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TrainingSession" nillable="true" type="tns:TrainingSession" />
+  <xs:complexType name="ArrayOfTrainingRegistrationReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TrainingRegistrationReport" nillable="true" type="tns:TrainingRegistrationReport" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTrainingRegistrationReport" nillable="true" type="tns:ArrayOfTrainingRegistrationReport" />
+  <xs:complexType name="TrainingRegistrationReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BusinessName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BusinessRegistrationId" type="xs:long" />
+      <xs:element minOccurs="0" name="BusinessRegistrationType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BusinessType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FirstNames" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Island" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NIN" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TrainingRegistrationReport" nillable="true" type="tns:TrainingRegistrationReport" />
+  <xs:complexType name="ArrayOfEmail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Email" nillable="true" type="tns:Email" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfEmail" nillable="true" type="tns:ArrayOfEmail" />
+  <xs:complexType name="Email">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BCC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Category" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DeliveryCode" type="xs:int" />
+      <xs:element minOccurs="0" name="DeliveryMessage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Destination" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HasAttachments" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="IsBodyHtml" type="xs:boolean" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReplyTo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SentOn" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Subject" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UseDesign" nillable="true" type="tns:EmailMessageDesign" />
+      <xs:element minOccurs="0" name="UseGateway" nillable="true" type="tns:EmailGateway" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Email" nillable="true" type="tns:Email" />
+  <xs:complexType name="EmailMessageDesign">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Category" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MessageName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Subject" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EmailMessageDesign" nillable="true" type="tns:EmailMessageDesign" />
+  <xs:complexType name="EmailGateway">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GatewayName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Port" type="xs:int" />
+      <xs:element minOccurs="0" name="Smtp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EmailGateway" nillable="true" type="tns:EmailGateway" />
+  <xs:complexType name="ArrayOfSMS">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SMS" nillable="true" type="tns:SMS" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSMS" nillable="true" type="tns:ArrayOfSMS" />
+  <xs:complexType name="SMS">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Category" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DeliveryCode" type="xs:int" />
+      <xs:element minOccurs="0" name="DeliveryMessage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Destination" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SentOn" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UseDesign" nillable="true" type="tns:SMSMessageDesign" />
+      <xs:element minOccurs="0" name="UseGateway" nillable="true" type="tns:SMSGateway" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SMS" nillable="true" type="tns:SMS" />
+  <xs:complexType name="SMSMessageDesign">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Category" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MessageName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SMSMessageDesign" nillable="true" type="tns:SMSMessageDesign" />
+  <xs:complexType name="SMSGateway">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GatewayName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Url" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SMSGateway" nillable="true" type="tns:SMSGateway" />
+  <xs:complexType name="ArrayOfEmailMessageDesign">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="EmailMessageDesign" nillable="true" type="tns:EmailMessageDesign" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfEmailMessageDesign" nillable="true" type="tns:ArrayOfEmailMessageDesign" />
+  <xs:complexType name="DocumentWorkflow">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AssignedTo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DocumentType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_CurrentRoleGroupId" type="xs:long" />
+      <xs:element minOccurs="0" name="FK_DocumentId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_LastRoleGroupId" type="xs:long" />
+      <xs:element minOccurs="0" name="FK_NextRoleGroupId" type="xs:long" />
+      <xs:element minOccurs="0" name="FK_WorkFlowId" type="xs:long" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WorkFlowStatus" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DocumentWorkflow" nillable="true" type="tns:DocumentWorkflow" />
+  <xs:complexType name="ArrayOfApplicationUserSummary">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ApplicationUserSummary" nillable="true" type="tns:ApplicationUserSummary" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfApplicationUserSummary" nillable="true" type="tns:ArrayOfApplicationUserSummary" />
+  <xs:complexType name="ApplicationUserSummary">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EmailAddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="MobileNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Surname" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ApplicationUserSummary" nillable="true" type="tns:ApplicationUserSummary" />
+  <xs:complexType name="ArrayOfWorkFlowStageDocuments">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="WorkFlowStageDocuments" nillable="true" type="tns:WorkFlowStageDocuments" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfWorkFlowStageDocuments" nillable="true" type="tns:ArrayOfWorkFlowStageDocuments" />
+  <xs:complexType name="WorkFlowStageDocuments">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DocumentRequired" type="xs:boolean" />
+      <xs:element minOccurs="0" name="FK_DocumentTypeId" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_StageId" type="xs:long" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WorkFlowStageDocuments" nillable="true" type="tns:WorkFlowStageDocuments" />
+  <xs:complexType name="ArrayOfDocumentLibrary">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DocumentLibrary" nillable="true" type="tns:DocumentLibrary" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDocumentLibrary" nillable="true" type="tns:ArrayOfDocumentLibrary" />
+  <xs:complexType name="DocumentLibrary">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BusinessAssesment" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DocumentContentType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DocumentData" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="DocumentName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_DocumentFolderId" type="xs:long" />
+      <xs:element minOccurs="0" name="FK_DocumentId" type="xs:long" />
+      <xs:element minOccurs="0" name="FK_DocumentTypeId" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_DocumentWorkFlowId" type="xs:long" />
+      <xs:element minOccurs="0" name="FK_WorkFlowStageId" type="xs:long" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DocumentLibrary" nillable="true" type="tns:DocumentLibrary" />
+  <xs:complexType name="WorkFlows">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_EndRoleGroupId" type="xs:long" />
+      <xs:element minOccurs="0" name="FK_StartRoleGroupId" type="xs:long" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WorkFlowDescription" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WorkFlowName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WorkFlows" nillable="true" type="tns:WorkFlows" />
+  <xs:complexType name="ArrayOfWorkFlows">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="WorkFlows" nillable="true" type="tns:WorkFlows" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfWorkFlows" nillable="true" type="tns:ArrayOfWorkFlows" />
+  <xs:complexType name="WorkFlowStages">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_AutoDocumentName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_RoleGroupId" type="xs:long" />
+      <xs:element minOccurs="0" name="FK_WorkFlowId" type="xs:long" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RequireDocuments" type="xs:boolean" />
+      <xs:element minOccurs="0" name="RequirePayment" type="xs:boolean" />
+      <xs:element minOccurs="0" name="RequireRecommendations" type="xs:boolean" />
+      <xs:element minOccurs="0" name="RequireSiteVisit" type="xs:boolean" />
+      <xs:element minOccurs="0" name="SendEmail" type="xs:int" />
+      <xs:element minOccurs="0" name="SendSMS" type="xs:int" />
+      <xs:element minOccurs="0" name="StageAssignMode" type="xs:int" />
+      <xs:element minOccurs="0" name="StageDescription" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StageName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StageOptional" type="xs:boolean" />
+      <xs:element minOccurs="0" name="StagePosition" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WorkFlowStages" nillable="true" type="tns:WorkFlowStages" />
+  <xs:complexType name="ArrayOfWorkFlowStages">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="WorkFlowStages" nillable="true" type="tns:WorkFlowStages" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfWorkFlowStages" nillable="true" type="tns:ArrayOfWorkFlowStages" />
+  <xs:complexType name="ArrayOfDocumentWorkFlowProgress">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DocumentWorkFlowProgress" nillable="true" type="tns:DocumentWorkFlowProgress" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDocumentWorkFlowProgress" nillable="true" type="tns:ArrayOfDocumentWorkFlowProgress" />
+  <xs:complexType name="DocumentWorkFlowProgress">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_DocumentWorkFlowId" type="xs:long" />
+      <xs:element minOccurs="0" name="FK_StageName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DocumentWorkFlowProgress" nillable="true" type="tns:DocumentWorkFlowProgress" />
+  <xs:complexType name="ArrayOfWorkFlowStageDocumentStatus">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="WorkFlowStageDocumentStatus" nillable="true" type="tns:WorkFlowStageDocumentStatus" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfWorkFlowStageDocumentStatus" nillable="true" type="tns:ArrayOfWorkFlowStageDocumentStatus" />
+  <xs:complexType name="WorkFlowStageDocumentStatus">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DocumentRequired" type="xs:boolean" />
+      <xs:element minOccurs="0" name="DocumentType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_DocumentTypeId" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_StageId" type="xs:long" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="Uploaded" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WorkFlowStageDocumentStatus" nillable="true" type="tns:WorkFlowStageDocumentStatus" />
+  <xs:complexType name="ArrayOfWorkFlowFieldValidations">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="WorkFlowFieldValidations" nillable="true" type="tns:WorkFlowFieldValidations" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfWorkFlowFieldValidations" nillable="true" type="tns:ArrayOfWorkFlowFieldValidations" />
+  <xs:complexType name="WorkFlowFieldValidations">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Active" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DocumentType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ParameterDataType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ParameterEvaluationType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ParameterField" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ParameterFieldName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ParameterMaxValue" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ParameterValue" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WorkFlowFieldValidations" nillable="true" type="tns:WorkFlowFieldValidations" />
+  <xs:complexType name="ArrayOfFeeRules">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FeeRules" nillable="true" type="tns:FeeRules" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFeeRules" nillable="true" type="tns:ArrayOfFeeRules" />
+  <xs:complexType name="FeeRules">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Active" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_FeeId" type="xs:int" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RuleEvaluationDataType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RuleEvaluationField" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RuleEvaluationMaxValue" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RuleEvaluationType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RuleEvaluationValue" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RuleExecutionType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RuleExecutionValue" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RuleField" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RuleName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RuleType" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FeeRules" nillable="true" type="tns:FeeRules" />
+  <xs:complexType name="ArrayOfWorkFlowStagesAutoDocuments">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="WorkFlowStagesAutoDocuments" nillable="true" type="tns:WorkFlowStagesAutoDocuments" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfWorkFlowStagesAutoDocuments" nillable="true" type="tns:ArrayOfWorkFlowStagesAutoDocuments" />
+  <xs:complexType name="WorkFlowStagesAutoDocuments">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Active" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_AutoDocumentName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_WorkFlowStageId" type="xs:long" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SendEmail" type="xs:int" />
+      <xs:element minOccurs="0" name="SendSMS" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WorkFlowStagesAutoDocuments" nillable="true" type="tns:WorkFlowStagesAutoDocuments" />
+  <xs:complexType name="ArrayOfDocumentFolders">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DocumentFolders" nillable="true" type="tns:DocumentFolders" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDocumentFolders" nillable="true" type="tns:ArrayOfDocumentFolders" />
+  <xs:complexType name="DocumentFolders">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FolderName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ParentId" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DocumentFolders" nillable="true" type="tns:DocumentFolders" />
+  <xs:complexType name="ArrayOfDocumentTypes">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DocumentTypes" nillable="true" type="tns:DocumentTypes" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDocumentTypes" nillable="true" type="tns:ArrayOfDocumentTypes" />
+  <xs:complexType name="DocumentTypes">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DocumentTypes" nillable="true" type="tns:DocumentTypes" />
+  <xs:complexType name="RegistrationRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BusinessName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BusinessRegistrationNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CertificateIssueDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Citizenship" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DOB" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DocumentType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_BusinessDevelopmentOfficerId" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_BusinessIslandDistrictId" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_BusinessIslandLocationId" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_BusinessRegistrationTypeId" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_BusinessTypeId" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_EducationLevelId" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_ResidenceDistrictLocationId" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_ResidenceIslandLocationId" type="xs:int" />
+      <xs:element minOccurs="0" name="FirstNames" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HomeTelephone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Mobile" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NIN" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReferenceNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RequireWorkFlow" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Salutation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StatusReason" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SubmissionType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TermsAndConditionsAccepted" type="xs:boolean" />
+      <xs:element minOccurs="0" name="WorkFlowId" type="xs:long" />
+      <xs:element minOccurs="0" name="WorkFlowStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WorkTelephone" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RegistrationRequest" nillable="true" type="tns:RegistrationRequest" />
+  <xs:complexType name="ArrayOfRegistrationRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="RegistrationRequest" nillable="true" type="tns:RegistrationRequest" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfRegistrationRequest" nillable="true" type="tns:ArrayOfRegistrationRequest" />
+  <xs:complexType name="ArrayOfBusinessRegistration">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BusinessRegistration" nillable="true" type="tns:BusinessRegistration" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBusinessRegistration" nillable="true" type="tns:ArrayOfBusinessRegistration" />
+  <xs:complexType name="BusinessRegistration">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BusinessName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BusinessRegistrationNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CertificateIssueDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CertificateNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Citizenship" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DOB" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_BusinessIslandDistrictId" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_BusinessIslandLocationId" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_BusinessRegistrationTypeId" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_BusinessTypeId" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_EducationLevelId" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_RegistrationRequestId" type="xs:long" />
+      <xs:element minOccurs="0" name="FK_ResidenceDistrictLocationId" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_ResidenceIslandLocationId" type="xs:int" />
+      <xs:element minOccurs="0" name="FirstNames" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HomeTelephone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Mobile" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NIN" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RegistrationNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Salutation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StatusReason" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TermsAndConditionsAccepted" type="xs:boolean" />
+      <xs:element minOccurs="0" name="WorkTelephone" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BusinessRegistration" nillable="true" type="tns:BusinessRegistration" />
+  <xs:complexType name="RenewalRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BusinessAdvantages" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BusinessDescription" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BusinessDisadvantages" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CertificateRenewalDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DocumentType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Equipment" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_BusinessDevelopmentOfficerId" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_BusinessRegistrationId" type="xs:long" />
+      <xs:element minOccurs="0" name="Funding" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GoalsAndObjectives" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MarketingPlan" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OperationsForecast" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RawMaterials" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReferenceNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RequireWorkFlow" type="xs:boolean" />
+      <xs:element minOccurs="0" name="SalesTarget" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StatusReason" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SubmissionType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WorkFlowId" type="xs:long" />
+      <xs:element minOccurs="0" name="WorkFlowStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WorkingPremises" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RenewalRequest" nillable="true" type="tns:RenewalRequest" />
+  <xs:complexType name="ArrayOfRenewalRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="RenewalRequest" nillable="true" type="tns:RenewalRequest" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfRenewalRequest" nillable="true" type="tns:ArrayOfRenewalRequest" />
+  <xs:complexType name="ArrayOfAutoDocument">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AutoDocument" nillable="true" type="tns:AutoDocument" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAutoDocument" nillable="true" type="tns:ArrayOfAutoDocument" />
+  <xs:complexType name="AutoDocument">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DocumentType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DocumentTypeName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AutoDocument" nillable="true" type="tns:AutoDocument" />
+  <xs:complexType name="CottageCertificate">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CertificateIssueDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CertificateNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DocumentType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_BusinessRegistrationId" type="xs:long" />
+      <xs:element minOccurs="0" name="FK_IssuedById" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_LastRenewedById" type="xs:long" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LastRenewalDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="NextRenewalDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="RequireWorkFlow" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StatusReason" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WorkFlowId" type="xs:long" />
+      <xs:element minOccurs="0" name="WorkFlowStatus" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CottageCertificate" nillable="true" type="tns:CottageCertificate" />
+  <xs:complexType name="ArrayOfCottageCertificate">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CottageCertificate" nillable="true" type="tns:CottageCertificate" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCottageCertificate" nillable="true" type="tns:ArrayOfCottageCertificate" />
+  <xs:complexType name="ArrayOfActiveRenewalRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ActiveRenewalRequest" nillable="true" type="tns:ActiveRenewalRequest" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfActiveRenewalRequest" nillable="true" type="tns:ArrayOfActiveRenewalRequest" />
+  <xs:complexType name="ActiveRenewalRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BusinessName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CertificateNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FirstNames" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Mobile" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NIN" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RegistrationNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ActiveRenewalRequest" nillable="true" type="tns:ActiveRenewalRequest" />
+  <xs:complexType name="QuickStats">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PendingBusinessRegistrationsCount" type="xs:long" />
+      <xs:element minOccurs="0" name="PendingRenewalsCount" type="xs:long" />
+      <xs:element minOccurs="0" name="PendingSiteVisitsCount" type="xs:long" />
+      <xs:element minOccurs="0" name="RegisteredBusinessCount" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="QuickStats" nillable="true" type="tns:QuickStats" />
+  <xs:complexType name="ArrayOfNotifications">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Notifications" nillable="true" type="tns:Notifications" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfNotifications" nillable="true" type="tns:ArrayOfNotifications" />
+  <xs:complexType name="Notifications">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DocumentType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_DocumentId" type="xs:long" />
+      <xs:element minOccurs="0" name="FK_Username" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Status" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Notifications" nillable="true" type="tns:Notifications" />
+  <xs:complexType name="ArrayOfPickList">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PickList" nillable="true" type="tns:PickList" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPickList" nillable="true" type="tns:ArrayOfPickList" />
+  <xs:complexType name="PickList">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="Text" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PickList" nillable="true" type="tns:PickList" />
+  <xs:complexType name="ArrayOfReferenceTable">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ReferenceTable" nillable="true" type="tns:ReferenceTable" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfReferenceTable" nillable="true" type="tns:ArrayOfReferenceTable" />
+  <xs:complexType name="ReferenceTable">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Active" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_ParentId" type="xs:int" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReferenceTable" nillable="true" type="tns:ReferenceTable" />
+  <xs:complexType name="ArrayOfStakeholder">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Stakeholder" nillable="true" type="tns:Stakeholder" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfStakeholder" nillable="true" type="tns:ArrayOfStakeholder" />
+  <xs:complexType name="Stakeholder">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Active" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Mobile" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Stakeholder" nillable="true" type="tns:Stakeholder" />
+  <xs:complexType name="BusinessTypeStakeholder">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_BusinessTypeId" type="xs:int" />
+      <xs:element minOccurs="0" name="FK_StakeholderId" type="xs:int" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StakeholderRequired" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BusinessTypeStakeholder" nillable="true" type="tns:BusinessTypeStakeholder" />
+  <xs:complexType name="AutoDocumentsDesign">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DocumentDesign" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DocumentDesignSMS" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DocumentName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" type="xs:boolean" />
+      <xs:element minOccurs="0" name="EmailSubject" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SMS" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AutoDocumentsDesign" nillable="true" type="tns:AutoDocumentsDesign" />
+  <xs:complexType name="ArrayOfAutoDocumentsDesign">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AutoDocumentsDesign" nillable="true" type="tns:AutoDocumentsDesign" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAutoDocumentsDesign" nillable="true" type="tns:ArrayOfAutoDocumentsDesign" />
+  <xs:complexType name="SignoutResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="signoutStatus" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SignoutResponse" nillable="true" type="tns:SignoutResponse" />
+  <xs:complexType name="PasswordChangeResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="changeStatus" type="xs:boolean" />
+      <xs:element minOccurs="0" name="responseMessage" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PasswordChangeResponse" nillable="true" type="tns:PasswordChangeResponse" />
+  <xs:complexType name="UserRoleActionResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="actionStatus" type="xs:boolean" />
+      <xs:element minOccurs="0" name="responseMessage" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UserRoleActionResponse" nillable="true" type="tns:UserRoleActionResponse" />
+  <xs:complexType name="UserActionResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="actionStatus" type="xs:boolean" />
+      <xs:element minOccurs="0" name="responseMessage" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UserActionResponse" nillable="true" type="tns:UserActionResponse" />
+  <xs:complexType name="ArrayOfApplicationUsers">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ApplicationUsers" nillable="true" type="tns:ApplicationUsers" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfApplicationUsers" nillable="true" type="tns:ArrayOfApplicationUsers" />
+  <xs:complexType name="ApplicationUsers">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Active" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EmailAddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_RoleGroup" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FK_StakeholderId" type="xs:int" />
+      <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="LastModified" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LastModifiedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Locked" type="xs:boolean" />
+      <xs:element minOccurs="0" name="MobileNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Passcode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PasswordExpires" type="xs:boolean" />
+      <xs:element minOccurs="0" name="PasswordExpiryDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="PasswordLastChanged" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Surname" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ApplicationUsers" nillable="true" type="tns:ApplicationUsers" />
+  <xs:complexType name="ArrayOfApplicationRoles">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ApplicationRoles" nillable="true" type="tns:ApplicationRoles" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfApplicationRoles" nillable="true" type="tns:ArrayOfApplicationRoles" />
+  <xs:complexType name="ApplicationRoles">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ApplicationRoles" nillable="true" type="tns:ApplicationRoles" />
+  <xs:complexType name="ArrayOfApplicationRoleGroups">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ApplicationRoleGroups" nillable="true" type="tns:ApplicationRoleGroups" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfApplicationRoleGroups" nillable="true" type="tns:ArrayOfApplicationRoleGroups" />
+  <xs:complexType name="ApplicationRoleGroups">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ApplicationRoleGroups" nillable="true" type="tns:ApplicationRoleGroups" />
+  <xs:complexType name="ArrayOfSiteVisitReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SiteVisitReport" nillable="true" type="tns:SiteVisitReport" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSiteVisitReport" nillable="true" type="tns:ArrayOfSiteVisitReport" />
+</xs:schema>
